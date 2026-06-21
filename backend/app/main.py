@@ -41,13 +41,16 @@ async def lifespan(app: FastAPI):
                 print(f"Skipping hotspot detection. Hotspots present: {hotspots_count}")
 
             clear_prediction_cache()
-            print("Training LightGBM prediction model and warming prediction cache...")
-            prediction_service = PredictionService(session)
-            warmed_predictions = await prediction_service.warm_cache()
-            print(
-                f"Prediction cache ready: {len(warmed_predictions)} predictions "
-                f"(cached={is_prediction_cache_warmed()})"
-            )
+            if hotspots_count == 0:
+                print("Training LightGBM prediction model and warming prediction cache...")
+                prediction_service = PredictionService(session)
+                warmed_predictions = await prediction_service.warm_cache()
+                print(
+                    f"Prediction cache ready: {len(warmed_predictions)} predictions "
+                    f"(cached={is_prediction_cache_warmed()})"
+                )
+            else:
+                print(f"Skipping prediction cache warmup. Hotspots present: {hotspots_count}")
         except Exception as e:
             print(f"Error during startup data processing: {e}")
             
