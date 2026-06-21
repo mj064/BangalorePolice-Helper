@@ -20,8 +20,13 @@ class Settings(BaseSettings):
         validation_alias="DATA_CSV_PATH"
     )
     
-    # CORS Configuration
-    CORS_ORIGINS: List[str] = ["http://localhost:5173", "http://127.0.0.1:5173"]
+    # CORS Configuration — allow Vercel preview + production domains
+    CORS_ORIGINS: List[str] = [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "https://*.vercel.app",
+        "https://*.vercel.com",
+    ]
     
     model_config = SettingsConfigDict(
         env_file=".env",

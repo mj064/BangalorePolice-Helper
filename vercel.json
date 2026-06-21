@@ -4,7 +4,7 @@
   "outputDirectory": "dist",
   "installCommand": "npm install --legacy-peer-deps",
   "env": {
-    "VITE_API_BASE_URL": "/api"
+    "VITE_API_BASE_URL": "https://bangalorepolice-helper.onrender.com/api"
   },
   "rewrites": [
     {
