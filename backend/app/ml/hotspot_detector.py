@@ -8,10 +8,12 @@ from datetime import timedelta
 
 
 class HotspotDetector:
-    def __init__(self, eps_meters: float = 100.0, min_samples: int = 20):
+    def __init__(self, eps_meters: float = 100.0, min_samples: int = 20, max_samples: int = 30000):
         # Convert metres to radians for Earth's radius (~6,371 km)
         self.eps_rad = eps_meters / 6_371_000.0
         self.min_samples = min_samples
+        # Limit samples for DBSCAN to prevent OOM on Render free tier (512 MB)
+        self.max_samples = max_samples
 
     # ------------------------------------------------------------------
     # Spatial Clustering
@@ -20,11 +22,21 @@ class HotspotDetector:
         """
         Runs DBSCAN on (lat, lon) pairs using Haversine metric.
         Appends a 'cluster_id' column; noise points get cluster_id == -1.
+        Samples violations if count exceeds max_samples to stay under memory limits.
         """
         if violations_df.empty:
             violations_df = violations_df.copy()
             violations_df['cluster_id'] = -1
             return violations_df
+
+        total = len(violations_df)
+        if total > self.max_samples:
+            import warnings
+            warnings.warn(
+                f"Sampling {self.max_samples} of {total} violations for DBSCAN "
+                f"(max_samples={self.max_samples}). Use detected hotspots from sample."
+            )
+            violations_df = violations_df.sample(n=self.max_samples, random_state=42)
 
         # DBSCAN requires coordinates in radians for the haversine metric
         coords = np.radians(violations_df[['latitude', 'longitude']].values)
