@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: backend
+    runtime: python
+    plan: free
+    buildCommand: |
+      git lfs install && git lfs pull || true
+      pip install -r backend/requirements.txt
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite+aiosqlite:///./traffic_help.db
+      - key: DATA_CSV_PATH
+        value: data/raw/jan to may police violation_anonymized791b166.csv
+      - key: CORS_ORIGINS
+        value: '["*"]'
+      - key: PYTHONPATH
+        value: .
+    healthCheckPath: /health

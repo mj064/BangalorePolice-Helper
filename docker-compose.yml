@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite+aiosqlite:///./traffic_help.db
+      - DATA_CSV_PATH=data/raw/jan to may police violation_anonymized791b166.csv
+      - CORS_ORIGINS=["*"]
+      - PYTHONPATH=/app
+    volumes:
+      - ./traffic_help.db:/app/traffic_help.db
+      - ./data/raw:/app/data/raw
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "80:80"
+    environment:
+      - VITE_API_BASE_URL=/api

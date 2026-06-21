@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+venv/
+.env
+.env.local
+.venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database / data (large / tracked via Git LFS)
+*.db-journal
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Frontend build
+dist/
+.vite/
+
+# Misc
