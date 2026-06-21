@@ -24,8 +24,9 @@ async def ensure_data_populated():
         return
     t0 = time.time()
     print("BACKGROUND: Starting data population (ingestion + hotspot detection)...")
-    async with async_session() as session:
-        try:
+    import traceback as tb_mod
+    try:
+        async with async_session() as session:
             # 1. Ingest CSV
             t1 = time.time()
             ingestion = IngestionService(session)
@@ -50,10 +51,16 @@ async def ensure_data_populated():
             clear_prediction_cache()
             print("BACKGROUND: Prediction cache cleared")
 
-        except Exception as e:
-            print(f"BACKGROUND: Error during data population: {e}")
-    _populated = True
-    print(f"BACKGROUND: Data population complete. Total time: {time.time()-t0:.1f}s")
+        _populated = True
+        print(f"BACKGROUND: Data population complete. Total time: {time.time()-t0:.1f}s")
+    except MemoryError:
+        print(f"BACKGROUND: OUT OF MEMORY during data population. The 512 MB free tier limit was exceeded.")
+        print(f"BACKGROUND: Data population FAILED. CSV ingestion or DBSCAN exceeded available memory.")
+        print(f"BACKGROUND: Falling back to empty state. Dashboard will show no data.")
+    except Exception as e:
+        print(f"BACKGROUND: Error during data population: {e}")
+        tb_mod.print_exc()
+        print(f"BACKGROUND: Data population FAILED. Dashboard will be empty.")
 
 
 @asynccontextmanager
