@@ -14,10 +14,10 @@ from backend.app.services.hotspot import HotspotService
 from backend.app.services.prediction_cache import clear_prediction_cache
 from backend.app.repositories.hotspot import HotspotRepository
 
-# ---- background data population (runs once on first request, not at startup) ----
+# ---- background data population (runs once on first API call, not at startup) ----
 _populated = False
 
-async def _ensure_data_populated():
+async def ensure_data_populated():
     """Run ingestion + hotspot detection once on first API call, not during startup."""
     global _populated
     if _populated:
@@ -125,13 +125,42 @@ async def health():
 
     # Trigger data population in background (non-blocking)
     if not _populated:
-        asyncio.ensure_future(_ensure_data_populated())
+        asyncio.ensure_future(ensure_data_populated())
 
     return {
         "status": "healthy" if db_status == "up" else "degraded",
         "database": db_status,
         "data_populated": _populated,
     }
+
+
+# Middleware: ensure data is populated before any API endpoint runs
+@app.middleware("http")
+async def ensure_data_middleware(request, call_next):
+    """Ensures data ingestion + hotspot detection runs before API calls."""
+    from fastapi.responses import JSONResponse
+    import traceback
+
+    # Skip data check for /health and /docs and /openapi.json
+    path = request.url.path
+    if path in ("/health", "/", "/docs", "/openapi.json") or path.startswith("/api/openapi.json") or path.startswith("/redoc"):
+        return await call_next(request)
+
+    # Trigger data population synchronously on the first data-API call
+    if not _populated:
+        print(f"MIDDLEWARE: Data not populated yet. Triggering population (triggered by: {path})")
+        try:
+            await ensure_data_populated()
+            print("MIDDLEWARE: Data population complete.")
+        except Exception as e:
+            print(f"MIDDLEWARE: Data population failed: {e}")
+            traceback.print_exc()
+            return JSONResponse(
+                status_code=503,
+                content={"detail": "Data initialization in progress. Please retry in a few seconds."}
+            )
+
+    return await call_next(request)
 
 
 if __name__ == "__main__":
