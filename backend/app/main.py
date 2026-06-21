@@ -1,5 +1,6 @@
 import time
 import asyncio
+from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
@@ -9,6 +10,7 @@ from sqlalchemy import text
 from backend.app.core.config import settings
 from backend.app.core.database import engine, Base, async_session
 from backend.app.api.router import api_router
+from backend.app.models.hotspot import Hotspot
 from backend.app.services.ingestion import IngestionService
 from backend.app.services.hotspot import HotspotService
 from backend.app.services.prediction_cache import clear_prediction_cache
@@ -17,9 +19,10 @@ from backend.app.repositories.hotspot import HotspotRepository
 # ---- lazy data population (runs once on first API call) ----
 _populated = False
 _populating = False
+_PRECOMPUTED_HOTSPOTS = Path(__file__).parent.parent.parent.parent / "data" / "raw" / "hotspots.json"
 
 async def ensure_data_populated():
-    """Run ingestion + hotspot detection once on first API call."""
+    """Run ingestion + load pre-computed hotspots once on first API call."""
     global _populated, _populating
     if _populated or _populating:
         return
@@ -41,19 +44,35 @@ async def ensure_data_populated():
 
             if hotspots_count == 0 and ingested_count > 0:
                 t3 = time.time()
-                print("BACKGROUND: Running hotspot detection...")
-                hotspot_service = HotspotService(session)
-                await hotspot_service.detect_and_save_hotspots()
-                print(f"BACKGROUND: Hotspot detection took {time.time()-t3:.1f}s")
+                print("BACKGROUND: Loading pre-computed hotspots.json...")
+                import json
+                with open(_PRECOMPUTED_HOTSPOTS, "r") as f:
+                    precomputed = json.load(f)
+                print(f"BACKGROUND: Loaded {len(precomputed)} hotspots from file")
+                saved = 0
+                for h in precomputed:
+                    hotspot = Hotspot(
+                        id=str(h.get("id", h.get("name", ""))),
+                        name=h["name"],
+                        latitude=h["latitude"],
+                        longitude=h["longitude"],
+                        violations=h["violations"],
+                        impact_score=h["impact_score"],
+                        violation_density=h.get("violation_density"),
+                        main_road_score=h.get("main_road_score"),
+                        peak_hour_score=h.get("peak_hour_score"),
+                        repeat_violation_score=h.get("repeat_violation_score"),
+                    )
+                    session.add(hotspot)
+                    saved += 1
+                await session.commit()
+                print(f"BACKGROUND: Saved {saved} hotspots to DB in {time.time()-t3:.1f}s")
             else:
-                print(f"BACKGROUND: Skipping hotspot detection. count={hotspots_count}, ingested={ingested_count}")
+                print(f"BACKGROUND: Skipping hotspot load. count={hotspots_count}, ingested={ingested_count}")
 
             clear_prediction_cache()
             print("BACKGROUND: Prediction cache cleared")
         print(f"BACKGROUND: Data population complete. Total time: {time.time()-t0:.1f}s")
-    except MemoryError:
-        print("BACKGROUND: OUT OF MEMORY during data population.")
-        print("BACKGROUND: Dashboard will show no data. Reduce max_samples in HotspotDetector.")
     except Exception as e:
         print(f"BACKGROUND: Error: {e}")
         tb_mod.print_exc()
