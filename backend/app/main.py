@@ -40,17 +40,10 @@ async def lifespan(app: FastAPI):
             else:
                 print(f"Skipping hotspot detection. Hotspots present: {hotspots_count}")
 
+            # Skip prediction cache warmup on boot to stay under 512 MB on Render free tier.
+            # Predictions will be computed on first API call if cache is cold.
             clear_prediction_cache()
-            if hotspots_count == 0:
-                print("Training LightGBM prediction model and warming prediction cache...")
-                prediction_service = PredictionService(session)
-                warmed_predictions = await prediction_service.warm_cache()
-                print(
-                    f"Prediction cache ready: {len(warmed_predictions)} predictions "
-                    f"(cached={is_prediction_cache_warmed()})"
-                )
-            else:
-                print(f"Skipping prediction cache warmup. Hotspots present: {hotspots_count}")
+            print("Prediction cache cleared. Will warm on first prediction API call.")
         except Exception as e:
             print(f"Error during startup data processing: {e}")
             
