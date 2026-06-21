@@ -8,7 +8,7 @@ from datetime import timedelta
 
 
 class HotspotDetector:
-    def __init__(self, eps_meters: float = 100.0, min_samples: int = 20, max_samples: int = 30000):
+    def __init__(self, eps_meters: float = 100.0, min_samples: int = 20, max_samples: int = 5000):
         # Convert metres to radians for Earth's radius (~6,371 km)
         self.eps_rad = eps_meters / 6_371_000.0
         self.min_samples = min_samples
