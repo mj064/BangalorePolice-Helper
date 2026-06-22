@@ -12,7 +12,7 @@ from pathlib import Path
 DATA_CSV = Path("data/raw/jan to may police violation_anonymized791b166.csv")
 OUTPUT_JSON = Path("data/raw/hotspots.json")
 DB_URL = "sqlite:///./traffic_help.db"
-MAX_SAMPLE = 5000   # Match the runtime limit on Render
+MAX_SAMPLE = 500000  # Use full dataset (298k) to get all hotspots
 EPS_METERS = 100.0
 MIN_SAMPLES = 20
 EPS_RAD = EPS_METERS / 6_371_000.0
