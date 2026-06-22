@@ -33,7 +33,29 @@ class PredictionService:
         predictions, model_bundle = await self._train_and_predict()
         if predictions:
             set_prediction_cache(predictions, model_bundle, model_bundle.metrics)
-        return predictions
+            return predictions
+
+        # Fallback: derive simple risk predictions from hotspot impact scores
+        hotspots = await self.hotspot_repo.get_all_ordered()
+        fallback = []
+        for h in hotspots:
+            score = h.impact_score or 0
+            if score >= 70:
+                level = "Critical"
+            elif score >= 55:
+                level = "High"
+            elif score >= 40:
+                level = "Medium"
+            else:
+                level = "Low"
+            fallback.append(PredictionResponse(
+                hotspot_id=h.id,
+                hotspot_name=h.name,
+                risk_score=score,
+                risk_level=level,
+                prediction_horizon="Next 24 hours",
+            ))
+        return fallback
 
     async def warm_cache(self) -> list[PredictionResponse]:
         return await self.get_predictions()
