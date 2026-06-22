@@ -403,12 +403,12 @@ export const DashboardPage: React.FC = () => {
         <div className="order-1 min-h-[54vh] flex-1 lg:order-none lg:min-h-0">
           <main className="relative h-full min-h-[400px] p-2 lg:p-3">
             {loadingHotspots && (
-              <div className="absolute inset-0 z-20 flex items-center justify-center bg-[#070b16]/60 text-slate-400">
+              <div className="absolute inset-0 z-20 flex items-center justify-center bg-[#070b16]/60 text-slate-400 pointer-events-none">
                 Loading hotspots...
               </div>
             )}
             {!loadingHotspots && hotspots.length === 0 && (
-              <div className="absolute inset-0 z-20 flex items-center justify-center text-slate-400">
+              <div className="absolute inset-0 z-20 flex items-center justify-center text-slate-400 pointer-events-none">
                 No hotspots found
               </div>
             )}
