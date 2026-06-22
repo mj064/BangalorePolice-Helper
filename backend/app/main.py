@@ -19,7 +19,7 @@ from backend.app.repositories.hotspot import HotspotRepository
 # ---- lazy data population (runs once on first API call) ----
 _populated = False
 _populating = False
-_PRECOMPUTED_HOTSPOTS = Path(__file__).parent.parent.parent.parent / "data" / "raw" / "hotspots.json"
+_PRECOMPUTED_HOTSPOTS = Path.cwd() / "data" / "raw" / "hotspots.json"
 
 async def ensure_data_populated():
     """Run ingestion + load pre-computed hotspots once on first API call."""
