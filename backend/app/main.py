@@ -20,9 +20,8 @@ async def lifespan(app: FastAPI):
     """Minimal startup — only create tables and verify DB."""
     t0 = __import__('time').time()
     print(f"STARTUP [{__import__('time').time()-t0:.1f}s]: Creating database tables...")
-    if not SKIP_STARTUP_PROCESSING:
-        async with engine.begin() as conn:
-            await conn.run_sync(Base.metadata.create_all)
+    async with engine.begin() as conn:
+        await conn.run_sync(Base.metadata.create_all)
     print(f"STARTUP [{__import__('time').time()-t0:.1f}s]: Tables created.")
 
     if SKIP_STARTUP_PROCESSING:
