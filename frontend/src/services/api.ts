@@ -1,4 +1,5 @@
 import axios from 'axios';
+import type { AxiosResponse } from 'axios';
 
 // All numbers are `number` in TypeScript. These aliases improve readability.
 type int = number;
@@ -55,34 +56,40 @@ export interface Recommendation {
 }
 
 // ---------------------------------------------------------------------------
-// API client
+// API client — use full Render URL as fallback so Vercel env var isn't needed
 // ---------------------------------------------------------------------------
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://bangalorepolice-helper.onrender.com/api';
+
+const client = axios.create({
+  baseURL: API_BASE_URL,
+  timeout: 15000,
+  headers: { 'Content-Type': 'application/json' },
+});
 
 export const apiService = {
   getSummary: async (): Promise<DashboardSummary> => {
-    const res = await axios.get<DashboardSummary>(`${API_BASE_URL}/dashboard/summary`);
+    const res: AxiosResponse<DashboardSummary> = await client.get('/dashboard/summary');
     return res.data;
   },
 
   getHotspots: async (): Promise<Hotspot[]> => {
-    const res = await axios.get<Hotspot[]>(`${API_BASE_URL}/hotspots`);
+    const res: AxiosResponse<Hotspot[]> = await client.get('/hotspots');
     return res.data;
   },
 
   getHotspot: async (id: string): Promise<HotspotDetail> => {
-    const res = await axios.get<HotspotDetail>(`${API_BASE_URL}/hotspots/${id}`);
+    const res: AxiosResponse<HotspotDetail> = await client.get(`/hotspots/${id}`);
     return res.data;
   },
 
   getPredictions: async (): Promise<Prediction[]> => {
-    const res = await axios.get<Prediction[]>(`${API_BASE_URL}/predictions`);
+    const res: AxiosResponse<Prediction[]> = await client.get('/predictions');
     return res.data;
   },
 
   getRecommendations: async (): Promise<Recommendation[]> => {
-    const res = await axios.get<Recommendation[]>(`${API_BASE_URL}/recommendations`);
+    const res: AxiosResponse<Recommendation[]> = await client.get('/recommendations');
     return res.data;
   },
 };
