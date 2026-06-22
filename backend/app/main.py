@@ -50,9 +50,9 @@ async def ensure_data_populated():
                     precomputed = json.load(f)
                 print(f"BACKGROUND: Loaded {len(precomputed)} hotspots from file")
                 saved = 0
-                for h in precomputed:
+                for idx, h in enumerate(precomputed):
                     hotspot = Hotspot(
-                        id=str(h.get("id", h.get("name", ""))),
+                        id=f"HS-{idx+1:03d}-{h.get('name','unknown')[:30]}",
                         name=h["name"],
                         latitude=h["latitude"],
                         longitude=h["longitude"],
