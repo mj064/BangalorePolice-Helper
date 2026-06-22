@@ -62,6 +62,8 @@ app.add_middleware(
 )
 
 app.include_router(api_router, prefix=settings.API_PREFIX)
+# Also mount at root for direct backend access (e.g., Render with no prefix)
+app.include_router(api_router, prefix="")
 
 
 @app.get("/")
