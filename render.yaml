@@ -1,7 +1,7 @@
 services:
   - type: web
     name: backend
-    runtime: python-3.12
+    runtime: python
     plan: free
     buildCommand: |
       git lfs install && git lfs pull || true
@@ -16,4 +16,6 @@ services:
         value: '["*"]'
       - key: PYTHONPATH
         value: .
+      - key: SKIP_STARTUP_PROCESSING
+        value: 'true'
     healthCheckPath: /health
