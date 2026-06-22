@@ -1,0 +1,3791 @@
+[
+  {
+    "hotspot_id": "BTP082 - KR Market Junction",
+    "hotspot_name": "BTP082 - KR Market Junction",
+    "priority": "Critical",
+    "officers": 3,
+    "tow_vehicles": 2,
+    "deployment_window": "17:00-20:00",
+    "reason": "High impact score and critical next-day risk"
+  },
+  {
+    "hotspot_id": "BTP051 - Safina Plaza Junction",
+    "hotspot_name": "BTP051 - Safina Plaza Junction",
+    "priority": "Critical",
+    "officers": 3,
+    "tow_vehicles": 2,
+    "deployment_window": "17:00-20:00",
+    "reason": "High impact score and critical next-day risk"
+  },
+  {
+    "hotspot_id": "BTP027 - Modi Bridge Junction",
+    "hotspot_name": "BTP027 - Modi Bridge Junction",
+    "priority": "Critical",
+    "officers": 3,
+    "tow_vehicles": 2,
+    "deployment_window": "17:00-20:00",
+    "reason": "High impact score and critical next-day risk"
+  },
+  {
+    "hotspot_id": "MBT Road, Devasandra Junction",
+    "hotspot_name": "MBT Road, Devasandra Junction",
+    "priority": "Critical",
+    "officers": 3,
+    "tow_vehicles": 2,
+    "deployment_window": "17:00-20:00",
+    "reason": "High impact score and critical next-day risk"
+  },
+  {
+    "hotspot_id": "New Horizon College Road",
+    "hotspot_name": "New Horizon College Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Unnamed Road",
+    "hotspot_name": "Unnamed Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP054 - Shivananda Circle",
+    "hotspot_name": "BTP054 - Shivananda Circle",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Sahakar Nagar Road",
+    "hotspot_name": "Sahakar Nagar Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "17th Cross Road",
+    "hotspot_name": "17th Cross Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP032 - Windsor Circle",
+    "hotspot_name": "BTP032 - Windsor Circle",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP137 - Madiwala Traffic PS Junction",
+    "hotspot_name": "BTP137 - Madiwala Traffic PS Junction",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+    "hotspot_name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Neeladri Road",
+    "hotspot_name": "Neeladri Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Outer Ring Road",
+    "hotspot_name": "Outer Ring Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Old Madras Road",
+    "hotspot_name": "Old Madras Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Thanisandra Main Road",
+    "hotspot_name": "Thanisandra Main Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Coles Road",
+    "hotspot_name": "Coles Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP016 - 5th Main Road, RPC Layout",
+    "hotspot_name": "BTP016 - 5th Main Road, RPC Layout",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Bellary Road",
+    "hotspot_name": "Bellary Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "MN Krishnarao Road",
+    "hotspot_name": "MN Krishnarao Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP051 - Safina Plaza Junction",
+    "hotspot_name": "BTP051 - Safina Plaza Junction",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "MBT Road, Royal Heritage",
+    "hotspot_name": "MBT Road, Royal Heritage",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP096 - Gali Anjaneya Temple",
+    "hotspot_name": "BTP096 - Gali Anjaneya Temple",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP137 - Madiwala Traffic PS Junction",
+    "hotspot_name": "BTP137 - Madiwala Traffic PS Junction",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP189 - New Diagonal Road, Jayanagar",
+    "hotspot_name": "BTP189 - New Diagonal Road, Jayanagar",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "20th Main Road",
+    "hotspot_name": "20th Main Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP172 - Nanjappa Circle",
+    "hotspot_name": "BTP172 - Nanjappa Circle",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP135 - UCO Bank Junction",
+    "hotspot_name": "BTP135 - UCO Bank Junction",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP108 - Tagore Park Junction",
+    "hotspot_name": "BTP108 - Tagore Park Junction",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Jakkur Main Road",
+    "hotspot_name": "Jakkur Main Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "ITPL Main Road",
+    "hotspot_name": "ITPL Main Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Pusa Thippasandra Main Road",
+    "hotspot_name": "Pusa Thippasandra Main Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "MBT Road, SM Layout",
+    "hotspot_name": "MBT Road, SM Layout",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Whitefield Road",
+    "hotspot_name": "Whitefield Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP074 - Leprosy Hospital Junction",
+    "hotspot_name": "BTP074 - Leprosy Hospital Junction",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Hosapalya Main Road",
+    "hotspot_name": "Hosapalya Main Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP115 - Sahasra Hospital, Jayanagar",
+    "hotspot_name": "BTP115 - Sahasra Hospital, Jayanagar",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP192 - Urvashi Theater",
+    "hotspot_name": "BTP192 - Urvashi Theater",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Bhadrappa Flyover",
+    "hotspot_name": "Bhadrappa Flyover",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Bengaluru Bellary Road",
+    "hotspot_name": "Bengaluru Bellary Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Bagalur Road",
+    "hotspot_name": "Bagalur Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Amrutha College Road",
+    "hotspot_name": "Amrutha College Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+    "hotspot_name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Whitefield Road",
+    "hotspot_name": "Whitefield Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP208 - Havanur Circle",
+    "hotspot_name": "BTP208 - Havanur Circle",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP091 - Sirsi Circle",
+    "hotspot_name": "BTP091 - Sirsi Circle",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "80 Feet Road",
+    "hotspot_name": "80 Feet Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Shri Ramalingeshwara Cave Temple Road",
+    "hotspot_name": "Shri Ramalingeshwara Cave Temple Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP017 - Attiguppe Circle",
+    "hotspot_name": "BTP017 - Attiguppe Circle",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP041 - Gopal Gowda Circle",
+    "hotspot_name": "BTP041 - Gopal Gowda Circle",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "ITPL Main Road",
+    "hotspot_name": "ITPL Main Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP098 - Nayandahalli Junction",
+    "hotspot_name": "BTP098 - Nayandahalli Junction",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
+    "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Srinivagilu Main Road",
+    "hotspot_name": "Srinivagilu Main Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP136 - Hosur-Tavarkere Road Junction",
+    "hotspot_name": "BTP136 - Hosur-Tavarkere Road Junction",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP137 - Madiwala Traffic PS Junction",
+    "hotspot_name": "BTP137 - Madiwala Traffic PS Junction",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Vibgyor High School Road",
+    "hotspot_name": "Vibgyor High School Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Chikka Banavara RS Road",
+    "hotspot_name": "Chikka Banavara RS Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Gnana Bharathi Road",
+    "hotspot_name": "Gnana Bharathi Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "RT Nagar Main Road",
+    "hotspot_name": "RT Nagar Main Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "4th Cross Road",
+    "hotspot_name": "4th Cross Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "5th Cross Road",
+    "hotspot_name": "5th Cross Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP010 - Rajajinagar Entrance",
+    "hotspot_name": "BTP010 - Rajajinagar Entrance",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP130 - GD Mara Junction",
+    "hotspot_name": "BTP130 - GD Mara Junction",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "BTP163 - 16th Main Road, BTM Layout",
+    "hotspot_name": "BTP163 - 16th Main Road, BTM Layout",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Hosa Road, Channakeshava Nagar",
+    "hotspot_name": "Hosa Road, Channakeshava Nagar",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Allalasandra Main Road",
+    "hotspot_name": "Allalasandra Main Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Bellary Road",
+    "hotspot_name": "Bellary Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
+    "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Thanisandra Main Road",
+    "hotspot_name": "Thanisandra Main Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "Hosahalli Main Road",
+    "hotspot_name": "Hosahalli Main Road",
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
+    "deployment_window": "17:00-20:00",
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
+  },
+  {
+    "hotspot_id": "8th Main Road",
+    "hotspot_name": "8th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Chinmaya Mission Hospital Road",
+    "hotspot_name": "Chinmaya Mission Hospital Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP123 - 10th Cross, Wilson Garden",
+    "hotspot_name": "BTP123 - 10th Cross, Wilson Garden",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP030 - Mekhri Circle",
+    "hotspot_name": "BTP030 - Mekhri Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP140 - Madiwala Check Post",
+    "hotspot_name": "BTP140 - Madiwala Check Post",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP197 - 9th Cross, 24th Main, JP Nagar",
+    "hotspot_name": "BTP197 - 9th Cross, 24th Main, JP Nagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mallathahalli Road",
+    "hotspot_name": "Mallathahalli Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "CV Raman Road",
+    "hotspot_name": "CV Raman Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "CMR Road, Jahnavi Layout",
+    "hotspot_name": "CMR Road, Jahnavi Layout",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "hotspot_name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP091 - Sirsi Circle",
+    "hotspot_name": "BTP091 - Sirsi Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Jayamahal Main Road",
+    "hotspot_name": "Jayamahal Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Siddhapura Road",
+    "hotspot_name": "Siddhapura Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP203 - RRMR Junction",
+    "hotspot_name": "BTP203 - RRMR Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP032 - Windsor Circle",
+    "hotspot_name": "BTP032 - Windsor Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP102 - BMTC Junction, KH Road",
+    "hotspot_name": "BTP102 - BMTC Junction, KH Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Laggere Service Road",
+    "hotspot_name": "Laggere Service Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Outer Ring Road",
+    "hotspot_name": "Outer Ring Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP106 - VV Puram College",
+    "hotspot_name": "BTP106 - VV Puram College",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "20th Main Road",
+    "hotspot_name": "20th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sarjapura Main Road",
+    "hotspot_name": "Sarjapura Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP132 - Anepalya Junction",
+    "hotspot_name": "BTP132 - Anepalya Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP098 - Nayandahalli Junction",
+    "hotspot_name": "BTP098 - Nayandahalli Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP145 - Sri Hatti Maramma Circle, Domluru",
+    "hotspot_name": "BTP145 - Sri Hatti Maramma Circle, Domluru",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Srinivagilu Main Road",
+    "hotspot_name": "Srinivagilu Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP034 - LRDE Junction",
+    "hotspot_name": "BTP034 - LRDE Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP155 - Katriguppe Junction",
+    "hotspot_name": "BTP155 - Katriguppe Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "SM Road, Sri Ayyappa Nagar",
+    "hotspot_name": "SM Road, Sri Ayyappa Nagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "3rd Main Road",
+    "hotspot_name": "3rd Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "MS Ramaiah Road",
+    "hotspot_name": "MS Ramaiah Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP136 - Hosur-Tavarkere Road Junction",
+    "hotspot_name": "BTP136 - Hosur-Tavarkere Road Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP215 - Vanivillas Junction",
+    "hotspot_name": "BTP215 - Vanivillas Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP202 - East End Main Road, Jayanagar",
+    "hotspot_name": "BTP202 - East End Main Road, Jayanagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Jalahalli Cross Road",
+    "hotspot_name": "Jalahalli Cross Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP098 - Nayandahalli Junction",
+    "hotspot_name": "BTP098 - Nayandahalli Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Magadi Main Road",
+    "hotspot_name": "Magadi Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sarjapura Main Road",
+    "hotspot_name": "Sarjapura Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP126 - Dairy Circle",
+    "hotspot_name": "BTP126 - Dairy Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Chikkabellanduru Road",
+    "hotspot_name": "Chikkabellanduru Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sarjapura Main Road",
+    "hotspot_name": "Sarjapura Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "1st Cross Road",
+    "hotspot_name": "1st Cross Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP099 - Cash Pharmacy, Residency Road",
+    "hotspot_name": "BTP099 - Cash Pharmacy, Residency Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Munninarasimha Road",
+    "hotspot_name": "Munninarasimha Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Soniya Gandhi Road",
+    "hotspot_name": "Soniya Gandhi Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP023 - Mahalaxmi Layout Entrance",
+    "hotspot_name": "BTP023 - Mahalaxmi Layout Entrance",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "19th Main Road",
+    "hotspot_name": "19th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP163 - 16th Main Road, BTM Layout",
+    "hotspot_name": "BTP163 - 16th Main Road, BTM Layout",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Professor K Venkatachalam Circle",
+    "hotspot_name": "Professor K Venkatachalam Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Bellahali Main Road",
+    "hotspot_name": "Bellahali Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP216 - Yediyur Junction",
+    "hotspot_name": "BTP216 - Yediyur Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Subramanyapura Main Road",
+    "hotspot_name": "Subramanyapura Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Nallurahalli Road",
+    "hotspot_name": "Nallurahalli Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP142 - Lower Agram Road Junction",
+    "hotspot_name": "BTP142 - Lower Agram Road Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "HAL Airport Road",
+    "hotspot_name": "HAL Airport Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Dr BR Ambedkar Road",
+    "hotspot_name": "Dr BR Ambedkar Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Jalahalli Main Road",
+    "hotspot_name": "Jalahalli Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "80 Feet Road",
+    "hotspot_name": "80 Feet Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Bellary Road",
+    "hotspot_name": "Bellary Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Whitefield Road",
+    "hotspot_name": "Whitefield Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sarjapura Main Road",
+    "hotspot_name": "Sarjapura Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP123 - 10th Cross, Wilson Garden",
+    "hotspot_name": "BTP123 - 10th Cross, Wilson Garden",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Thanisandra Main Road",
+    "hotspot_name": "Thanisandra Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",
+    "hotspot_name": "BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Bannerghatta Main Road",
+    "hotspot_name": "Bannerghatta Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Banaswadi Main Road",
+    "hotspot_name": "Banaswadi Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "ITPL Main Road",
+    "hotspot_name": "ITPL Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "J Lingaiah Road",
+    "hotspot_name": "J Lingaiah Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Commissariat Road",
+    "hotspot_name": "Commissariat Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP222 - Delmia Circle",
+    "hotspot_name": "BTP222 - Delmia Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "8th Main Road",
+    "hotspot_name": "8th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hoodi Main Road",
+    "hotspot_name": "Hoodi Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Bagaluru Main Road",
+    "hotspot_name": "Bagaluru Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "2nd Main Road",
+    "hotspot_name": "2nd Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Railway Line Road",
+    "hotspot_name": "Railway Line Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Bengaluru Bellary Road",
+    "hotspot_name": "Bengaluru Bellary Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "27th Main Road",
+    "hotspot_name": "27th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kengeri Main Road",
+    "hotspot_name": "Kengeri Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP085 - Briyand Circle",
+    "hotspot_name": "BTP085 - Briyand Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Whitefield Main Road",
+    "hotspot_name": "Whitefield Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP052 - CID Carlton House Junction",
+    "hotspot_name": "BTP052 - CID Carlton House Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP122 - Siddapura Junction",
+    "hotspot_name": "BTP122 - Siddapura Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "3rd A Cross Road",
+    "hotspot_name": "3rd A Cross Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Rajatha Bhavana Road",
+    "hotspot_name": "Rajatha Bhavana Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Magadi Main Road",
+    "hotspot_name": "Magadi Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Millers Road",
+    "hotspot_name": "Millers Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "1st Cross Road",
+    "hotspot_name": "1st Cross Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP217 - Baleyele Junction",
+    "hotspot_name": "BTP217 - Baleyele Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "27th Cross Road",
+    "hotspot_name": "27th Cross Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Forest Region Road",
+    "hotspot_name": "Forest Region Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "2nd Main Road",
+    "hotspot_name": "2nd Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP184 - Lalbagh West Gate",
+    "hotspot_name": "BTP184 - Lalbagh West Gate",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mims Gulmohar Road",
+    "hotspot_name": "Mims Gulmohar Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sir CV Raman Hospital Road",
+    "hotspot_name": "Sir CV Raman Hospital Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BDA 80 Feet Road",
+    "hotspot_name": "BDA 80 Feet Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "1st Main Road",
+    "hotspot_name": "1st Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Road Number 1",
+    "hotspot_name": "Road Number 1",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP042 - Minsk Square Junction (CTO)",
+    "hotspot_name": "BTP042 - Minsk Square Junction (CTO)",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP166 - Coffee Board Junction",
+    "hotspot_name": "BTP166 - Coffee Board Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "ITPL Main Road",
+    "hotspot_name": "ITPL Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP074 - Leprosy Hospital Junction",
+    "hotspot_name": "BTP074 - Leprosy Hospital Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "hotspot_name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hesaraghatta Main Road",
+    "hotspot_name": "Hesaraghatta Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Amrita College Road",
+    "hotspot_name": "Amrita College Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP030 - Mekhri Circle",
+    "hotspot_name": "BTP030 - Mekhri Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Old Airport Road",
+    "hotspot_name": "Old Airport Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Yelahanka New Town Main Road",
+    "hotspot_name": "Yelahanka New Town Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kodigehalli Main Road",
+    "hotspot_name": "Kodigehalli Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kodigehalli Main Road",
+    "hotspot_name": "Kodigehalli Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Tannery Road",
+    "hotspot_name": "Tannery Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "KIADB Road",
+    "hotspot_name": "KIADB Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Old Airport Road",
+    "hotspot_name": "Old Airport Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Dr Rajgopal Road",
+    "hotspot_name": "Dr Rajgopal Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Whitefield Main Road",
+    "hotspot_name": "Whitefield Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP035 - Basaweshwara Circle (LH) Junction",
+    "hotspot_name": "BTP035 - Basaweshwara Circle (LH) Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Outer Ring Road",
+    "hotspot_name": "Outer Ring Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Muthsandra Main Road",
+    "hotspot_name": "Muthsandra Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP221 - 15th Cross, 24th Main, JP Nagar",
+    "hotspot_name": "BTP221 - 15th Cross, 24th Main, JP Nagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP133 - Adugodi Junction",
+    "hotspot_name": "BTP133 - Adugodi Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP105 - Shivasankara Circle",
+    "hotspot_name": "BTP105 - Shivasankara Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "4th Main Road",
+    "hotspot_name": "4th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP214 - 5th Main Chamrajpet  Junction",
+    "hotspot_name": "BTP214 - 5th Main Chamrajpet  Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "1st Cross Road",
+    "hotspot_name": "1st Cross Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Bengaluru Bellary Road",
+    "hotspot_name": "Bengaluru Bellary Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Rajgopal Nagar Main Road",
+    "hotspot_name": "Rajgopal Nagar Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Marathahalli Underpass",
+    "hotspot_name": "Marathahalli Underpass",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kodichikkanahalli Main Road",
+    "hotspot_name": "Kodichikkanahalli Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Subramanyapura Main Road",
+    "hotspot_name": "Subramanyapura Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "MBT Road, Avalahalli South Taluka",
+    "hotspot_name": "MBT Road, Avalahalli South Taluka",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
+    "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
+    "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sarjapura Main Road",
+    "hotspot_name": "Sarjapura Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP172 - Nanjappa Circle",
+    "hotspot_name": "BTP172 - Nanjappa Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sultanji Gunta Road",
+    "hotspot_name": "Sultanji Gunta Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP222 - Delmia Circle",
+    "hotspot_name": "BTP222 - Delmia Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP191 - 40th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP191 - 40th Cross, 4th Main, Jayanagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP106 - VV Puram College",
+    "hotspot_name": "BTP106 - VV Puram College",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Dr APJ Abdul Kalam Marg",
+    "hotspot_name": "Dr APJ Abdul Kalam Marg",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kanteerava Studio Road",
+    "hotspot_name": "Kanteerava Studio Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Dr Vishnuvardhan Main Road",
+    "hotspot_name": "Dr Vishnuvardhan Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "HAL Airport Road",
+    "hotspot_name": "HAL Airport Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP190 - 36th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP190 - 36th Cross, 4th Main, Jayanagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP221 - 15th Cross, 24th Main, JP Nagar",
+    "hotspot_name": "BTP221 - 15th Cross, 24th Main, JP Nagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Haralur Road",
+    "hotspot_name": "Haralur Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sri Vinayaka Temple Main Road",
+    "hotspot_name": "Sri Vinayaka Temple Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "60 Feet Road",
+    "hotspot_name": "60 Feet Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Marathahalli Bridge Service Road",
+    "hotspot_name": "Marathahalli Bridge Service Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Bannerghatta Main Road",
+    "hotspot_name": "Bannerghatta Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "5th A Cross Road",
+    "hotspot_name": "5th A Cross Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP127 - Sagar Hospital, Jayanagar",
+    "hotspot_name": "BTP127 - Sagar Hospital, Jayanagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hebbal Flyover",
+    "hotspot_name": "Hebbal Flyover",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "MBT Road, Brigade Golden Triangle",
+    "hotspot_name": "MBT Road, Brigade Golden Triangle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP193 - Vasavi Circle",
+    "hotspot_name": "BTP193 - Vasavi Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP063 - Siddalingaiah Circle",
+    "hotspot_name": "BTP063 - Siddalingaiah Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Westend Avenue",
+    "hotspot_name": "Westend Avenue",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Palace Road",
+    "hotspot_name": "Palace Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP185 - RV Teachers College",
+    "hotspot_name": "BTP185 - RV Teachers College",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "80 Feet Road",
+    "hotspot_name": "80 Feet Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP091 - Sirsi Circle",
+    "hotspot_name": "BTP091 - Sirsi Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "19th Main Road",
+    "hotspot_name": "19th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "HMT Main Road",
+    "hotspot_name": "HMT Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP215 - Vanivillas Junction",
+    "hotspot_name": "BTP215 - Vanivillas Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "17th Cross Road",
+    "hotspot_name": "17th Cross Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "G Narayana Kumar Road",
+    "hotspot_name": "G Narayana Kumar Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP159 - JP Nagar Metro, ORR",
+    "hotspot_name": "BTP159 - JP Nagar Metro, ORR",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Bannerghatta Main Road",
+    "hotspot_name": "Bannerghatta Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "10th Cross Road",
+    "hotspot_name": "10th Cross Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Bannerghatta Main Road",
+    "hotspot_name": "Bannerghatta Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Suranjan Das Road",
+    "hotspot_name": "Suranjan Das Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kodigehalli Road",
+    "hotspot_name": "Kodigehalli Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP214 - 5th Main Chamrajpet  Junction",
+    "hotspot_name": "BTP214 - 5th Main Chamrajpet  Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Whitefield Main Road",
+    "hotspot_name": "Whitefield Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Horamavu Main Road",
+    "hotspot_name": "Horamavu Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Banaswadi Main Road",
+    "hotspot_name": "Banaswadi Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hesaraghatta Main Road",
+    "hotspot_name": "Hesaraghatta Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "27th Main Road",
+    "hotspot_name": "27th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP074 - Leprosy Hospital Junction",
+    "hotspot_name": "BTP074 - Leprosy Hospital Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Doddagubbi Road",
+    "hotspot_name": "Doddagubbi Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kengeri Main Road",
+    "hotspot_name": "Kengeri Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Industrial Park Road",
+    "hotspot_name": "Industrial Park Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Gear School Road",
+    "hotspot_name": "Gear School Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Varthur Main Road",
+    "hotspot_name": "Varthur Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Amrutha College Road",
+    "hotspot_name": "Amrutha College Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP107 - National College Junction",
+    "hotspot_name": "BTP107 - National College Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "4th Main Road",
+    "hotspot_name": "4th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Amrutha College Road",
+    "hotspot_name": "Amrutha College Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Whitefield Main Road",
+    "hotspot_name": "Whitefield Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kengeri Magadi Road",
+    "hotspot_name": "Kengeri Magadi Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hoodi Main Road",
+    "hotspot_name": "Hoodi Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP074 - Leprosy Hospital Junction",
+    "hotspot_name": "BTP074 - Leprosy Hospital Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kengeri Main Road",
+    "hotspot_name": "Kengeri Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP126 - Dairy Circle",
+    "hotspot_name": "BTP126 - Dairy Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sarjapura Main Road",
+    "hotspot_name": "Sarjapura Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP191 - 40th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP191 - 40th Cross, 4th Main, Jayanagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Shankara Nagar Main Road",
+    "hotspot_name": "Shankara Nagar Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Abbigere Main Road",
+    "hotspot_name": "Abbigere Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Haralur Road",
+    "hotspot_name": "Haralur Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sulibele Road",
+    "hotspot_name": "Sulibele Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Doddaballapur Main Road",
+    "hotspot_name": "Doddaballapur Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Whitefield Main Road",
+    "hotspot_name": "Whitefield Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Watch Factory Road",
+    "hotspot_name": "Watch Factory Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP132 - Anepalya Junction",
+    "hotspot_name": "BTP132 - Anepalya Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Bagaluru Main Road",
+    "hotspot_name": "Bagaluru Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "6th Main Road",
+    "hotspot_name": "6th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Nandini Layout Club Road",
+    "hotspot_name": "Nandini Layout Club Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Seppings Road",
+    "hotspot_name": "Seppings Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "15th Main Road",
+    "hotspot_name": "15th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sri Kumaraswamy Temple Road",
+    "hotspot_name": "Sri Kumaraswamy Temple Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Varthur Main Road",
+    "hotspot_name": "Varthur Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP106 - VV Puram College",
+    "hotspot_name": "BTP106 - VV Puram College",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Ittamadu Road",
+    "hotspot_name": "Ittamadu Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP128 - Gorappanapalya Junction",
+    "hotspot_name": "BTP128 - Gorappanapalya Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Old Madras Road",
+    "hotspot_name": "Old Madras Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Chunchaghatta Main Road",
+    "hotspot_name": "Chunchaghatta Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Thigalarapalya Main Road",
+    "hotspot_name": "Thigalarapalya Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Global City Tech Park Road",
+    "hotspot_name": "Global City Tech Park Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP134 - Mico Bande",
+    "hotspot_name": "BTP134 - Mico Bande",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "80 Feet Main Road",
+    "hotspot_name": "80 Feet Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "5th Main Road",
+    "hotspot_name": "5th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP164 - 29th Main Road, BTM Layout",
+    "hotspot_name": "BTP164 - 29th Main Road, BTM Layout",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Magadi Main Road",
+    "hotspot_name": "Magadi Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "MBT Road, Zero Tolerance Junction",
+    "hotspot_name": "MBT Road, Zero Tolerance Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Watch Factory Road",
+    "hotspot_name": "Watch Factory Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "1st Main Road",
+    "hotspot_name": "1st Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP190 - 36th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP190 - 36th Cross, 4th Main, Jayanagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP099 - Cash Pharmacy, Residency Road",
+    "hotspot_name": "BTP099 - Cash Pharmacy, Residency Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hesarghatta Road",
+    "hotspot_name": "Hesarghatta Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Padmasri CK Venkata Ramaiah Road",
+    "hotspot_name": "Padmasri CK Venkata Ramaiah Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Outer Ring Road",
+    "hotspot_name": "Outer Ring Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "HAL Airport Road",
+    "hotspot_name": "HAL Airport Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP053 - Three Let Junction",
+    "hotspot_name": "BTP053 - Three Let Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Yemalur Road",
+    "hotspot_name": "Yemalur Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Old Madras Road",
+    "hotspot_name": "Old Madras Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Siddavanahalli Krishna Sharma Road",
+    "hotspot_name": "Siddavanahalli Krishna Sharma Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP133 - Adugodi Junction",
+    "hotspot_name": "BTP133 - Adugodi Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "MEC Road, BCM Vertex",
+    "hotspot_name": "MEC Road, BCM Vertex",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "60 Feet Road",
+    "hotspot_name": "60 Feet Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "1st A Main Road",
+    "hotspot_name": "1st A Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sri Annapoorneshwari Temple Road",
+    "hotspot_name": "Sri Annapoorneshwari Temple Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "8th Main Road",
+    "hotspot_name": "8th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hennur Main Road",
+    "hotspot_name": "Hennur Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "1st Main Road",
+    "hotspot_name": "1st Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "HMT Main Road",
+    "hotspot_name": "HMT Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hewlett Packard Avenue",
+    "hotspot_name": "Hewlett Packard Avenue",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Dr Ambedkar Medical College Road",
+    "hotspot_name": "Dr Ambedkar Medical College Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Domlur Inner Ring Road",
+    "hotspot_name": "Domlur Inner Ring Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Bikasipura Main Road",
+    "hotspot_name": "Bikasipura Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hoodi Main Road",
+    "hotspot_name": "Hoodi Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Andhrahalli Main Road",
+    "hotspot_name": "Andhrahalli Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP141 - Palmgroove Junction",
+    "hotspot_name": "BTP141 - Palmgroove Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "5th Main Road",
+    "hotspot_name": "5th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "MS Ramaiah Road",
+    "hotspot_name": "MS Ramaiah Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kengeri Main Road",
+    "hotspot_name": "Kengeri Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "HMT Main Road",
+    "hotspot_name": "HMT Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Whitefield Road",
+    "hotspot_name": "Whitefield Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "1st Main Road",
+    "hotspot_name": "1st Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Outer Ring Road",
+    "hotspot_name": "Outer Ring Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "MBT Road, Govind Pura",
+    "hotspot_name": "MBT Road, Govind Pura",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Whitefield Road",
+    "hotspot_name": "Whitefield Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "13th Main Road",
+    "hotspot_name": "13th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Canara Union Road",
+    "hotspot_name": "Canara Union Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Anjanapura Main Road",
+    "hotspot_name": "Anjanapura Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Magadi Main Road",
+    "hotspot_name": "Magadi Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Tilak Nagar Main Road",
+    "hotspot_name": "Tilak Nagar Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP093 - Toll Gate, Mysore Road",
+    "hotspot_name": "BTP093 - Toll Gate, Mysore Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP101 - Blood Bank Circle, KH Road",
+    "hotspot_name": "BTP101 - Blood Bank Circle, KH Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Lingarajapuram Flyover",
+    "hotspot_name": "Lingarajapuram Flyover",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTS Bus Depot Road",
+    "hotspot_name": "BTS Bus Depot Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "hotspot_name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Suranjan Das Road",
+    "hotspot_name": "Suranjan Das Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP114 - KR Road Junction, Near JSS",
+    "hotspot_name": "BTP114 - KR Road Junction, Near JSS",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Horamavu Main Road",
+    "hotspot_name": "Horamavu Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Haralur Road",
+    "hotspot_name": "Haralur Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kengeri Main Road",
+    "hotspot_name": "Kengeri Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP054 - Shivananda Circle",
+    "hotspot_name": "BTP054 - Shivananda Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Magadi Main Road",
+    "hotspot_name": "Magadi Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Neelasandra Road",
+    "hotspot_name": "Neelasandra Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP146 - Domlur Water Tank",
+    "hotspot_name": "BTP146 - Domlur Water Tank",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Yelahanka Road",
+    "hotspot_name": "Yelahanka Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "MBT Road, Vinayaka Layout",
+    "hotspot_name": "MBT Road, Vinayaka Layout",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "5th Main Road",
+    "hotspot_name": "5th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "50 Feet Main Road",
+    "hotspot_name": "50 Feet Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Basavanapura Road",
+    "hotspot_name": "Basavanapura Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "MS Ramaiah Road",
+    "hotspot_name": "MS Ramaiah Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Rajgopal Nagar Main Road",
+    "hotspot_name": "Rajgopal Nagar Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP122 - Siddapura Junction",
+    "hotspot_name": "BTP122 - Siddapura Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP107 - National College Junction",
+    "hotspot_name": "BTP107 - National College Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "80 Feet Road",
+    "hotspot_name": "80 Feet Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Jogupalaya Main Road",
+    "hotspot_name": "Jogupalaya Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Cline Road",
+    "hotspot_name": "Cline Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Haines Road",
+    "hotspot_name": "Haines Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mahadevapura Flyover",
+    "hotspot_name": "Mahadevapura Flyover",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kanteerava Studio Road",
+    "hotspot_name": "Kanteerava Studio Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "4th Main Road",
+    "hotspot_name": "4th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP017 - Attiguppe Circle",
+    "hotspot_name": "BTP017 - Attiguppe Circle",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Varthur Main Road",
+    "hotspot_name": "Varthur Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "JC Nagar Main Road",
+    "hotspot_name": "JC Nagar Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Hesaraghatta Main Road",
+    "hotspot_name": "Hesaraghatta Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Andrahalli Main Road",
+    "hotspot_name": "Andrahalli Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "50 Feet Main Road",
+    "hotspot_name": "50 Feet Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Kaggadaspura Main Road",
+    "hotspot_name": "Kaggadaspura Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Magadi Main Road",
+    "hotspot_name": "Magadi Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "5th Main Road",
+    "hotspot_name": "5th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "11th Main Road",
+    "hotspot_name": "11th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "MBT Road, Kodandaram",
+    "hotspot_name": "MBT Road, Kodandaram",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "6th Main Road",
+    "hotspot_name": "6th Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "1st A Cross Road",
+    "hotspot_name": "1st A Cross Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "100 Feet Road",
+    "hotspot_name": "100 Feet Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP018 - Dhobi Ghat Junction",
+    "hotspot_name": "BTP018 - Dhobi Ghat Junction",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP099 - Cash Pharmacy, Residency Road",
+    "hotspot_name": "BTP099 - Cash Pharmacy, Residency Road",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "BTP075 - Police Corner",
+    "hotspot_name": "BTP075 - Police Corner",
+    "priority": "Medium",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+  },
+  {
+    "hotspot_id": "Varthur Main Road",
+    "hotspot_name": "Varthur Main Road",
+    "priority": "Low",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
+  },
+  {
+    "hotspot_id": "Harris Road",
+    "hotspot_name": "Harris Road",
+    "priority": "Low",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
+  },
+  {
+    "hotspot_id": "3rd Main Road",
+    "hotspot_name": "3rd Main Road",
+    "priority": "Low",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
+  },
+  {
+    "hotspot_id": "Outer Ring Road",
+    "hotspot_name": "Outer Ring Road",
+    "priority": "Low",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
+  },
+  {
+    "hotspot_id": "1st Cross Road",
+    "hotspot_name": "1st Cross Road",
+    "priority": "Low",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "priority": "Low",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
+  },
+  {
+    "hotspot_id": "Bangalore Bellary Road",
+    "hotspot_name": "Bangalore Bellary Road",
+    "priority": "Low",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
+  },
+  {
+    "hotspot_id": "Nandanavana G Street",
+    "hotspot_name": "Nandanavana G Street",
+    "priority": "Low",
+    "officers": 1,
+    "tow_vehicles": 1,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
+  }
+]

@@ -1,18 +1,16 @@
-from fastapi import APIRouter, Depends
-from sqlalchemy.ext.asyncio import AsyncSession
+from fastapi import APIRouter
 
-from backend.app.core.database import get_db
 from backend.app.schemas.prediction import PredictionResponse
-from backend.app.services.prediction import PredictionService
+from backend.app.services.prediction_data import get_predictions
 
 router = APIRouter()
 
 
 @router.get("", response_model=list[PredictionResponse])
-async def get_predictions(db: AsyncSession = Depends(get_db)):
-    service = PredictionService(db)
+async def get_predictions():
     try:
-        return await service.get_predictions()
+        data = get_predictions()
+        return data
     except Exception as e:
         print(f"PREDICTIONS ENDPOINT ERROR: {e}")
         import traceback

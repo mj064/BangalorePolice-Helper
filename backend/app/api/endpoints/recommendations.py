@@ -1,18 +1,16 @@
-from fastapi import APIRouter, Depends
-from sqlalchemy.ext.asyncio import AsyncSession
+from fastapi import APIRouter
 
-from backend.app.core.database import get_db
 from backend.app.schemas.recommendation import RecommendationResponse
-from backend.app.services.recommendation import RecommendationService
+from backend.app.services.recommendation_data import get_recommendations
 
 router = APIRouter()
 
 
 @router.get("", response_model=list[RecommendationResponse])
-async def get_recommendations(db: AsyncSession = Depends(get_db)):
-    service = RecommendationService(db)
+async def get_recommendations():
     try:
-        return await service.get_recommendations()
+        data = get_recommendations()
+        return data
     except Exception as e:
         print(f"RECOMMENDATIONS ENDPOINT ERROR: {e}")
         import traceback
