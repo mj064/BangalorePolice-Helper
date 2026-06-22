@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
 from backend.app.schemas.recommendation import RecommendationResponse
-from backend.app.services.recommendation_data import get_recommendations
+from backend.app.services.recommendation_data import get_recommendations as load_recommendations
 
 router = APIRouter()
 
@@ -9,7 +9,7 @@ router = APIRouter()
 @router.get("", response_model=list[RecommendationResponse])
 async def get_recommendations():
     try:
-        data = get_recommendations()
+        data = load_recommendations()
         return data
     except Exception as e:
         print(f"RECOMMENDATIONS ENDPOINT ERROR: {e}")
