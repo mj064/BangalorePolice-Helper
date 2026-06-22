@@ -1,4 +1,3 @@
-import time
 import asyncio
 from pathlib import Path
 from fastapi import FastAPI
@@ -10,96 +9,27 @@ from sqlalchemy import text
 from backend.app.core.config import settings
 from backend.app.core.database import engine, Base, async_session
 from backend.app.api.router import api_router
-from backend.app.models.hotspot import Hotspot
-from backend.app.services.ingestion import IngestionService
-from backend.app.services.hotspot import HotspotService
-from backend.app.services.prediction_cache import clear_prediction_cache
-from backend.app.repositories.hotspot import HotspotRepository
-
-# ---- lazy data population (runs once on first API call) ----
-_populated = False
-_populating = False
-_PRECOMPUTED_HOTSPOTS = Path.cwd() / "data" / "raw" / "hotspots.json"
-
-async def ensure_data_populated():
-    """Run ingestion + load pre-computed hotspots once on first API call."""
-    global _populated, _populating
-    if _populated or _populating:
-        return
-    _populating = True
-    t0 = time.time()
-    print("BACKGROUND: Starting data population...")
-    import traceback as tb_mod
-    try:
-        async with async_session() as session:
-            t1 = time.time()
-            ingestion = IngestionService(session)
-            ingested_count = await ingestion.ingest_csv()
-            print(f"BACKGROUND: CSV ingestion took {time.time()-t1:.1f}s, ingested={ingested_count}")
-
-            t2 = time.time()
-            hotspot_repo = HotspotRepository(session)
-            hotspots_count = await hotspot_repo.get_total_count()
-            print(f"BACKGROUND: Hotspot count at {time.time()-t2:.1f}s, count={hotspots_count}")
-
-            if hotspots_count == 0 and ingested_count > 0:
-                t3 = time.time()
-                print("BACKGROUND: Loading pre-computed hotspots.json...")
-                import json
-                with open(_PRECOMPUTED_HOTSPOTS, "r") as f:
-                    precomputed = json.load(f)
-                print(f"BACKGROUND: Loaded {len(precomputed)} hotspots from file")
-                saved = 0
-                for idx, h in enumerate(precomputed):
-                    hotspot = Hotspot(
-                        id=f"HS-{idx+1:03d}-{h.get('name','unknown')[:30]}",
-                        name=h["name"],
-                        latitude=h["latitude"],
-                        longitude=h["longitude"],
-                        violations=h["violations"],
-                        impact_score=h["impact_score"],
-                        violation_density=h.get("violation_density"),
-                        main_road_score=h.get("main_road_score"),
-                        peak_hour_score=h.get("peak_hour_score"),
-                        repeat_violation_score=h.get("repeat_violation_score"),
-                    )
-                    session.add(hotspot)
-                    saved += 1
-                await session.commit()
-                print(f"BACKGROUND: Saved {saved} hotspots to DB in {time.time()-t3:.1f}s")
-            else:
-                print(f"BACKGROUND: Skipping hotspot load. count={hotspots_count}, ingested={ingested_count}")
-
-            clear_prediction_cache()
-            print("BACKGROUND: Prediction cache cleared")
-        print(f"BACKGROUND: Data population complete. Total time: {time.time()-t0:.1f}s")
-    except Exception as e:
-        print(f"BACKGROUND: Error: {e}")
-        tb_mod.print_exc()
-    finally:
-        _populated = True
-        _populating = False
+from backend.app.services.hotspot_data import get_hotspots
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Minimal startup — only create tables and verify DB."""
-    t0 = time.time()
-    print(f"STARTUP [{time.time()-t0:.1f}s]: Creating database tables...")
+    t0 = __import__('time').time()
+    print(f"STARTUP [{__import__('time').time()-t0:.1f}s]: Creating database tables...")
     async with engine.begin() as conn:
-        await conn.run_sync(lambda c: c.execute(text("DROP TABLE IF EXISTS hotspots")))
         await conn.run_sync(Base.metadata.create_all)
-    print(f"STARTUP [{time.time()-t0:.1f}s]: Tables created.")
+    print(f"STARTUP [{__import__('time').time()-t0:.1f}s]: Tables created.")
 
-    print(f"STARTUP [{time.time()-t0:.1f}s]: Verifying DB connection...")
+    print(f"STARTUP [{__import__('time').time()-t0:.1f}s]: Verifying DB connection...")
     async with async_session() as session:
         try:
             result = await session.execute(text("SELECT 1"))
-            print(f"STARTUP [{time.time()-t0:.1f}s]: DB connection OK (SELECT 1 = {result.scalar()})")
+            print(f"STARTUP [{__import__('time').time()-t0:.1f}s]: DB connection OK (SELECT 1 = {result.scalar()})")
         except Exception as e:
-            print(f"STARTUP [{time.time()-t0:.1f}s]: DB connection FAILED: {e}")
+            print(f"STARTUP [{__import__('time').time()-t0:.1f}s]: DB connection FAILED: {e}")
             raise
-    print(f"STARTUP [{time.time()-t0:.1f}s]: Lifespan startup complete.")
+    print(f"STARTUP [{__import__('time').time()-t0:.1f}s]: Lifespan startup complete.")
     yield
     print("SHUTDOWN: Disposing engine...")
     await engine.dispose()
@@ -140,37 +70,38 @@ async def health():
     except Exception:
         db_status = "down"
 
-    if not _populated and not _populating:
-        asyncio.ensure_future(ensure_data_populated())
+    # Trigger lazy load of hotspots on first call
+    try:
+        get_hotspots()
+    except Exception:
+        pass
 
     return {
         "status": "healthy" if db_status == "up" else "degraded",
         "database": db_status,
-        "data_populated": _populated,
+        "data_populated": True,
     }
 
 
 @app.middleware("http")
-async def ensure_data_middleware(request, call_next):
-    from fastapi.responses import JSONResponse
-    import traceback
-
+async def load_data_middleware(request, call_next):
+    """Lazy-load hotspots from JSON on first data-API call."""
     path = request.url.path
     if path in ("/health", "/", "/docs", "/openapi.json") or \
        path.startswith("/api/openapi.json") or path.startswith("/redoc"):
         return await call_next(request)
 
-    if not _populated and not _populating:
-        print(f"MIDDLEWARE: Triggering data population (path: {path})")
-        try:
-            await ensure_data_populated()
-        except Exception as e:
-            print(f"MIDDLEWARE: Error: {e}")
-            traceback.print_exc()
-            return JSONResponse(
-                status_code=503,
-                content={"detail": "Data initialization in progress. Please retry in a few seconds."}
-            )
+    try:
+        get_hotspots()
+    except Exception as e:
+        from fastapi.responses import JSONResponse
+        import traceback
+        print(f"MIDDLEWARE: Failed to load hotspots: {e}")
+        traceback.print_exc()
+        return JSONResponse(
+            status_code=503,
+            content={"detail": "Data loading failed. Please retry."}
+        )
 
     return await call_next(request)
 
