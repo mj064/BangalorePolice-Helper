@@ -1,24 +1,20 @@
-from fastapi import APIRouter, Depends
-from sqlalchemy.ext.asyncio import AsyncSession
-from backend.app.core.database import get_db
-from backend.app.repositories.violation import ViolationRepository
-from backend.app.repositories.hotspot import HotspotRepository
+from fastapi import APIRouter
 from backend.app.schemas.dashboard import DashboardSummary
+from backend.app.services.hotspot_data import get_hotspots
 
 router = APIRouter()
 
 @router.get("/summary", response_model=DashboardSummary)
-async def get_dashboard_summary(db: AsyncSession = Depends(get_db)):
+async def get_dashboard_summary():
     """
     Get high-level summary KPIs for the dashboard.
+    Uses pre-computed hotspot data — no DB queries.
     """
     try:
-        violation_repo = ViolationRepository(db)
-        hotspot_repo = HotspotRepository(db)
-        
-        total_violations = await violation_repo.get_total_count()
-        total_hotspots = await hotspot_repo.get_total_count()
-        high_risk_hotspots = await hotspot_repo.get_high_risk_count()
+        hotspots = get_hotspots()
+        total_violations = sum(h.get("violations", 0) for h in hotspots)
+        total_hotspots = len(hotspots)
+        high_risk_hotspots = sum(1 for h in hotspots if (h.get("impact_score") or 0) >= 56)
         
         return DashboardSummary(
             total_violations=total_violations,
