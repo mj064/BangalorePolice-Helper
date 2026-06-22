@@ -3,9 +3,6 @@ import json
 import os
 from pathlib import Path
 
-_cache: list[dict] | None = None
-_error: str | None = None
-
 
 def _find_json(filename: str) -> Path:
     cwd = Path.cwd()
@@ -26,27 +23,20 @@ _RECOMMENDATIONS_PATH = _find_json("recommendations.json")
 
 
 def get_recommendations() -> list[dict]:
-    global _cache, _error
-    if _cache is not None:
-        return _cache
-    if _error is not None:
-        raise RuntimeError(f"Recommendations previously failed to load: {_error}")
+    """Load recommendations from JSON. Never caches errors — retries every call."""
+    if not _RECOMMENDATIONS_PATH.exists():
+        print(f"RECOMMENDATION_DATA: File not found at {_RECOMMENDATIONS_PATH}")
+        return []
 
-    print("BACKGROUND: Loading recommendations from JSON...")
-    import time as _t
-    t0 = _t.time()
     try:
         with open(_RECOMMENDATIONS_PATH, "r") as f:
             data = json.load(f)
-        print(f"BACKGROUND: Loaded {len(data)} recommendations from JSON in {_t.time()-t0:.1f}s")
-        _cache = data
+        print(f"RECOMMENDATION_DATA: Loaded {len(data)} recommendations from {_RECOMMENDATIONS_PATH}")
         return data
     except Exception as e:
-        _error = str(e)
-        raise
+        print(f"RECOMMENDATION_DATA: Error loading recommendations: {e}")
+        return []
 
 
 def clear_cache():
-    global _cache, _error
-    _cache = None
-    _error = None
+    pass

@@ -3,9 +3,6 @@ import json
 import os
 from pathlib import Path
 
-_cache: list[dict] | None = None
-_error: str | None = None
-
 
 def _find_json(filename: str) -> Path:
     cwd = Path.cwd()
@@ -26,27 +23,20 @@ _PREDICTIONS_PATH = _find_json("predictions.json")
 
 
 def get_predictions() -> list[dict]:
-    global _cache, _error
-    if _cache is not None:
-        return _cache
-    if _error is not None:
-        raise RuntimeError(f"Predictions previously failed to load: {_error}")
+    """Load predictions from JSON. Never caches errors — retries every call."""
+    if not _PREDICTIONS_PATH.exists():
+        print(f"PREDICTION_DATA: File not found at {_PREDICTIONS_PATH}")
+        return []
 
-    print("BACKGROUND: Loading predictions from JSON...")
-    import time as _t
-    t0 = _t.time()
     try:
         with open(_PREDICTIONS_PATH, "r") as f:
             data = json.load(f)
-        print(f"BACKGROUND: Loaded {len(data)} predictions from JSON in {_t.time()-t0:.1f}s")
-        _cache = data
+        print(f"PREDICTION_DATA: Loaded {len(data)} predictions from {_PREDICTIONS_PATH}")
         return data
     except Exception as e:
-        _error = str(e)
-        raise
+        print(f"PREDICTION_DATA: Error loading predictions: {e}")
+        return []
 
 
 def clear_cache():
-    global _cache, _error
-    _cache = None
-    _error = None
+    pass
