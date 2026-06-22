@@ -4,7 +4,7 @@ from pathlib import Path
 
 _hotspots_cache: list[dict] | None = None
 _load_error: str | None = None
-_PRECOMPUTED_HOTSPOTS = Path(__file__).parent.parent.parent / "data" / "raw" / "hotspots.json"
+_PRECOMPUTED_HOTSPOTS = Path.cwd().parent / "data" / "raw" / "hotspots.json"
 
 
 def get_hotspots() -> list[dict]:
