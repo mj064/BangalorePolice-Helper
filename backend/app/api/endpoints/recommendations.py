@@ -11,4 +11,10 @@ router = APIRouter()
 @router.get("", response_model=list[RecommendationResponse])
 async def get_recommendations(db: AsyncSession = Depends(get_db)):
     service = RecommendationService(db)
-    return await service.get_recommendations()
+    try:
+        return await service.get_recommendations()
+    except Exception as e:
+        print(f"RECOMMENDATIONS ENDPOINT ERROR: {e}")
+        import traceback
+        traceback.print_exc()
+        return []
