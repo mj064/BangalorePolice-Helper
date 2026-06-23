@@ -1,5 +1,4 @@
 import axios from 'axios';
-import type { AxiosResponse } from 'axios';
 
 // All numbers are `number` in TypeScript. These aliases improve readability.
 type int = number;
@@ -69,27 +68,27 @@ const client = axios.create({
 
 export const apiService = {
   getSummary: async (): Promise<DashboardSummary> => {
-    const res: AxiosResponse<DashboardSummary> = await client.get('/dashboard/summary');
-    return res.data;
+    const { data } = await client.get('/dashboard/summary');
+    return data as DashboardSummary;
   },
 
   getHotspots: async (): Promise<Hotspot[]> => {
-    const res: AxiosResponse<Hotspot[]> = await client.get('/hotspots');
-    return res.data;
+    const { data } = await client.get('/hotspots');
+    return data as Hotspot[];
   },
 
   getHotspot: async (id: string): Promise<HotspotDetail> => {
-    const res: AxiosResponse<HotspotDetail> = await client.get(`/hotspots/${id}`);
-    return res.data;
+    const { data } = await client.get(`/hotspots/${id}`);
+    return data as HotspotDetail;
   },
 
   getPredictions: async (): Promise<Prediction[]> => {
-    const res: AxiosResponse<Prediction[]> = await client.get('/predictions');
-    return res.data;
+    const { data } = await client.get('/predictions');
+    return data as Prediction[];
   },
 
   getRecommendations: async (): Promise<Recommendation[]> => {
-    const res: AxiosResponse<Recommendation[]> = await client.get('/recommendations');
-    return res.data;
+    const { data } = await client.get('/recommendations');
+    return data as Recommendation[];
   },
 };
