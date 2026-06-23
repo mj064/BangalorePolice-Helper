@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useCallback, useEffect, useRef } from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { Hotspot } from '../services/api';
@@ -8,7 +8,6 @@ interface HotspotMapProps {
   selectedHotspot: Hotspot | null;
   onSelect: (hotspot: Hotspot) => void;
   onDeselect: () => void;
-  theme?: 'dark' | 'light';
   visibleHotspotIds?: Set<string> | null;
 }
 
@@ -21,29 +20,23 @@ const CIRCLES_LAYER = 'hotspots-circles';
 const POLY_FILL_LAYER = 'hotspots-poly-fill';
 const POLY_LINE_LAYER = 'hotspots-poly-line';
 
-function styleUrl(theme: 'dark' | 'light') {
-  return theme === 'light'
-    ? 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json'
-    : 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
-}
+const DARK_STYLE = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
 
-function getColors(theme: 'dark' | 'light') {
-  return {
-    low: theme === 'light' ? '#16A34A' : '#10B981',
-    medium: theme === 'light' ? '#D97706' : '#F59E0B',
-    high: theme === 'light' ? '#EA580C' : '#F97316',
-    critical: theme === 'light' ? '#DC2626' : '#EF4444',
-    stroke: theme === 'light' ? '#1e293b' : '#FFFFFF',
-    teal: '#5BC0BE',
-  };
-}
+const COLORS = {
+  low: '#10B981',
+  medium: '#F59E0B',
+  high: '#F97316',
+  critical: '#EF4444',
+  stroke: '#FFFFFF',
+  teal: '#5BC0BE',
+} as const;
 
-function severityColor(c: ReturnType<typeof getColors>): maplibregl.ExpressionSpecification {
+function severityColor(): maplibregl.ExpressionSpecification {
   return [
     'case',
     ['==', ['get', 'selected'], 1],
-    c.teal,
-    ['step', ['get', 'impact_score'], c.low, 50, c.medium, 65, c.high, 80, c.critical],
+    COLORS.teal,
+    ['step', ['get', 'impact_score'], COLORS.low, 50, COLORS.medium, 65, COLORS.high, 80, COLORS.critical],
   ];
 }
 
@@ -52,12 +45,14 @@ function buildPointGeoJson(
   selectedId: string | null,
   visibleIds: Set<string> | null,
 ): GeoJSON.FeatureCollection {
+  const list = visibleIds !== null
+    ? hotspots.filter((h) => visibleIds.has(h.id))
+    : hotspots;
   return {
     type: 'FeatureCollection',
-    features: hotspots.map((h) => {
+    features: list.map((h) => {
       const isSelected = selectedId === h.id;
-      const filteredOut = visibleIds !== null && !visibleIds.has(h.id);
-      const dimmed = filteredOut || (selectedId !== null && !isSelected);
+      const dimmed = selectedId !== null && !isSelected;
       return {
         type: 'Feature',
         geometry: { type: 'Point', coordinates: [h.longitude, h.latitude] },
@@ -83,35 +78,58 @@ function buildPolygonGeoJson(
   }
 
   const h = hotspots.find((x) => x.id === selectedId);
-  if (!h?.polygon) {
+  if (!h) {
     return { type: 'FeatureCollection', features: [] };
   }
 
-  try {
-    const parsed = JSON.parse(h.polygon);
-    if (parsed?.type !== 'Polygon' || !Array.isArray(parsed.coordinates)) {
-      return { type: 'FeatureCollection', features: [] };
+  let geometry: GeoJSON.Polygon;
+  if (h.polygon) {
+    try {
+      const parsed = JSON.parse(h.polygon);
+      if (parsed?.type === 'Polygon' && Array.isArray(parsed.coordinates)) {
+        geometry = parsed;
+      } else {
+        geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
+      }
+    } catch {
+      geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
     }
-
-    return {
-      type: 'FeatureCollection',
-      features: [
-        {
-          type: 'Feature',
-          geometry: parsed,
-          properties: {
-            hsid: h.id,
-            name: h.name,
-            violations: h.violations,
-            impact_score: h.impact_score,
-            selected: 1,
-          },
-        },
-      ],
-    };
-  } catch {
-    return { type: 'FeatureCollection', features: [] };
+  } else {
+    geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
   }
+
+  return {
+    type: 'FeatureCollection',
+    features: [
+      {
+        type: 'Feature',
+        geometry,
+        properties: {
+          hsid: h.id,
+          name: h.name,
+          violations: h.violations,
+          impact_score: h.impact_score,
+          selected: 1,
+        },
+      },
+    ],
+  };
+}
+
+function generateBufferPolygon(lat: number, lon: number, impactScore: number): GeoJSON.Polygon {
+  const radiusDeg = 0.0008 + (impactScore / 100) * 0.002;
+  const points = 32;
+  const coordinates: number[][][] = [];
+  const ring: number[][] = [];
+  for (let i = 0; i < points; i++) {
+    const angle = (2 * Math.PI * i) / points;
+    const dlon = radiusDeg * Math.cos(angle);
+    const dlat = radiusDeg * Math.sin(angle);
+    ring.push([lon + dlon, lat + dlat]);
+  }
+  ring.push(ring[0].slice());
+  coordinates.push(ring);
+  return { type: 'Polygon', coordinates };
 }
 
 export const HotspotMap: React.FC<HotspotMapProps> = ({
@@ -119,27 +137,23 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
   selectedHotspot,
   onSelect,
   onDeselect,
-  theme = 'dark',
   visibleHotspotIds = null,
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const layersReadyRef = useRef(false);
   const hasFitBoundsRef = useRef(false);
-  const skipThemeRef = useRef(true);
   const prevSelectedIdRef = useRef<string | null>(null);
 
   const hotspotsRef = useRef(hotspots);
   const selectedRef = useRef(selectedHotspot);
   const visibleRef = useRef(visibleHotspotIds);
-  const themeRef = useRef(theme);
   const onSelectRef = useRef(onSelect);
   const onDeselectRef = useRef(onDeselect);
 
   hotspotsRef.current = hotspots;
   selectedRef.current = selectedHotspot;
   visibleRef.current = visibleHotspotIds;
-  themeRef.current = theme;
   onSelectRef.current = onSelect;
   onDeselectRef.current = onDeselect;
 
@@ -147,7 +161,6 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
   const pushDataRef = useRef<(map: maplibregl.Map) => void>(() => {});
 
   installLayersRef.current = (map: maplibregl.Map) => {
-    const c = getColors(themeRef.current);
     const emptyPoints: GeoJSON.FeatureCollection = { type: 'FeatureCollection', features: [] };
     const emptyPolygons: GeoJSON.FeatureCollection = { type: 'FeatureCollection', features: [] };
 
@@ -166,7 +179,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       type: 'fill',
       source: POLYGONS_SOURCE,
       paint: {
-        'fill-color': severityColor(c),
+        'fill-color': severityColor(),
         'fill-opacity': 0.35,
       },
     });
@@ -176,7 +189,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       type: 'line',
       source: POLYGONS_SOURCE,
       paint: {
-        'line-color': severityColor(c),
+        'line-color': severityColor(),
         'line-width': 3,
         'line-opacity': 0.9,
       },
@@ -192,10 +205,10 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
           ['interpolate', ['linear'], ['get', 'violations'], 20, 8, 200, 14, 1000, 22],
           22,
         ],
-        'circle-color': severityColor(c),
+        'circle-color': severityColor(),
         'circle-opacity': ['case', ['==', ['get', 'dimmed'], 1], 0.25, 0.95],
         'circle-stroke-width': ['case', ['==', ['get', 'selected'], 1], 3, 1.5],
-        'circle-stroke-color': ['case', ['==', ['get', 'selected'], 1], c.teal, c.stroke],
+        'circle-stroke-color': ['case', ['==', ['get', 'selected'], 1], COLORS.teal, COLORS.stroke],
       },
     });
 
@@ -209,15 +222,6 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     const selectedId = selectedRef.current?.id ?? null;
     const visibleIds = visibleRef.current;
     const list = hotspotsRef.current;
-
-    console.log('[HotspotMap] pushData', {
-      selectedId,
-      visibleCount: visibleIds?.size ?? list.length,
-      filter: visibleIds ? 'ACTIVE' : 'ALL',
-      theme: themeRef.current,
-      polygonLoaded: !!selectedId,
-      totalHotspots: list.length,
-    });
 
     const pointsSrc = map.getSource(POINTS_SOURCE) as maplibregl.GeoJSONSource | undefined;
     const polySrc = map.getSource(POLYGONS_SOURCE) as maplibregl.GeoJSONSource | undefined;
@@ -241,38 +245,12 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     map.triggerRepaint();
   };
 
-  useEffect(() => {
-    if (!containerRef.current) return;
-
-    layersReadyRef.current = false;
-    hasFitBoundsRef.current = false;
-
-    const map = new maplibregl.Map({
-      container: containerRef.current,
-      style: styleUrl(themeRef.current),
-      center: BENGALURU_CENTER,
-      zoom: BENGALURU_ZOOM,
-      maxZoom: 17,
-      minZoom: 9,
-    });
-    mapRef.current = map;
-    map.addControl(new maplibregl.NavigationControl(), 'top-right');
-
+  const attachInteractions = useCallback((map: maplibregl.Map) => {
     const popup = new maplibregl.Popup({
       closeButton: false,
       closeOnClick: false,
       className: 'custom-map-popup',
     });
-
-    const attachInteractions = () => {
-      map.off('mouseenter', CIRCLES_LAYER, onMouseEnter);
-      map.off('mouseleave', CIRCLES_LAYER, onMouseLeave);
-      map.off('click', CIRCLES_LAYER, onClickCircle);
-
-      map.on('mouseenter', CIRCLES_LAYER, onMouseEnter);
-      map.on('mouseleave', CIRCLES_LAYER, onMouseLeave);
-      map.on('click', CIRCLES_LAYER, onClickCircle);
-    };
 
     function onMouseEnter(e: maplibregl.MapMouseEvent & { features?: GeoJSON.Feature[] }) {
       map.getCanvas().style.cursor = 'pointer';
@@ -306,18 +284,43 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       }
     }
 
+    map.off('mouseenter', CIRCLES_LAYER, onMouseEnter as () => void);
+    map.off('mouseleave', CIRCLES_LAYER, onMouseLeave as () => void);
+    map.off('click', CIRCLES_LAYER, onClickCircle as () => void);
+
+    map.on('mouseenter', CIRCLES_LAYER, onMouseEnter);
+    map.on('mouseleave', CIRCLES_LAYER, onMouseLeave);
+    map.on('click', CIRCLES_LAYER, onClickCircle);
+  }, [onDeselect, onSelect]);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    layersReadyRef.current = false;
+    hasFitBoundsRef.current = false;
+
+    const map = new maplibregl.Map({
+      container,
+      style: DARK_STYLE,
+      center: BENGALURU_CENTER,
+      zoom: BENGALURU_ZOOM,
+      maxZoom: 17,
+      minZoom: 9,
+    });
+    mapRef.current = map;
+    map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
     const setupLayers = () => {
-      console.log('[HotspotMap] setupLayers', { theme: themeRef.current, selectedId: selectedRef.current?.id ?? null });
       map.resize();
       installLayersRef.current(map);
-      attachInteractions();
+      attachInteractions(map);
     };
 
     map.on('load', setupLayers);
-    map.on('style.load', setupLayers);
 
     const ro = new ResizeObserver(() => map.resize());
-    ro.observe(containerRef.current);
+    ro.observe(container);
 
     return () => {
       ro.disconnect();
@@ -325,7 +328,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       map.remove();
       mapRef.current = null;
     };
-  }, []);
+  }, [attachInteractions]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -340,17 +343,6 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     map.once('load', onReady);
     return () => { map.off('load', onReady); };
   }, [hotspots, selectedHotspot, visibleHotspotIds]);
-
-  useEffect(() => {
-    const map = mapRef.current;
-    if (!map) return;
-    if (skipThemeRef.current) {
-      skipThemeRef.current = false;
-      return;
-    }
-    layersReadyRef.current = false;
-    map.setStyle(styleUrl(theme));
-  }, [theme]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -377,13 +369,16 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       <div className="pointer-events-none absolute bottom-3 left-3 z-10 rounded-lg border border-white/8 bg-black/50 px-3 py-2 backdrop-blur-md">
         <div className="flex items-center gap-4 text-[11px] font-medium tracking-wide text-slate-300">
           {[
-            { label: 'Critical', color: 'bg-severity-critical' },
-            { label: 'High', color: 'bg-severity-high' },
-            { label: 'Medium', color: 'bg-severity-medium' },
-            { label: 'Low', color: 'bg-severity-low' },
+            { label: 'Critical', color: COLORS.critical },
+            { label: 'High', color: COLORS.high },
+            { label: 'Medium', color: COLORS.medium },
+            { label: 'Low', color: COLORS.low },
           ].map((item) => (
             <span key={item.label} className="inline-flex items-center gap-2">
-              <span className={`h-2.5 w-2.5 rounded-full ${item.color} shadow-sm`} />
+              <span
+                className="h-2.5 w-2.5 rounded-full shadow-sm"
+                style={{ backgroundColor: item.color }}
+              />
               {item.label}
             </span>
           ))}

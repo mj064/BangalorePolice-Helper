@@ -422,7 +422,6 @@ export const DashboardPage: React.FC = () => {
               selectedHotspot={selectedItem?.hotspot || null}
               onSelect={handleSelectHotspot}
               onDeselect={() => setSelectedItem(null)}
-              theme={mapTheme}
               visibleHotspotIds={visibleHotspotIds}
             />
           </main>
