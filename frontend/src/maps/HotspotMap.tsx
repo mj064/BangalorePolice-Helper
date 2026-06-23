@@ -38,7 +38,7 @@ function getColors(theme: 'dark' | 'light') {
   };
 }
 
-function severityColor(c: ReturnType<typeof getColors>, selectedId: string | null): maplibregl.ExpressionSpecification {
+function severityColor(c: ReturnType<typeof getColors>): maplibregl.ExpressionSpecification {
   return [
     'case',
     ['==', ['get', 'selected'], 1],
@@ -165,7 +165,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       type: 'fill',
       source: POLYGONS_SOURCE,
       paint: {
-        'fill-color': severityColor(c, null),
+        'fill-color': severityColor(c),
         'fill-opacity': 0.35,
       },
     });
@@ -175,7 +175,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       type: 'line',
       source: POLYGONS_SOURCE,
       paint: {
-        'line-color': severityColor(c, null),
+        'line-color': severityColor(c),
         'line-width': 3,
         'line-opacity': 0.9,
       },
@@ -191,7 +191,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
           ['interpolate', ['linear'], ['get', 'violations'], 20, 8, 200, 14, 1000, 22],
           22,
         ],
-        'circle-color': severityColor(c, null),
+        'circle-color': severityColor(c),
         'circle-opacity': ['case', ['==', ['get', 'dimmed'], 1], 0.25, 0.95],
         'circle-stroke-width': ['case', ['==', ['get', 'selected'], 1], 3, 1.5],
         'circle-stroke-color': ['case', ['==', ['get', 'selected'], 1], c.teal, c.stroke],
