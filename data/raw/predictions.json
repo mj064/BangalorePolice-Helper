@@ -1,196 +1,539 @@
 [
   {
-    "hotspot_id": "BTP082 - KR Market Junction",
-    "hotspot_name": "BTP082 - KR Market Junction",
-    "risk_score": 75,
+    "hotspot_id": "MBT Road, Devasandra Junction",
+    "hotspot_name": "MBT Road, Devasandra Junction",
+    "risk_score": 97,
     "risk_level": "Critical",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "BTP051 - Safina Plaza Junction",
     "hotspot_name": "BTP051 - Safina Plaza Junction",
-    "risk_score": 71,
+    "risk_score": 91,
     "risk_level": "Critical",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "BTP027 - Modi Bridge Junction",
-    "hotspot_name": "BTP027 - Modi Bridge Junction",
-    "risk_score": 71,
+    "hotspot_id": "Railway Line Road",
+    "hotspot_name": "Railway Line Road",
+    "risk_score": 89,
     "risk_level": "Critical",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "MBT Road, Devasandra Junction",
-    "hotspot_name": "MBT Road, Devasandra Junction",
-    "risk_score": 70,
+    "hotspot_id": "Road Number 1",
+    "hotspot_name": "Road Number 1",
+    "risk_score": 87,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP016 - 5th Main Road, RPC Layout",
+    "hotspot_name": "BTP016 - 5th Main Road, RPC Layout",
+    "risk_score": 86,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP017 - Attiguppe Circle",
+    "hotspot_name": "BTP017 - Attiguppe Circle",
+    "risk_score": 85,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bagalur Road",
+    "hotspot_name": "Bagalur Road",
+    "risk_score": 85,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Lingarajapuram Flyover",
+    "hotspot_name": "Lingarajapuram Flyover",
+    "risk_score": 85,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mims Gulmohar Road",
+    "hotspot_name": "Mims Gulmohar Road",
+    "risk_score": 84,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Neeladri Road",
+    "hotspot_name": "Neeladri Road",
+    "risk_score": 84,
     "risk_level": "Critical",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "New Horizon College Road",
     "hotspot_name": "New Horizon College Road",
-    "risk_score": 68,
-    "risk_level": "High",
+    "risk_score": 84,
+    "risk_level": "Critical",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "Unnamed Road",
     "hotspot_name": "Unnamed Road",
-    "risk_score": 65,
-    "risk_level": "High",
+    "risk_score": 83,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Whitefield Road",
+    "hotspot_name": "Whitefield Road",
+    "risk_score": 83,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP074 - Leprosy Hospital Junction",
+    "hotspot_name": "BTP074 - Leprosy Hospital Junction",
+    "risk_score": 82,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "MBT Road, SM Layout",
+    "hotspot_name": "MBT Road, SM Layout",
+    "risk_score": 82,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Outer Ring Road",
+    "hotspot_name": "Outer Ring Road",
+    "risk_score": 82,
+    "risk_level": "Critical",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "BTP054 - Shivananda Circle",
     "hotspot_name": "BTP054 - Shivananda Circle",
-    "risk_score": 65,
-    "risk_level": "High",
+    "risk_score": 81,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP130 - GD Mara Junction",
+    "hotspot_name": "BTP130 - GD Mara Junction",
+    "risk_score": 81,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Dr BR Ambedkar Road",
+    "hotspot_name": "Dr BR Ambedkar Road",
+    "risk_score": 81,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP172 - Nanjappa Circle",
+    "hotspot_name": "BTP172 - Nanjappa Circle",
+    "risk_score": 80,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bhadrappa Flyover",
+    "hotspot_name": "Bhadrappa Flyover",
+    "risk_score": 80,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Chikka Banavara RS Road",
+    "hotspot_name": "Chikka Banavara RS Road",
+    "risk_score": 79,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "MBT Road, Royal Heritage",
+    "hotspot_name": "MBT Road, Royal Heritage",
+    "risk_score": 79,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Vibgyor High School Road",
+    "hotspot_name": "Vibgyor High School Road",
+    "risk_score": 79,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Allalasandra Main Road",
+    "hotspot_name": "Allalasandra Main Road",
+    "risk_score": 78,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Whitefield Road",
+    "hotspot_name": "Whitefield Road",
+    "risk_score": 77,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Outer Ring Road",
+    "hotspot_name": "Outer Ring Road",
+    "risk_score": 76,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "5th Cross Road",
+    "hotspot_name": "5th Cross Road",
+    "risk_score": 74,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP163 - 16th Main Road, BTM Layout",
+    "hotspot_name": "BTP163 - 16th Main Road, BTM Layout",
+    "risk_score": 74,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bellary Road",
+    "hotspot_name": "Bellary Road",
+    "risk_score": 74,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Nallurahalli Road",
+    "hotspot_name": "Nallurahalli Road",
+    "risk_score": 74,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP155 - Katriguppe Junction",
+    "hotspot_name": "BTP155 - Katriguppe Junction",
+    "risk_score": 72,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP108 - Tagore Park Junction",
+    "hotspot_name": "BTP108 - Tagore Park Junction",
+    "risk_score": 71,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "8th Main Road",
+    "hotspot_name": "8th Main Road",
+    "risk_score": 70,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP123 - 10th Cross, Wilson Garden",
+    "hotspot_name": "BTP123 - 10th Cross, Wilson Garden",
+    "risk_score": 70,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP105 - Shivasankara Circle",
+    "hotspot_name": "BTP105 - Shivasankara Circle",
+    "risk_score": 69,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Global City Tech Park Road",
+    "hotspot_name": "Global City Tech Park Road",
+    "risk_score": 69,
+    "risk_level": "Critical",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "Sahakar Nagar Road",
     "hotspot_name": "Sahakar Nagar Road",
+    "risk_score": 69,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "20th Main Road",
+    "hotspot_name": "20th Main Road",
+    "risk_score": 68,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP027 - Modi Bridge Junction",
+    "hotspot_name": "BTP027 - Modi Bridge Junction",
+    "risk_score": 68,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+    "hotspot_name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+    "risk_score": 68,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Dr APJ Abdul Kalam Marg",
+    "hotspot_name": "Dr APJ Abdul Kalam Marg",
+    "risk_score": 68,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
+    "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
+    "risk_score": 68,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "risk_score": 68,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bellary Road",
+    "hotspot_name": "Bellary Road",
+    "risk_score": 67,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Gnana Bharathi Road",
+    "hotspot_name": "Gnana Bharathi Road",
+    "risk_score": 67,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "risk_score": 67,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Marathahalli Underpass",
+    "hotspot_name": "Marathahalli Underpass",
+    "risk_score": 67,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Old Madras Road",
+    "hotspot_name": "Old Madras Road",
+    "risk_score": 67,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "risk_score": 66,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP208 - Havanur Circle",
+    "hotspot_name": "BTP208 - Havanur Circle",
+    "risk_score": 66,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Banaswadi Main Road",
+    "hotspot_name": "Banaswadi Main Road",
+    "risk_score": 66,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "hotspot_name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "risk_score": 66,
+    "risk_level": "Critical",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "8th Main Road",
+    "hotspot_name": "8th Main Road",
     "risk_score": 65,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP190 - 36th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP190 - 36th Cross, 4th Main, Jayanagar",
+    "risk_score": 65,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "ITPL Main Road",
+    "hotspot_name": "ITPL Main Road",
+    "risk_score": 65,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 65,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP041 - Gopal Gowda Circle",
+    "hotspot_name": "BTP041 - Gopal Gowda Circle",
+    "risk_score": 64,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "RT Nagar Main Road",
+    "hotspot_name": "RT Nagar Main Road",
+    "risk_score": 64,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sarjapura Main Road",
+    "hotspot_name": "Sarjapura Main Road",
+    "risk_score": 64,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "13th Main Road",
+    "hotspot_name": "13th Main Road",
+    "risk_score": 63,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "19th Main Road",
+    "hotspot_name": "19th Main Road",
+    "risk_score": 63,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "3rd Main Road",
+    "hotspot_name": "3rd Main Road",
+    "risk_score": 63,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP192 - Urvashi Theater",
+    "hotspot_name": "BTP192 - Urvashi Theater",
+    "risk_score": 63,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "J Lingaiah Road",
+    "hotspot_name": "J Lingaiah Road",
+    "risk_score": 63,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Seppings Road",
+    "hotspot_name": "Seppings Road",
+    "risk_score": 63,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "27th Cross Road",
+    "hotspot_name": "27th Cross Road",
+    "risk_score": 62,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "60 Feet Road",
+    "hotspot_name": "60 Feet Road",
+    "risk_score": 62,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP202 - East End Main Road, Jayanagar",
+    "hotspot_name": "BTP202 - East End Main Road, Jayanagar",
+    "risk_score": 62,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hosahalli Main Road",
+    "hotspot_name": "Hosahalli Main Road",
+    "risk_score": 62,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "17th Cross Road",
     "hotspot_name": "17th Cross Road",
-    "risk_score": 64,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP032 - Windsor Circle",
-    "hotspot_name": "BTP032 - Windsor Circle",
-    "risk_score": 64,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP137 - Madiwala Traffic PS Junction",
-    "hotspot_name": "BTP137 - Madiwala Traffic PS Junction",
-    "risk_score": 64,
+    "risk_score": 61,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "BTP148 - 17th Main, Doopanahalli Bus Stop",
     "hotspot_name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
-    "risk_score": 63,
+    "risk_score": 61,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Neeladri Road",
-    "hotspot_name": "Neeladri Road",
-    "risk_score": 63,
+    "hotspot_id": "Pusa Thippasandra Main Road",
+    "hotspot_name": "Pusa Thippasandra Main Road",
+    "risk_score": 61,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Outer Ring Road",
-    "hotspot_name": "Outer Ring Road",
-    "risk_score": 63,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Old Madras Road",
-    "hotspot_name": "Old Madras Road",
-    "risk_score": 63,
+    "hotspot_id": "Shri Ramalingeshwara Cave Temple Road",
+    "hotspot_name": "Shri Ramalingeshwara Cave Temple Road",
+    "risk_score": 61,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "Thanisandra Main Road",
     "hotspot_name": "Thanisandra Main Road",
-    "risk_score": 63,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Coles Road",
-    "hotspot_name": "Coles Road",
-    "risk_score": 62,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP016 - 5th Main Road, RPC Layout",
-    "hotspot_name": "BTP016 - 5th Main Road, RPC Layout",
-    "risk_score": 62,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bellary Road",
-    "hotspot_name": "Bellary Road",
-    "risk_score": 62,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "MN Krishnarao Road",
-    "hotspot_name": "MN Krishnarao Road",
-    "risk_score": 62,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP051 - Safina Plaza Junction",
-    "hotspot_name": "BTP051 - Safina Plaza Junction",
     "risk_score": 61,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "MBT Road, Royal Heritage",
-    "hotspot_name": "MBT Road, Royal Heritage",
-    "risk_score": 61,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP096 - Gali Anjaneya Temple",
-    "hotspot_name": "BTP096 - Gali Anjaneya Temple",
-    "risk_score": 61,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP137 - Madiwala Traffic PS Junction",
-    "hotspot_name": "BTP137 - Madiwala Traffic PS Junction",
+    "hotspot_id": "2nd Main Road",
+    "hotspot_name": "2nd Main Road",
     "risk_score": 60,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Hosur Road",
-    "hotspot_name": "Hosur Road",
-    "risk_score": 60,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP189 - New Diagonal Road, Jayanagar",
-    "hotspot_name": "BTP189 - New Diagonal Road, Jayanagar",
-    "risk_score": 60,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "20th Main Road",
-    "hotspot_name": "20th Main Road",
-    "risk_score": 60,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP172 - Nanjappa Circle",
-    "hotspot_name": "BTP172 - Nanjappa Circle",
+    "hotspot_id": "BTP042 - Minsk Square Junction (CTO)",
+    "hotspot_name": "BTP042 - Minsk Square Junction (CTO)",
     "risk_score": 60,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
@@ -203,176 +546,85 @@
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "BTP108 - Tagore Park Junction",
-    "hotspot_name": "BTP108 - Tagore Park Junction",
+    "hotspot_id": "Bellahali Main Road",
+    "hotspot_name": "Bellahali Main Road",
     "risk_score": 60,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Jakkur Main Road",
-    "hotspot_name": "Jakkur Main Road",
-    "risk_score": 60,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "ITPL Main Road",
-    "hotspot_name": "ITPL Main Road",
-    "risk_score": 60,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Pusa Thippasandra Main Road",
-    "hotspot_name": "Pusa Thippasandra Main Road",
-    "risk_score": 60,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "MBT Road, SM Layout",
-    "hotspot_name": "MBT Road, SM Layout",
-    "risk_score": 59,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Whitefield Road",
-    "hotspot_name": "Whitefield Road",
-    "risk_score": 59,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP074 - Leprosy Hospital Junction",
-    "hotspot_name": "BTP074 - Leprosy Hospital Junction",
-    "risk_score": 59,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "Hosapalya Main Road",
     "hotspot_name": "Hosapalya Main Road",
+    "risk_score": 60,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP114 - KR Road Junction, Near JSS",
+    "hotspot_name": "BTP114 - KR Road Junction, Near JSS",
     "risk_score": 59,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "BTP115 - Sahasra Hospital, Jayanagar",
-    "hotspot_name": "BTP115 - Sahasra Hospital, Jayanagar",
+    "hotspot_id": "Coles Road",
+    "hotspot_name": "Coles Road",
     "risk_score": 59,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Mumbai Bengaluru Highway",
-    "hotspot_name": "Mumbai Bengaluru Highway",
+    "hotspot_id": "HMT Main Road",
+    "hotspot_name": "HMT Main Road",
     "risk_score": 59,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "BTP192 - Urvashi Theater",
-    "hotspot_name": "BTP192 - Urvashi Theater",
+    "hotspot_id": "Old Madras Road",
+    "hotspot_name": "Old Madras Road",
+    "risk_score": 59,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "1st Main Road",
+    "hotspot_name": "1st Main Road",
     "risk_score": 58,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Bhadrappa Flyover",
-    "hotspot_name": "Bhadrappa Flyover",
+    "hotspot_id": "BTP018 - Dhobi Ghat Junction",
+    "hotspot_name": "BTP018 - Dhobi Ghat Junction",
     "risk_score": 58,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "BTP186 - 9th Cross, 4th Main, Jayanagar",
-    "hotspot_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "hotspot_id": "BTP096 - Gali Anjaneya Temple",
+    "hotspot_name": "BTP096 - Gali Anjaneya Temple",
     "risk_score": 58,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Bengaluru Bellary Road",
-    "hotspot_name": "Bengaluru Bellary Road",
-    "risk_score": 58,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bagalur Road",
-    "hotspot_name": "Bagalur Road",
-    "risk_score": 58,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Amrutha College Road",
-    "hotspot_name": "Amrutha College Road",
+    "hotspot_id": "1st A Main Road",
+    "hotspot_name": "1st A Main Road",
     "risk_score": 57,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "BTP148 - 17th Main, Doopanahalli Bus Stop",
-    "hotspot_name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
+    "hotspot_id": "1st Cross Road",
+    "hotspot_name": "1st Cross Road",
     "risk_score": 57,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Whitefield Road",
-    "hotspot_name": "Whitefield Road",
-    "risk_score": 57,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP208 - Havanur Circle",
-    "hotspot_name": "BTP208 - Havanur Circle",
-    "risk_score": 57,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP091 - Sirsi Circle",
-    "hotspot_name": "BTP091 - Sirsi Circle",
-    "risk_score": 57,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "80 Feet Road",
-    "hotspot_name": "80 Feet Road",
-    "risk_score": 57,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Shri Ramalingeshwara Cave Temple Road",
-    "hotspot_name": "Shri Ramalingeshwara Cave Temple Road",
-    "risk_score": 57,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP017 - Attiguppe Circle",
-    "hotspot_name": "BTP017 - Attiguppe Circle",
-    "risk_score": 57,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP041 - Gopal Gowda Circle",
-    "hotspot_name": "BTP041 - Gopal Gowda Circle",
-    "risk_score": 57,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "ITPL Main Road",
-    "hotspot_name": "ITPL Main Road",
+    "hotspot_id": "3rd A Cross Road",
+    "hotspot_name": "3rd A Cross Road",
     "risk_score": 57,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
@@ -385,190 +637,85 @@
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
-    "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
+    "hotspot_id": "BTP214 - 5th Main Chamrajpet  Junction",
+    "hotspot_name": "BTP214 - 5th Main Chamrajpet  Junction",
+    "risk_score": 57,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bannerghatta Main Road",
+    "hotspot_name": "Bannerghatta Main Road",
+    "risk_score": 57,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Professor K Venkatachalam Circle",
+    "hotspot_name": "Professor K Venkatachalam Circle",
+    "risk_score": 57,
+    "risk_level": "High",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "2nd Main Road",
+    "hotspot_name": "2nd Main Road",
     "risk_score": 56,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Srinivagilu Main Road",
-    "hotspot_name": "Srinivagilu Main Road",
+    "hotspot_id": "5th Main Road",
+    "hotspot_name": "5th Main Road",
     "risk_score": 56,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "BTP136 - Hosur-Tavarkere Road Junction",
-    "hotspot_name": "BTP136 - Hosur-Tavarkere Road Junction",
+    "hotspot_id": "Mahadevapura Flyover",
+    "hotspot_name": "Mahadevapura Flyover",
     "risk_score": 56,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "BTP137 - Madiwala Traffic PS Junction",
-    "hotspot_name": "BTP137 - Madiwala Traffic PS Junction",
+    "hotspot_id": "Sir CV Raman Hospital Road",
+    "hotspot_name": "Sir CV Raman Hospital Road",
     "risk_score": 56,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Vibgyor High School Road",
-    "hotspot_name": "Vibgyor High School Road",
-    "risk_score": 56,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Chikka Banavara RS Road",
-    "hotspot_name": "Chikka Banavara RS Road",
-    "risk_score": 56,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Gnana Bharathi Road",
-    "hotspot_name": "Gnana Bharathi Road",
-    "risk_score": 55,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "RT Nagar Main Road",
-    "hotspot_name": "RT Nagar Main Road",
-    "risk_score": 55,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "4th Cross Road",
-    "hotspot_name": "4th Cross Road",
-    "risk_score": 55,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "5th Cross Road",
-    "hotspot_name": "5th Cross Road",
-    "risk_score": 55,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP010 - Rajajinagar Entrance",
-    "hotspot_name": "BTP010 - Rajajinagar Entrance",
-    "risk_score": 55,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP130 - GD Mara Junction",
-    "hotspot_name": "BTP130 - GD Mara Junction",
-    "risk_score": 55,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP163 - 16th Main Road, BTM Layout",
-    "hotspot_name": "BTP163 - 16th Main Road, BTM Layout",
-    "risk_score": 55,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hosa Road, Channakeshava Nagar",
-    "hotspot_name": "Hosa Road, Channakeshava Nagar",
-    "risk_score": 55,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Allalasandra Main Road",
-    "hotspot_name": "Allalasandra Main Road",
-    "risk_score": 55,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bellary Road",
-    "hotspot_name": "Bellary Road",
-    "risk_score": 55,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
-    "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
-    "risk_score": 55,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "Thanisandra Main Road",
     "hotspot_name": "Thanisandra Main Road",
-    "risk_score": 55,
+    "risk_score": 56,
     "risk_level": "High",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Hosahalli Main Road",
-    "hotspot_name": "Hosahalli Main Road",
+    "hotspot_id": "Amrita College Road",
+    "hotspot_name": "Amrita College Road",
     "risk_score": 55,
-    "risk_level": "High",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "8th Main Road",
-    "hotspot_name": "8th Main Road",
-    "risk_score": 54,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Chinmaya Mission Hospital Road",
-    "hotspot_name": "Chinmaya Mission Hospital Road",
-    "risk_score": 54,
+    "hotspot_id": "BTP216 - Yediyur Junction",
+    "hotspot_name": "BTP216 - Yediyur Junction",
+    "risk_score": 55,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "BTP123 - 10th Cross, Wilson Garden",
-    "hotspot_name": "BTP123 - 10th Cross, Wilson Garden",
-    "risk_score": 54,
+    "hotspot_id": "Bengaluru Bellary Road",
+    "hotspot_name": "Bengaluru Bellary Road",
+    "risk_score": 55,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "BTP030 - Mekhri Circle",
-    "hotspot_name": "BTP030 - Mekhri Circle",
-    "risk_score": 54,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP140 - Madiwala Check Post",
-    "hotspot_name": "BTP140 - Madiwala Check Post",
-    "risk_score": 54,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP197 - 9th Cross, 24th Main, JP Nagar",
-    "hotspot_name": "BTP197 - 9th Cross, 24th Main, JP Nagar",
-    "risk_score": 54,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mallathahalli Road",
-    "hotspot_name": "Mallathahalli Road",
-    "risk_score": 54,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "CV Raman Road",
-    "hotspot_name": "CV Raman Road",
+    "hotspot_id": "BTP032 - Windsor Circle",
+    "hotspot_name": "BTP032 - Windsor Circle",
     "risk_score": 54,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
@@ -581,2368 +728,2221 @@
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Sri Sri Sri Tiruchi Mahaswamiji Road",
-    "hotspot_name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "hotspot_id": "Chinmaya Mission Hospital Road",
+    "hotspot_name": "Chinmaya Mission Hospital Road",
     "risk_score": 54,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP091 - Sirsi Circle",
-    "hotspot_name": "BTP091 - Sirsi Circle",
-    "risk_score": 54,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Jayamahal Main Road",
-    "hotspot_name": "Jayamahal Main Road",
-    "risk_score": 54,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mumbai Bengaluru Highway",
-    "hotspot_name": "Mumbai Bengaluru Highway",
-    "risk_score": 54,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Siddhapura Road",
-    "hotspot_name": "Siddhapura Road",
-    "risk_score": 54,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP203 - RRMR Junction",
-    "hotspot_name": "BTP203 - RRMR Junction",
-    "risk_score": 54,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP032 - Windsor Circle",
-    "hotspot_name": "BTP032 - Windsor Circle",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP102 - BMTC Junction, KH Road",
-    "hotspot_name": "BTP102 - BMTC Junction, KH Road",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Laggere Service Road",
-    "hotspot_name": "Laggere Service Road",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Outer Ring Road",
-    "hotspot_name": "Outer Ring Road",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP106 - VV Puram College",
-    "hotspot_name": "BTP106 - VV Puram College",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "20th Main Road",
-    "hotspot_name": "20th Main Road",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sarjapura Main Road",
-    "hotspot_name": "Sarjapura Main Road",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mumbai Bengaluru Highway",
-    "hotspot_name": "Mumbai Bengaluru Highway",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP132 - Anepalya Junction",
-    "hotspot_name": "BTP132 - Anepalya Junction",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP098 - Nayandahalli Junction",
-    "hotspot_name": "BTP098 - Nayandahalli Junction",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hosur Road",
-    "hotspot_name": "Hosur Road",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP145 - Sri Hatti Maramma Circle, Domluru",
-    "hotspot_name": "BTP145 - Sri Hatti Maramma Circle, Domluru",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Srinivagilu Main Road",
-    "hotspot_name": "Srinivagilu Main Road",
-    "risk_score": 53,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP034 - LRDE Junction",
-    "hotspot_name": "BTP034 - LRDE Junction",
-    "risk_score": 52,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP155 - Katriguppe Junction",
-    "hotspot_name": "BTP155 - Katriguppe Junction",
-    "risk_score": 52,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hosur Road",
-    "hotspot_name": "Hosur Road",
-    "risk_score": 52,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Konanakunte Main Road",
-    "hotspot_name": "Konanakunte Main Road",
-    "risk_score": 52,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "SM Road, Sri Ayyappa Nagar",
-    "hotspot_name": "SM Road, Sri Ayyappa Nagar",
-    "risk_score": 52,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "3rd Main Road",
-    "hotspot_name": "3rd Main Road",
-    "risk_score": 52,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "MS Ramaiah Road",
-    "hotspot_name": "MS Ramaiah Road",
-    "risk_score": 52,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP136 - Hosur-Tavarkere Road Junction",
-    "hotspot_name": "BTP136 - Hosur-Tavarkere Road Junction",
-    "risk_score": 52,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP215 - Vanivillas Junction",
-    "hotspot_name": "BTP215 - Vanivillas Junction",
-    "risk_score": 52,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP202 - East End Main Road, Jayanagar",
-    "hotspot_name": "BTP202 - East End Main Road, Jayanagar",
-    "risk_score": 52,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Jalahalli Cross Road",
-    "hotspot_name": "Jalahalli Cross Road",
-    "risk_score": 52,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP098 - Nayandahalli Junction",
-    "hotspot_name": "BTP098 - Nayandahalli Junction",
-    "risk_score": 52,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mumbai Bengaluru Highway",
-    "hotspot_name": "Mumbai Bengaluru Highway",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Magadi Main Road",
-    "hotspot_name": "Magadi Main Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sarjapura Main Road",
-    "hotspot_name": "Sarjapura Main Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP126 - Dairy Circle",
-    "hotspot_name": "BTP126 - Dairy Circle",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Chikkabellanduru Road",
-    "hotspot_name": "Chikkabellanduru Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sarjapura Main Road",
-    "hotspot_name": "Sarjapura Main Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "1st Cross Road",
-    "hotspot_name": "1st Cross Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP099 - Cash Pharmacy, Residency Road",
-    "hotspot_name": "BTP099 - Cash Pharmacy, Residency Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hosur Road",
-    "hotspot_name": "Hosur Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Munninarasimha Road",
-    "hotspot_name": "Munninarasimha Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mumbai Bengaluru Highway",
-    "hotspot_name": "Mumbai Bengaluru Highway",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Soniya Gandhi Road",
-    "hotspot_name": "Soniya Gandhi Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP023 - Mahalaxmi Layout Entrance",
-    "hotspot_name": "BTP023 - Mahalaxmi Layout Entrance",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "19th Main Road",
-    "hotspot_name": "19th Main Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP163 - 16th Main Road, BTM Layout",
-    "hotspot_name": "BTP163 - 16th Main Road, BTM Layout",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Professor K Venkatachalam Circle",
-    "hotspot_name": "Professor K Venkatachalam Circle",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bellahali Main Road",
-    "hotspot_name": "Bellahali Main Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP216 - Yediyur Junction",
-    "hotspot_name": "BTP216 - Yediyur Junction",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Subramanyapura Main Road",
-    "hotspot_name": "Subramanyapura Main Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Nallurahalli Road",
-    "hotspot_name": "Nallurahalli Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP142 - Lower Agram Road Junction",
-    "hotspot_name": "BTP142 - Lower Agram Road Junction",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "HAL Airport Road",
-    "hotspot_name": "HAL Airport Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Dr BR Ambedkar Road",
-    "hotspot_name": "Dr BR Ambedkar Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Jalahalli Main Road",
-    "hotspot_name": "Jalahalli Main Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "80 Feet Road",
-    "hotspot_name": "80 Feet Road",
-    "risk_score": 51,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bellary Road",
-    "hotspot_name": "Bellary Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Whitefield Road",
-    "hotspot_name": "Whitefield Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sarjapura Main Road",
-    "hotspot_name": "Sarjapura Main Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP123 - 10th Cross, Wilson Garden",
-    "hotspot_name": "BTP123 - 10th Cross, Wilson Garden",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Thanisandra Main Road",
-    "hotspot_name": "Thanisandra Main Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",
-    "hotspot_name": "BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bannerghatta Main Road",
-    "hotspot_name": "Bannerghatta Main Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Banaswadi Main Road",
-    "hotspot_name": "Banaswadi Main Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "ITPL Main Road",
-    "hotspot_name": "ITPL Main Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "J Lingaiah Road",
-    "hotspot_name": "J Lingaiah Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Commissariat Road",
-    "hotspot_name": "Commissariat Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP222 - Delmia Circle",
-    "hotspot_name": "BTP222 - Delmia Circle",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "8th Main Road",
-    "hotspot_name": "8th Main Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hoodi Main Road",
-    "hotspot_name": "Hoodi Main Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bagaluru Main Road",
-    "hotspot_name": "Bagaluru Main Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "2nd Main Road",
-    "hotspot_name": "2nd Main Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Railway Line Road",
-    "hotspot_name": "Railway Line Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bengaluru Bellary Road",
-    "hotspot_name": "Bengaluru Bellary Road",
-    "risk_score": 50,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "27th Main Road",
-    "hotspot_name": "27th Main Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kengeri Main Road",
-    "hotspot_name": "Kengeri Main Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hosur Road",
-    "hotspot_name": "Hosur Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP085 - Briyand Circle",
-    "hotspot_name": "BTP085 - Briyand Circle",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Whitefield Main Road",
-    "hotspot_name": "Whitefield Main Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP052 - CID Carlton House Junction",
-    "hotspot_name": "BTP052 - CID Carlton House Junction",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP122 - Siddapura Junction",
-    "hotspot_name": "BTP122 - Siddapura Junction",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "3rd A Cross Road",
-    "hotspot_name": "3rd A Cross Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Rajatha Bhavana Road",
-    "hotspot_name": "Rajatha Bhavana Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Magadi Main Road",
-    "hotspot_name": "Magadi Main Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Millers Road",
-    "hotspot_name": "Millers Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "1st Cross Road",
-    "hotspot_name": "1st Cross Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP217 - Baleyele Junction",
-    "hotspot_name": "BTP217 - Baleyele Junction",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "27th Cross Road",
-    "hotspot_name": "27th Cross Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Forest Region Road",
-    "hotspot_name": "Forest Region Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "2nd Main Road",
-    "hotspot_name": "2nd Main Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mumbai Bengaluru Highway",
-    "hotspot_name": "Mumbai Bengaluru Highway",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP184 - Lalbagh West Gate",
-    "hotspot_name": "BTP184 - Lalbagh West Gate",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mims Gulmohar Road",
-    "hotspot_name": "Mims Gulmohar Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP186 - 9th Cross, 4th Main, Jayanagar",
-    "hotspot_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sir CV Raman Hospital Road",
-    "hotspot_name": "Sir CV Raman Hospital Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BDA 80 Feet Road",
-    "hotspot_name": "BDA 80 Feet Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "1st Main Road",
-    "hotspot_name": "1st Main Road",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Road Number 1",
-    "hotspot_name": "Road Number 1",
-    "risk_score": 49,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP042 - Minsk Square Junction (CTO)",
-    "hotspot_name": "BTP042 - Minsk Square Junction (CTO)",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP166 - Coffee Board Junction",
-    "hotspot_name": "BTP166 - Coffee Board Junction",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "ITPL Main Road",
-    "hotspot_name": "ITPL Main Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP074 - Leprosy Hospital Junction",
-    "hotspot_name": "BTP074 - Leprosy Hospital Junction",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sri Sri Sri Tiruchi Mahaswamiji Road",
-    "hotspot_name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hesaraghatta Main Road",
-    "hotspot_name": "Hesaraghatta Main Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Amrita College Road",
-    "hotspot_name": "Amrita College Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP030 - Mekhri Circle",
-    "hotspot_name": "BTP030 - Mekhri Circle",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Old Airport Road",
-    "hotspot_name": "Old Airport Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Yelahanka New Town Main Road",
-    "hotspot_name": "Yelahanka New Town Main Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kodigehalli Main Road",
-    "hotspot_name": "Kodigehalli Main Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kodigehalli Main Road",
-    "hotspot_name": "Kodigehalli Main Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Tannery Road",
-    "hotspot_name": "Tannery Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "KIADB Road",
-    "hotspot_name": "KIADB Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Old Airport Road",
-    "hotspot_name": "Old Airport Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Dr Rajgopal Road",
-    "hotspot_name": "Dr Rajgopal Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Whitefield Main Road",
-    "hotspot_name": "Whitefield Main Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP035 - Basaweshwara Circle (LH) Junction",
-    "hotspot_name": "BTP035 - Basaweshwara Circle (LH) Junction",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Outer Ring Road",
-    "hotspot_name": "Outer Ring Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Muthsandra Main Road",
-    "hotspot_name": "Muthsandra Main Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP221 - 15th Cross, 24th Main, JP Nagar",
-    "hotspot_name": "BTP221 - 15th Cross, 24th Main, JP Nagar",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP133 - Adugodi Junction",
-    "hotspot_name": "BTP133 - Adugodi Junction",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP105 - Shivasankara Circle",
-    "hotspot_name": "BTP105 - Shivasankara Circle",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "4th Main Road",
-    "hotspot_name": "4th Main Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP214 - 5th Main Chamrajpet  Junction",
-    "hotspot_name": "BTP214 - 5th Main Chamrajpet  Junction",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "1st Cross Road",
-    "hotspot_name": "1st Cross Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bengaluru Bellary Road",
-    "hotspot_name": "Bengaluru Bellary Road",
-    "risk_score": 48,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Konanakunte Main Road",
-    "hotspot_name": "Konanakunte Main Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Rajgopal Nagar Main Road",
-    "hotspot_name": "Rajgopal Nagar Main Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Marathahalli Underpass",
-    "hotspot_name": "Marathahalli Underpass",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kodichikkanahalli Main Road",
-    "hotspot_name": "Kodichikkanahalli Main Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Subramanyapura Main Road",
-    "hotspot_name": "Subramanyapura Main Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "MBT Road, Avalahalli South Taluka",
-    "hotspot_name": "MBT Road, Avalahalli South Taluka",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
-    "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
-    "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sarjapura Main Road",
-    "hotspot_name": "Sarjapura Main Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP172 - Nanjappa Circle",
-    "hotspot_name": "BTP172 - Nanjappa Circle",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sultanji Gunta Road",
-    "hotspot_name": "Sultanji Gunta Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP222 - Delmia Circle",
-    "hotspot_name": "BTP222 - Delmia Circle",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hosur Road",
-    "hotspot_name": "Hosur Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP191 - 40th Cross, 4th Main, Jayanagar",
-    "hotspot_name": "BTP191 - 40th Cross, 4th Main, Jayanagar",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP106 - VV Puram College",
-    "hotspot_name": "BTP106 - VV Puram College",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Dr APJ Abdul Kalam Marg",
-    "hotspot_name": "Dr APJ Abdul Kalam Marg",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kanteerava Studio Road",
-    "hotspot_name": "Kanteerava Studio Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Dr Vishnuvardhan Main Road",
-    "hotspot_name": "Dr Vishnuvardhan Main Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "HAL Airport Road",
-    "hotspot_name": "HAL Airport Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP190 - 36th Cross, 4th Main, Jayanagar",
-    "hotspot_name": "BTP190 - 36th Cross, 4th Main, Jayanagar",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP221 - 15th Cross, 24th Main, JP Nagar",
-    "hotspot_name": "BTP221 - 15th Cross, 24th Main, JP Nagar",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Haralur Road",
-    "hotspot_name": "Haralur Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sri Vinayaka Temple Main Road",
-    "hotspot_name": "Sri Vinayaka Temple Main Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "60 Feet Road",
-    "hotspot_name": "60 Feet Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Marathahalli Bridge Service Road",
-    "hotspot_name": "Marathahalli Bridge Service Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bannerghatta Main Road",
-    "hotspot_name": "Bannerghatta Main Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "5th A Cross Road",
-    "hotspot_name": "5th A Cross Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP127 - Sagar Hospital, Jayanagar",
-    "hotspot_name": "BTP127 - Sagar Hospital, Jayanagar",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hebbal Flyover",
-    "hotspot_name": "Hebbal Flyover",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "MBT Road, Brigade Golden Triangle",
-    "hotspot_name": "MBT Road, Brigade Golden Triangle",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP193 - Vasavi Circle",
-    "hotspot_name": "BTP193 - Vasavi Circle",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP063 - Siddalingaiah Circle",
-    "hotspot_name": "BTP063 - Siddalingaiah Circle",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Konanakunte Main Road",
-    "hotspot_name": "Konanakunte Main Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Westend Avenue",
-    "hotspot_name": "Westend Avenue",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hosur Road",
-    "hotspot_name": "Hosur Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Palace Road",
-    "hotspot_name": "Palace Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP185 - RV Teachers College",
-    "hotspot_name": "BTP185 - RV Teachers College",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "80 Feet Road",
-    "hotspot_name": "80 Feet Road",
-    "risk_score": 47,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP091 - Sirsi Circle",
-    "hotspot_name": "BTP091 - Sirsi Circle",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "19th Main Road",
-    "hotspot_name": "19th Main Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "HMT Main Road",
-    "hotspot_name": "HMT Main Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP215 - Vanivillas Junction",
-    "hotspot_name": "BTP215 - Vanivillas Junction",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "17th Cross Road",
-    "hotspot_name": "17th Cross Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "G Narayana Kumar Road",
-    "hotspot_name": "G Narayana Kumar Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP159 - JP Nagar Metro, ORR",
-    "hotspot_name": "BTP159 - JP Nagar Metro, ORR",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bannerghatta Main Road",
-    "hotspot_name": "Bannerghatta Main Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mumbai Bengaluru Highway",
-    "hotspot_name": "Mumbai Bengaluru Highway",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "10th Cross Road",
-    "hotspot_name": "10th Cross Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bannerghatta Main Road",
-    "hotspot_name": "Bannerghatta Main Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Suranjan Das Road",
-    "hotspot_name": "Suranjan Das Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kodigehalli Road",
-    "hotspot_name": "Kodigehalli Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP214 - 5th Main Chamrajpet  Junction",
-    "hotspot_name": "BTP214 - 5th Main Chamrajpet  Junction",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Whitefield Main Road",
-    "hotspot_name": "Whitefield Main Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Horamavu Main Road",
-    "hotspot_name": "Horamavu Main Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Banaswadi Main Road",
-    "hotspot_name": "Banaswadi Main Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hesaraghatta Main Road",
-    "hotspot_name": "Hesaraghatta Main Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "27th Main Road",
-    "hotspot_name": "27th Main Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP074 - Leprosy Hospital Junction",
-    "hotspot_name": "BTP074 - Leprosy Hospital Junction",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Doddagubbi Road",
-    "hotspot_name": "Doddagubbi Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kengeri Main Road",
-    "hotspot_name": "Kengeri Main Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Industrial Park Road",
-    "hotspot_name": "Industrial Park Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Gear School Road",
-    "hotspot_name": "Gear School Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Varthur Main Road",
-    "hotspot_name": "Varthur Main Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Amrutha College Road",
-    "hotspot_name": "Amrutha College Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP107 - National College Junction",
-    "hotspot_name": "BTP107 - National College Junction",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "4th Main Road",
-    "hotspot_name": "4th Main Road",
-    "risk_score": 46,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Amrutha College Road",
-    "hotspot_name": "Amrutha College Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Whitefield Main Road",
-    "hotspot_name": "Whitefield Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kengeri Magadi Road",
-    "hotspot_name": "Kengeri Magadi Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hoodi Main Road",
-    "hotspot_name": "Hoodi Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP074 - Leprosy Hospital Junction",
-    "hotspot_name": "BTP074 - Leprosy Hospital Junction",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kengeri Main Road",
-    "hotspot_name": "Kengeri Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP126 - Dairy Circle",
-    "hotspot_name": "BTP126 - Dairy Circle",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sarjapura Main Road",
-    "hotspot_name": "Sarjapura Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP191 - 40th Cross, 4th Main, Jayanagar",
-    "hotspot_name": "BTP191 - 40th Cross, 4th Main, Jayanagar",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Shankara Nagar Main Road",
-    "hotspot_name": "Shankara Nagar Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Abbigere Main Road",
-    "hotspot_name": "Abbigere Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Haralur Road",
-    "hotspot_name": "Haralur Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sulibele Road",
-    "hotspot_name": "Sulibele Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Doddaballapur Main Road",
-    "hotspot_name": "Doddaballapur Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Whitefield Main Road",
-    "hotspot_name": "Whitefield Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Watch Factory Road",
-    "hotspot_name": "Watch Factory Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hosur Road",
-    "hotspot_name": "Hosur Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP132 - Anepalya Junction",
-    "hotspot_name": "BTP132 - Anepalya Junction",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bagaluru Main Road",
-    "hotspot_name": "Bagaluru Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "6th Main Road",
-    "hotspot_name": "6th Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Nandini Layout Club Road",
-    "hotspot_name": "Nandini Layout Club Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mumbai Bengaluru Highway",
-    "hotspot_name": "Mumbai Bengaluru Highway",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Seppings Road",
-    "hotspot_name": "Seppings Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "15th Main Road",
-    "hotspot_name": "15th Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sri Kumaraswamy Temple Road",
-    "hotspot_name": "Sri Kumaraswamy Temple Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Varthur Main Road",
-    "hotspot_name": "Varthur Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP106 - VV Puram College",
-    "hotspot_name": "BTP106 - VV Puram College",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Ittamadu Road",
-    "hotspot_name": "Ittamadu Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP128 - Gorappanapalya Junction",
-    "hotspot_name": "BTP128 - Gorappanapalya Junction",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Old Madras Road",
-    "hotspot_name": "Old Madras Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Chunchaghatta Main Road",
-    "hotspot_name": "Chunchaghatta Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Thigalarapalya Main Road",
-    "hotspot_name": "Thigalarapalya Main Road",
-    "risk_score": 45,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Global City Tech Park Road",
-    "hotspot_name": "Global City Tech Park Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP134 - Mico Bande",
-    "hotspot_name": "BTP134 - Mico Bande",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "80 Feet Main Road",
-    "hotspot_name": "80 Feet Main Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "5th Main Road",
-    "hotspot_name": "5th Main Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP164 - 29th Main Road, BTM Layout",
-    "hotspot_name": "BTP164 - 29th Main Road, BTM Layout",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Magadi Main Road",
-    "hotspot_name": "Magadi Main Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "MBT Road, Zero Tolerance Junction",
-    "hotspot_name": "MBT Road, Zero Tolerance Junction",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Watch Factory Road",
-    "hotspot_name": "Watch Factory Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "1st Main Road",
-    "hotspot_name": "1st Main Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP190 - 36th Cross, 4th Main, Jayanagar",
-    "hotspot_name": "BTP190 - 36th Cross, 4th Main, Jayanagar",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP099 - Cash Pharmacy, Residency Road",
-    "hotspot_name": "BTP099 - Cash Pharmacy, Residency Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Konanakunte Main Road",
-    "hotspot_name": "Konanakunte Main Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Konanakunte Main Road",
-    "hotspot_name": "Konanakunte Main Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hesarghatta Road",
-    "hotspot_name": "Hesarghatta Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Padmasri CK Venkata Ramaiah Road",
-    "hotspot_name": "Padmasri CK Venkata Ramaiah Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mumbai Bengaluru Highway",
-    "hotspot_name": "Mumbai Bengaluru Highway",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Outer Ring Road",
-    "hotspot_name": "Outer Ring Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "HAL Airport Road",
-    "hotspot_name": "HAL Airport Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP053 - Three Let Junction",
-    "hotspot_name": "BTP053 - Three Let Junction",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Konanakunte Main Road",
-    "hotspot_name": "Konanakunte Main Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Yemalur Road",
-    "hotspot_name": "Yemalur Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Old Madras Road",
-    "hotspot_name": "Old Madras Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Siddavanahalli Krishna Sharma Road",
-    "hotspot_name": "Siddavanahalli Krishna Sharma Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP133 - Adugodi Junction",
-    "hotspot_name": "BTP133 - Adugodi Junction",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "MEC Road, BCM Vertex",
-    "hotspot_name": "MEC Road, BCM Vertex",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "60 Feet Road",
-    "hotspot_name": "60 Feet Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "1st A Main Road",
-    "hotspot_name": "1st A Main Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sri Annapoorneshwari Temple Road",
-    "hotspot_name": "Sri Annapoorneshwari Temple Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "8th Main Road",
-    "hotspot_name": "8th Main Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hennur Main Road",
-    "hotspot_name": "Hennur Main Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "1st Main Road",
-    "hotspot_name": "1st Main Road",
-    "risk_score": 44,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "HMT Main Road",
-    "hotspot_name": "HMT Main Road",
-    "risk_score": 44,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "Hewlett Packard Avenue",
     "hotspot_name": "Hewlett Packard Avenue",
-    "risk_score": 44,
+    "risk_score": 54,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Dr Ambedkar Medical College Road",
-    "hotspot_name": "Dr Ambedkar Medical College Road",
-    "risk_score": 44,
+    "hotspot_id": "Jakkur Main Road",
+    "hotspot_name": "Jakkur Main Road",
+    "risk_score": 54,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Domlur Inner Ring Road",
-    "hotspot_name": "Domlur Inner Ring Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Bikasipura Main Road",
-    "hotspot_name": "Bikasipura Main Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hoodi Main Road",
-    "hotspot_name": "Hoodi Main Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Andhrahalli Main Road",
-    "hotspot_name": "Andhrahalli Main Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP141 - Palmgroove Junction",
-    "hotspot_name": "BTP141 - Palmgroove Junction",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "5th Main Road",
-    "hotspot_name": "5th Main Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "MS Ramaiah Road",
-    "hotspot_name": "MS Ramaiah Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kengeri Main Road",
-    "hotspot_name": "Kengeri Main Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mumbai Bengaluru Highway",
-    "hotspot_name": "Mumbai Bengaluru Highway",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "HMT Main Road",
-    "hotspot_name": "HMT Main Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Whitefield Road",
-    "hotspot_name": "Whitefield Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "1st Main Road",
-    "hotspot_name": "1st Main Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Outer Ring Road",
-    "hotspot_name": "Outer Ring Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Konanakunte Main Road",
-    "hotspot_name": "Konanakunte Main Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "MBT Road, Govind Pura",
-    "hotspot_name": "MBT Road, Govind Pura",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Whitefield Road",
-    "hotspot_name": "Whitefield Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "13th Main Road",
-    "hotspot_name": "13th Main Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Canara Union Road",
-    "hotspot_name": "Canara Union Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Anjanapura Main Road",
-    "hotspot_name": "Anjanapura Main Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mumbai Bengaluru Highway",
-    "hotspot_name": "Mumbai Bengaluru Highway",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Magadi Main Road",
-    "hotspot_name": "Magadi Main Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Tilak Nagar Main Road",
-    "hotspot_name": "Tilak Nagar Main Road",
-    "risk_score": 43,
+    "hotspot_id": "BTP091 - Sirsi Circle",
+    "hotspot_name": "BTP091 - Sirsi Circle",
+    "risk_score": 53,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "BTP093 - Toll Gate, Mysore Road",
     "hotspot_name": "BTP093 - Toll Gate, Mysore Road",
-    "risk_score": 43,
+    "risk_score": 53,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "BTP101 - Blood Bank Circle, KH Road",
-    "hotspot_name": "BTP101 - Blood Bank Circle, KH Road",
-    "risk_score": 43,
+    "hotspot_id": "BTP106 - VV Puram College",
+    "hotspot_name": "BTP106 - VV Puram College",
+    "risk_score": 53,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Lingarajapuram Flyover",
-    "hotspot_name": "Lingarajapuram Flyover",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTS Bus Depot Road",
-    "hotspot_name": "BTS Bus Depot Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Sri Sri Sri Tiruchi Mahaswamiji Road",
-    "hotspot_name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Suranjan Das Road",
-    "hotspot_name": "Suranjan Das Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP114 - KR Road Junction, Near JSS",
-    "hotspot_name": "BTP114 - KR Road Junction, Near JSS",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Horamavu Main Road",
-    "hotspot_name": "Horamavu Main Road",
-    "risk_score": 43,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Haralur Road",
-    "hotspot_name": "Haralur Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kengeri Main Road",
-    "hotspot_name": "Kengeri Main Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP054 - Shivananda Circle",
-    "hotspot_name": "BTP054 - Shivananda Circle",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Magadi Main Road",
-    "hotspot_name": "Magadi Main Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Neelasandra Road",
-    "hotspot_name": "Neelasandra Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP186 - 9th Cross, 4th Main, Jayanagar",
-    "hotspot_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP146 - Domlur Water Tank",
-    "hotspot_name": "BTP146 - Domlur Water Tank",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Yelahanka Road",
-    "hotspot_name": "Yelahanka Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "MBT Road, Vinayaka Layout",
-    "hotspot_name": "MBT Road, Vinayaka Layout",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "5th Main Road",
-    "hotspot_name": "5th Main Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "50 Feet Main Road",
-    "hotspot_name": "50 Feet Main Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Basavanapura Road",
-    "hotspot_name": "Basavanapura Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "MS Ramaiah Road",
-    "hotspot_name": "MS Ramaiah Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Rajgopal Nagar Main Road",
-    "hotspot_name": "Rajgopal Nagar Main Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP122 - Siddapura Junction",
-    "hotspot_name": "BTP122 - Siddapura Junction",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP107 - National College Junction",
-    "hotspot_name": "BTP107 - National College Junction",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hosur Road",
-    "hotspot_name": "Hosur Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "80 Feet Road",
-    "hotspot_name": "80 Feet Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Jogupalaya Main Road",
-    "hotspot_name": "Jogupalaya Main Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Cline Road",
-    "hotspot_name": "Cline Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Haines Road",
-    "hotspot_name": "Haines Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mahadevapura Flyover",
-    "hotspot_name": "Mahadevapura Flyover",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kanteerava Studio Road",
-    "hotspot_name": "Kanteerava Studio Road",
-    "risk_score": 42,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "4th Main Road",
-    "hotspot_name": "4th Main Road",
-    "risk_score": 41,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP017 - Attiguppe Circle",
-    "hotspot_name": "BTP017 - Attiguppe Circle",
-    "risk_score": 41,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Varthur Main Road",
-    "hotspot_name": "Varthur Main Road",
-    "risk_score": 41,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "JC Nagar Main Road",
-    "hotspot_name": "JC Nagar Main Road",
-    "risk_score": 41,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Hesaraghatta Main Road",
-    "hotspot_name": "Hesaraghatta Main Road",
-    "risk_score": 41,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Andrahalli Main Road",
-    "hotspot_name": "Andrahalli Main Road",
-    "risk_score": 41,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "50 Feet Main Road",
-    "hotspot_name": "50 Feet Main Road",
-    "risk_score": 41,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Mumbai Bengaluru Highway",
-    "hotspot_name": "Mumbai Bengaluru Highway",
-    "risk_score": 41,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Kaggadaspura Main Road",
-    "hotspot_name": "Kaggadaspura Main Road",
-    "risk_score": 41,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Magadi Main Road",
-    "hotspot_name": "Magadi Main Road",
-    "risk_score": 41,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "5th Main Road",
-    "hotspot_name": "5th Main Road",
-    "risk_score": 41,
+    "hotspot_id": "MBT Road, Brigade Golden Triangle",
+    "hotspot_name": "MBT Road, Brigade Golden Triangle",
+    "risk_score": 53,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "11th Main Road",
     "hotspot_name": "11th Main Road",
-    "risk_score": 41,
+    "risk_score": 52,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "MBT Road, Kodandaram",
-    "hotspot_name": "MBT Road, Kodandaram",
-    "risk_score": 40,
+    "hotspot_id": "BTP032 - Windsor Circle",
+    "hotspot_name": "BTP032 - Windsor Circle",
+    "risk_score": 52,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "6th Main Road",
-    "hotspot_name": "6th Main Road",
-    "risk_score": 40,
+    "hotspot_id": "BTP172 - Nanjappa Circle",
+    "hotspot_name": "BTP172 - Nanjappa Circle",
+    "risk_score": 52,
     "risk_level": "Medium",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "1st A Cross Road",
-    "hotspot_name": "1st A Cross Road",
-    "risk_score": 40,
+    "hotspot_id": "CV Raman Road",
+    "hotspot_name": "CV Raman Road",
+    "risk_score": 52,
     "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "100 Feet Road",
-    "hotspot_name": "100 Feet Road",
-    "risk_score": 40,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Konanakunte Main Road",
-    "hotspot_name": "Konanakunte Main Road",
-    "risk_score": 40,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP018 - Dhobi Ghat Junction",
-    "hotspot_name": "BTP018 - Dhobi Ghat Junction",
-    "risk_score": 40,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP099 - Cash Pharmacy, Residency Road",
-    "hotspot_name": "BTP099 - Cash Pharmacy, Residency Road",
-    "risk_score": 40,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "BTP075 - Police Corner",
-    "hotspot_name": "BTP075 - Police Corner",
-    "risk_score": 40,
-    "risk_level": "Medium",
-    "prediction_horizon": "Next 24 hours"
-  },
-  {
-    "hotspot_id": "Varthur Main Road",
-    "hotspot_name": "Varthur Main Road",
-    "risk_score": 39,
-    "risk_level": "Low",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "Harris Road",
     "hotspot_name": "Harris Road",
-    "risk_score": 37,
+    "risk_score": 52,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "ITPL Main Road",
+    "hotspot_name": "ITPL Main Road",
+    "risk_score": 52,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "4th Main Road",
+    "hotspot_name": "4th Main Road",
+    "risk_score": 51,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "50 Feet Main Road",
+    "hotspot_name": "50 Feet Main Road",
+    "risk_score": 51,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP123 - 10th Cross, Wilson Garden",
+    "hotspot_name": "BTP123 - 10th Cross, Wilson Garden",
+    "risk_score": 51,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Banaswadi Main Road",
+    "hotspot_name": "Banaswadi Main Road",
+    "risk_score": 51,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Canara Union Road",
+    "hotspot_name": "Canara Union Road",
+    "risk_score": 51,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Thigalarapalya Main Road",
+    "hotspot_name": "Thigalarapalya Main Road",
+    "risk_score": 51,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Rajatha Bhavana Road",
+    "hotspot_name": "Rajatha Bhavana Road",
+    "risk_score": 50,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "10th Cross Road",
+    "hotspot_name": "10th Cross Road",
+    "risk_score": 49,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "50 Feet Main Road",
+    "hotspot_name": "50 Feet Main Road",
+    "risk_score": 49,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP082 - KR Market Junction",
+    "hotspot_name": "BTP082 - KR Market Junction",
+    "risk_score": 49,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP127 - Sagar Hospital, Jayanagar",
+    "hotspot_name": "BTP127 - Sagar Hospital, Jayanagar",
+    "risk_score": 49,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP051 - Safina Plaza Junction",
+    "hotspot_name": "BTP051 - Safina Plaza Junction",
+    "risk_score": 48,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kaggadaspura Main Road",
+    "hotspot_name": "Kaggadaspura Main Road",
+    "risk_score": 47,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "hotspot_name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "risk_score": 47,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Tilak Nagar Main Road",
+    "hotspot_name": "Tilak Nagar Main Road",
+    "risk_score": 47,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "80 Feet Road",
+    "hotspot_name": "80 Feet Road",
+    "risk_score": 46,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "80 Feet Road",
+    "hotspot_name": "80 Feet Road",
+    "risk_score": 46,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP137 - Madiwala Traffic PS Junction",
+    "hotspot_name": "BTP137 - Madiwala Traffic PS Junction",
+    "risk_score": 46,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP164 - 29th Main Road, BTM Layout",
+    "hotspot_name": "BTP164 - 29th Main Road, BTM Layout",
+    "risk_score": 46,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "JC Nagar Main Road",
+    "hotspot_name": "JC Nagar Main Road",
+    "risk_score": 46,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Palace Road",
+    "hotspot_name": "Palace Road",
+    "risk_score": 46,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Srinivagilu Main Road",
+    "hotspot_name": "Srinivagilu Main Road",
+    "risk_score": 46,
+    "risk_level": "Medium",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "4th Main Road",
+    "hotspot_name": "4th Main Road",
+    "risk_score": 45,
     "risk_level": "Low",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "3rd Main Road",
-    "hotspot_name": "3rd Main Road",
-    "risk_score": 36,
+    "hotspot_id": "5th Main Road",
+    "hotspot_name": "5th Main Road",
+    "risk_score": 45,
     "risk_level": "Low",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Outer Ring Road",
-    "hotspot_name": "Outer Ring Road",
-    "risk_score": 36,
+    "hotspot_id": "Andhrahalli Main Road",
+    "hotspot_name": "Andhrahalli Main Road",
+    "risk_score": 45,
     "risk_level": "Low",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "1st Cross Road",
-    "hotspot_name": "1st Cross Road",
-    "risk_score": 36,
+    "hotspot_id": "BTP017 - Attiguppe Circle",
+    "hotspot_name": "BTP017 - Attiguppe Circle",
+    "risk_score": 45,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP106 - VV Puram College",
+    "hotspot_name": "BTP106 - VV Puram College",
+    "risk_score": 45,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP142 - Lower Agram Road Junction",
+    "hotspot_name": "BTP142 - Lower Agram Road Junction",
+    "risk_score": 45,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP185 - RV Teachers College",
+    "hotspot_name": "BTP185 - RV Teachers College",
+    "risk_score": 45,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bannerghatta Main Road",
+    "hotspot_name": "Bannerghatta Main Road",
+    "risk_score": 45,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "ITPL Main Road",
+    "hotspot_name": "ITPL Main Road",
+    "risk_score": 45,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kodigehalli Main Road",
+    "hotspot_name": "Kodigehalli Main Road",
+    "risk_score": 45,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sarjapura Main Road",
+    "hotspot_name": "Sarjapura Main Road",
+    "risk_score": 45,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP107 - National College Junction",
+    "hotspot_name": "BTP107 - National College Junction",
+    "risk_score": 44,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP193 - Vasavi Circle",
+    "hotspot_name": "BTP193 - Vasavi Circle",
+    "risk_score": 44,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP215 - Vanivillas Junction",
+    "hotspot_name": "BTP215 - Vanivillas Junction",
+    "risk_score": 44,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "risk_score": 44,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kodichikkanahalli Main Road",
+    "hotspot_name": "Kodichikkanahalli Main Road",
+    "risk_score": 44,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Siddhapura Road",
+    "hotspot_name": "Siddhapura Road",
+    "risk_score": 44,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Suranjan Das Road",
+    "hotspot_name": "Suranjan Das Road",
+    "risk_score": 44,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP030 - Mekhri Circle",
+    "hotspot_name": "BTP030 - Mekhri Circle",
+    "risk_score": 43,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP074 - Leprosy Hospital Junction",
+    "hotspot_name": "BTP074 - Leprosy Hospital Junction",
+    "risk_score": 43,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "risk_score": 43,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Industrial Park Road",
+    "hotspot_name": "Industrial Park Road",
+    "risk_score": 43,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "MS Ramaiah Road",
+    "hotspot_name": "MS Ramaiah Road",
+    "risk_score": 43,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "80 Feet Road",
+    "hotspot_name": "80 Feet Road",
+    "risk_score": 42,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP034 - LRDE Junction",
+    "hotspot_name": "BTP034 - LRDE Junction",
+    "risk_score": 42,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP217 - Baleyele Junction",
+    "hotspot_name": "BTP217 - Baleyele Junction",
+    "risk_score": 42,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bellary Road",
+    "hotspot_name": "Bellary Road",
+    "risk_score": 42,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hosa Road, Channakeshava Nagar",
+    "hotspot_name": "Hosa Road, Channakeshava Nagar",
+    "risk_score": 42,
     "risk_level": "Low",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "Mumbai Bengaluru Highway",
     "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 42,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP052 - CID Carlton House Junction",
+    "hotspot_name": "BTP052 - CID Carlton House Junction",
+    "risk_score": 41,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP222 - Delmia Circle",
+    "hotspot_name": "BTP222 - Delmia Circle",
+    "risk_score": 41,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Doddagubbi Road",
+    "hotspot_name": "Doddagubbi Road",
+    "risk_score": 41,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "risk_score": 41,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sulibele Road",
+    "hotspot_name": "Sulibele Road",
+    "risk_score": 41,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP136 - Hosur-Tavarkere Road Junction",
+    "hotspot_name": "BTP136 - Hosur-Tavarkere Road Junction",
+    "risk_score": 40,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Andrahalli Main Road",
+    "hotspot_name": "Andrahalli Main Road",
+    "risk_score": 39,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP074 - Leprosy Hospital Junction",
+    "hotspot_name": "BTP074 - Leprosy Hospital Junction",
+    "risk_score": 39,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "risk_score": 39,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
+    "risk_score": 39,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP189 - New Diagonal Road, Jayanagar",
+    "hotspot_name": "BTP189 - New Diagonal Road, Jayanagar",
+    "risk_score": 39,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "risk_score": 39,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kodigehalli Road",
+    "hotspot_name": "Kodigehalli Road",
+    "risk_score": 39,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Marathahalli Bridge Service Road",
+    "hotspot_name": "Marathahalli Bridge Service Road",
+    "risk_score": 39,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 39,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Munninarasimha Road",
+    "hotspot_name": "Munninarasimha Road",
+    "risk_score": 39,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "60 Feet Road",
+    "hotspot_name": "60 Feet Road",
+    "risk_score": 38,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP091 - Sirsi Circle",
+    "hotspot_name": "BTP091 - Sirsi Circle",
+    "risk_score": 38,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Magadi Main Road",
+    "hotspot_name": "Magadi Main Road",
+    "risk_score": 38,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP074 - Leprosy Hospital Junction",
+    "hotspot_name": "BTP074 - Leprosy Hospital Junction",
+    "risk_score": 37,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP137 - Madiwala Traffic PS Junction",
+    "hotspot_name": "BTP137 - Madiwala Traffic PS Junction",
+    "risk_score": 37,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
+    "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
+    "risk_score": 37,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Gear School Road",
+    "hotspot_name": "Gear School Road",
+    "risk_score": 37,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Whitefield Main Road",
+    "hotspot_name": "Whitefield Main Road",
+    "risk_score": 37,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "80 Feet Main Road",
+    "hotspot_name": "80 Feet Main Road",
     "risk_score": 36,
     "risk_level": "Low",
     "prediction_horizon": "Next 24 hours"
   },
   {
-    "hotspot_id": "Bangalore Bellary Road",
-    "hotspot_name": "Bangalore Bellary Road",
+    "hotspot_id": "Amrutha College Road",
+    "hotspot_name": "Amrutha College Road",
+    "risk_score": 36,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP053 - Three Let Junction",
+    "hotspot_name": "BTP053 - Three Let Junction",
+    "risk_score": 36,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP132 - Anepalya Junction",
+    "hotspot_name": "BTP132 - Anepalya Junction",
+    "risk_score": 36,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTS Bus Depot Road",
+    "hotspot_name": "BTS Bus Depot Road",
+    "risk_score": 36,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "risk_score": 36,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "ITPL Main Road",
+    "hotspot_name": "ITPL Main Road",
+    "risk_score": 36,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "risk_score": 36,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Neelasandra Road",
+    "hotspot_name": "Neelasandra Road",
+    "risk_score": 36,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Yemalur Road",
+    "hotspot_name": "Yemalur Road",
+    "risk_score": 36,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP163 - 16th Main Road, BTM Layout",
+    "hotspot_name": "BTP163 - 16th Main Road, BTM Layout",
+    "risk_score": 35,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP203 - RRMR Junction",
+    "hotspot_name": "BTP203 - RRMR Junction",
+    "risk_score": 35,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Laggere Service Road",
+    "hotspot_name": "Laggere Service Road",
+    "risk_score": 35,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "1st A Cross Road",
+    "hotspot_name": "1st A Cross Road",
     "risk_score": 34,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "6th Main Road",
+    "hotspot_name": "6th Main Road",
+    "risk_score": 34,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP099 - Cash Pharmacy, Residency Road",
+    "hotspot_name": "BTP099 - Cash Pharmacy, Residency Road",
+    "risk_score": 34,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Cline Road",
+    "hotspot_name": "Cline Road",
+    "risk_score": 34,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Ittamadu Road",
+    "hotspot_name": "Ittamadu Road",
+    "risk_score": 34,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 34,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Old Airport Road",
+    "hotspot_name": "Old Airport Road",
+    "risk_score": 34,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Outer Ring Road",
+    "hotspot_name": "Outer Ring Road",
+    "risk_score": 34,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Outer Ring Road",
+    "hotspot_name": "Outer Ring Road",
+    "risk_score": 34,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "HAL Airport Road",
+    "hotspot_name": "HAL Airport Road",
+    "risk_score": 33,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hoodi Main Road",
+    "hotspot_name": "Hoodi Main Road",
+    "risk_score": 33,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP030 - Mekhri Circle",
+    "hotspot_name": "BTP030 - Mekhri Circle",
+    "risk_score": 32,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP122 - Siddapura Junction",
+    "hotspot_name": "BTP122 - Siddapura Junction",
+    "risk_score": 32,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Dr Ambedkar Medical College Road",
+    "hotspot_name": "Dr Ambedkar Medical College Road",
+    "risk_score": 32,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Yelahanka New Town Main Road",
+    "hotspot_name": "Yelahanka New Town Main Road",
+    "risk_score": 32,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP063 - Siddalingaiah Circle",
+    "hotspot_name": "BTP063 - Siddalingaiah Circle",
+    "risk_score": 31,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP190 - 36th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP190 - 36th Cross, 4th Main, Jayanagar",
+    "risk_score": 31,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kengeri Main Road",
+    "hotspot_name": "Kengeri Main Road",
+    "risk_score": 31,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kodigehalli Main Road",
+    "hotspot_name": "Kodigehalli Main Road",
+    "risk_score": 31,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sarjapura Main Road",
+    "hotspot_name": "Sarjapura Main Road",
+    "risk_score": 31,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Amrutha College Road",
+    "hotspot_name": "Amrutha College Road",
+    "risk_score": 30,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP166 - Coffee Board Junction",
+    "hotspot_name": "BTP166 - Coffee Board Junction",
+    "risk_score": 30,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP184 - Lalbagh West Gate",
+    "hotspot_name": "BTP184 - Lalbagh West Gate",
+    "risk_score": 30,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP191 - 40th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP191 - 40th Cross, 4th Main, Jayanagar",
+    "risk_score": 30,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP214 - 5th Main Chamrajpet  Junction",
+    "hotspot_name": "BTP214 - 5th Main Chamrajpet  Junction",
+    "risk_score": 30,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Commissariat Road",
+    "hotspot_name": "Commissariat Road",
+    "risk_score": 30,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "risk_score": 30,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Jalahalli Cross Road",
+    "hotspot_name": "Jalahalli Cross Road",
+    "risk_score": 30,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "20th Main Road",
+    "hotspot_name": "20th Main Road",
+    "risk_score": 29,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "5th Main Road",
+    "hotspot_name": "5th Main Road",
+    "risk_score": 29,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
+    "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
+    "risk_score": 29,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Jogupalaya Main Road",
+    "hotspot_name": "Jogupalaya Main Road",
+    "risk_score": 29,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "MBT Road, Zero Tolerance Junction",
+    "hotspot_name": "MBT Road, Zero Tolerance Junction",
+    "risk_score": 29,
     "risk_level": "Low",
     "prediction_horizon": "Next 24 hours"
   },
   {
     "hotspot_id": "Nandanavana G Street",
     "hotspot_name": "Nandanavana G Street",
-    "risk_score": 31,
+    "risk_score": 29,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "4th Cross Road",
+    "hotspot_name": "4th Cross Road",
+    "risk_score": 28,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Doddaballapur Main Road",
+    "hotspot_name": "Doddaballapur Main Road",
+    "risk_score": 28,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Dr Rajgopal Road",
+    "hotspot_name": "Dr Rajgopal Road",
+    "risk_score": 28,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "KIADB Road",
+    "hotspot_name": "KIADB Road",
+    "risk_score": 28,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kengeri Main Road",
+    "hotspot_name": "Kengeri Main Road",
+    "risk_score": 28,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kengeri Main Road",
+    "hotspot_name": "Kengeri Main Road",
+    "risk_score": 28,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "hotspot_name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
+    "risk_score": 28,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "1st Cross Road",
+    "hotspot_name": "1st Cross Road",
+    "risk_score": 27,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP145 - Sri Hatti Maramma Circle, Domluru",
+    "hotspot_name": "BTP145 - Sri Hatti Maramma Circle, Domluru",
+    "risk_score": 27,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",
+    "hotspot_name": "BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",
+    "risk_score": 27,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bengaluru Bellary Road",
+    "hotspot_name": "Bengaluru Bellary Road",
+    "risk_score": 27,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Forest Region Road",
+    "hotspot_name": "Forest Region Road",
+    "risk_score": 27,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "HMT Main Road",
+    "hotspot_name": "HMT Main Road",
+    "risk_score": 27,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Horamavu Main Road",
+    "hotspot_name": "Horamavu Main Road",
+    "risk_score": 27,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Jayamahal Main Road",
+    "hotspot_name": "Jayamahal Main Road",
+    "risk_score": 27,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Magadi Main Road",
+    "hotspot_name": "Magadi Main Road",
+    "risk_score": 27,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mallathahalli Road",
+    "hotspot_name": "Mallathahalli Road",
+    "risk_score": 27,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Outer Ring Road",
+    "hotspot_name": "Outer Ring Road",
+    "risk_score": 27,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP106 - VV Puram College",
+    "hotspot_name": "BTP106 - VV Puram College",
+    "risk_score": 26,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP132 - Anepalya Junction",
+    "hotspot_name": "BTP132 - Anepalya Junction",
+    "risk_score": 26,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Basavanapura Road",
+    "hotspot_name": "Basavanapura Road",
+    "risk_score": 26,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "MBT Road, Vinayaka Layout",
+    "hotspot_name": "MBT Road, Vinayaka Layout",
+    "risk_score": 26,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Old Airport Road",
+    "hotspot_name": "Old Airport Road",
+    "risk_score": 26,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sarjapura Main Road",
+    "hotspot_name": "Sarjapura Main Road",
+    "risk_score": 26,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Yelahanka Road",
+    "hotspot_name": "Yelahanka Road",
+    "risk_score": 26,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "17th Cross Road",
+    "hotspot_name": "17th Cross Road",
+    "risk_score": 25,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BDA 80 Feet Road",
+    "hotspot_name": "BDA 80 Feet Road",
+    "risk_score": 25,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP010 - Rajajinagar Entrance",
+    "hotspot_name": "BTP010 - Rajajinagar Entrance",
+    "risk_score": 25,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP098 - Nayandahalli Junction",
+    "hotspot_name": "BTP098 - Nayandahalli Junction",
+    "risk_score": 25,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP136 - Hosur-Tavarkere Road Junction",
+    "hotspot_name": "BTP136 - Hosur-Tavarkere Road Junction",
+    "risk_score": 25,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP197 - 9th Cross, 24th Main, JP Nagar",
+    "hotspot_name": "BTP197 - 9th Cross, 24th Main, JP Nagar",
+    "risk_score": 25,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP221 - 15th Cross, 24th Main, JP Nagar",
+    "hotspot_name": "BTP221 - 15th Cross, 24th Main, JP Nagar",
+    "risk_score": 25,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bangalore Bellary Road",
+    "hotspot_name": "Bangalore Bellary Road",
+    "risk_score": 25,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "MBT Road, Avalahalli South Taluka",
+    "hotspot_name": "MBT Road, Avalahalli South Taluka",
+    "risk_score": 25,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "MS Ramaiah Road",
+    "hotspot_name": "MS Ramaiah Road",
+    "risk_score": 25,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 25,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Whitefield Road",
+    "hotspot_name": "Whitefield Road",
+    "risk_score": 25,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "1st Cross Road",
+    "hotspot_name": "1st Cross Road",
+    "risk_score": 24,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "risk_score": 24,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "MBT Road, Kodandaram",
+    "hotspot_name": "MBT Road, Kodandaram",
+    "risk_score": 24,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Magadi Main Road",
+    "hotspot_name": "Magadi Main Road",
+    "risk_score": 24,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 24,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Siddavanahalli Krishna Sharma Road",
+    "hotspot_name": "Siddavanahalli Krishna Sharma Road",
+    "risk_score": 24,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bengaluru Bellary Road",
+    "hotspot_name": "Bengaluru Bellary Road",
+    "risk_score": 23,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Chikkabellanduru Road",
+    "hotspot_name": "Chikkabellanduru Road",
+    "risk_score": 23,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hoodi Main Road",
+    "hotspot_name": "Hoodi Main Road",
+    "risk_score": 23,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "risk_score": 23,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Thanisandra Main Road",
+    "hotspot_name": "Thanisandra Main Road",
+    "risk_score": 23,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "15th Main Road",
+    "hotspot_name": "15th Main Road",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "27th Main Road",
+    "hotspot_name": "27th Main Road",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "3rd Main Road",
+    "hotspot_name": "3rd Main Road",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP107 - National College Junction",
+    "hotspot_name": "BTP107 - National College Junction",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP137 - Madiwala Traffic PS Junction",
+    "hotspot_name": "BTP137 - Madiwala Traffic PS Junction",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP141 - Palmgroove Junction",
+    "hotspot_name": "BTP141 - Palmgroove Junction",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Haralur Road",
+    "hotspot_name": "Haralur Road",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Haralur Road",
+    "hotspot_name": "Haralur Road",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hennur Main Road",
+    "hotspot_name": "Hennur Main Road",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hesaraghatta Main Road",
+    "hotspot_name": "Hesaraghatta Main Road",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Magadi Main Road",
+    "hotspot_name": "Magadi Main Road",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Subramanyapura Main Road",
+    "hotspot_name": "Subramanyapura Main Road",
+    "risk_score": 22,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP101 - Blood Bank Circle, KH Road",
+    "hotspot_name": "BTP101 - Blood Bank Circle, KH Road",
+    "risk_score": 21,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "HMT Main Road",
+    "hotspot_name": "HMT Main Road",
+    "risk_score": 21,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hebbal Flyover",
+    "hotspot_name": "Hebbal Flyover",
+    "risk_score": 21,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kengeri Magadi Road",
+    "hotspot_name": "Kengeri Magadi Road",
+    "risk_score": 21,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 21,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sarjapura Main Road",
+    "hotspot_name": "Sarjapura Main Road",
+    "risk_score": 21,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Varthur Main Road",
+    "hotspot_name": "Varthur Main Road",
+    "risk_score": 21,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "100 Feet Road",
+    "hotspot_name": "100 Feet Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "5th A Cross Road",
+    "hotspot_name": "5th A Cross Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP054 - Shivananda Circle",
+    "hotspot_name": "BTP054 - Shivananda Circle",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP102 - BMTC Junction, KH Road",
+    "hotspot_name": "BTP102 - BMTC Junction, KH Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP122 - Siddapura Junction",
+    "hotspot_name": "BTP122 - Siddapura Junction",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "HAL Airport Road",
+    "hotspot_name": "HAL Airport Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Jalahalli Main Road",
+    "hotspot_name": "Jalahalli Main Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "MBT Road, Govind Pura",
+    "hotspot_name": "MBT Road, Govind Pura",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Magadi Main Road",
+    "hotspot_name": "Magadi Main Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Nandini Layout Club Road",
+    "hotspot_name": "Nandini Layout Club Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Padmasri CK Venkata Ramaiah Road",
+    "hotspot_name": "Padmasri CK Venkata Ramaiah Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sarjapura Main Road",
+    "hotspot_name": "Sarjapura Main Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Srinivagilu Main Road",
+    "hotspot_name": "Srinivagilu Main Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Suranjan Das Road",
+    "hotspot_name": "Suranjan Das Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Varthur Main Road",
+    "hotspot_name": "Varthur Main Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Whitefield Main Road",
+    "hotspot_name": "Whitefield Main Road",
+    "risk_score": 20,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "8th Main Road",
+    "hotspot_name": "8th Main Road",
+    "risk_score": 19,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP035 - Basaweshwara Circle (LH) Junction",
+    "hotspot_name": "BTP035 - Basaweshwara Circle (LH) Junction",
+    "risk_score": 19,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP128 - Gorappanapalya Junction",
+    "hotspot_name": "BTP128 - Gorappanapalya Junction",
+    "risk_score": 19,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP191 - 40th Cross, 4th Main, Jayanagar",
+    "hotspot_name": "BTP191 - 40th Cross, 4th Main, Jayanagar",
+    "risk_score": 19,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bagaluru Main Road",
+    "hotspot_name": "Bagaluru Main Road",
+    "risk_score": 19,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Muthsandra Main Road",
+    "hotspot_name": "Muthsandra Main Road",
+    "risk_score": 19,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "SM Road, Sri Ayyappa Nagar",
+    "hotspot_name": "SM Road, Sri Ayyappa Nagar",
+    "risk_score": 19,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sri Kumaraswamy Temple Road",
+    "hotspot_name": "Sri Kumaraswamy Temple Road",
+    "risk_score": 19,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP133 - Adugodi Junction",
+    "hotspot_name": "BTP133 - Adugodi Junction",
+    "risk_score": 18,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bagaluru Main Road",
+    "hotspot_name": "Bagaluru Main Road",
+    "risk_score": 18,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Outer Ring Road",
+    "hotspot_name": "Outer Ring Road",
+    "risk_score": 18,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Rajgopal Nagar Main Road",
+    "hotspot_name": "Rajgopal Nagar Main Road",
+    "risk_score": 18,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "19th Main Road",
+    "hotspot_name": "19th Main Road",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "1st Main Road",
+    "hotspot_name": "1st Main Road",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Amrutha College Road",
+    "hotspot_name": "Amrutha College Road",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP091 - Sirsi Circle",
+    "hotspot_name": "BTP091 - Sirsi Circle",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP099 - Cash Pharmacy, Residency Road",
+    "hotspot_name": "BTP099 - Cash Pharmacy, Residency Road",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bannerghatta Main Road",
+    "hotspot_name": "Bannerghatta Main Road",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Horamavu Main Road",
+    "hotspot_name": "Horamavu Main Road",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kanteerava Studio Road",
+    "hotspot_name": "Kanteerava Studio Road",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "MS Ramaiah Road",
+    "hotspot_name": "MS Ramaiah Road",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Soniya Gandhi Road",
+    "hotspot_name": "Soniya Gandhi Road",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sri Annapoorneshwari Temple Road",
+    "hotspot_name": "Sri Annapoorneshwari Temple Road",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Subramanyapura Main Road",
+    "hotspot_name": "Subramanyapura Main Road",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Westend Avenue",
+    "hotspot_name": "Westend Avenue",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Whitefield Main Road",
+    "hotspot_name": "Whitefield Main Road",
+    "risk_score": 17,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "1st Main Road",
+    "hotspot_name": "1st Main Road",
+    "risk_score": 16,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "4th Main Road",
+    "hotspot_name": "4th Main Road",
+    "risk_score": 16,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Abbigere Main Road",
+    "hotspot_name": "Abbigere Main Road",
+    "risk_score": 16,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP023 - Mahalaxmi Layout Entrance",
+    "hotspot_name": "BTP023 - Mahalaxmi Layout Entrance",
+    "risk_score": 16,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "HAL Airport Road",
+    "hotspot_name": "HAL Airport Road",
+    "risk_score": 16,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kengeri Main Road",
+    "hotspot_name": "Kengeri Main Road",
+    "risk_score": 16,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "MEC Road, BCM Vertex",
+    "hotspot_name": "MEC Road, BCM Vertex",
+    "risk_score": 16,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Millers Road",
+    "hotspot_name": "Millers Road",
+    "risk_score": 16,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 16,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 16,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Old Madras Road",
+    "hotspot_name": "Old Madras Road",
+    "risk_score": 16,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Rajgopal Nagar Main Road",
+    "hotspot_name": "Rajgopal Nagar Main Road",
+    "risk_score": 16,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP099 - Cash Pharmacy, Residency Road",
+    "hotspot_name": "BTP099 - Cash Pharmacy, Residency Road",
+    "risk_score": 15,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP115 - Sahasra Hospital, Jayanagar",
+    "hotspot_name": "BTP115 - Sahasra Hospital, Jayanagar",
+    "risk_score": 15,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bannerghatta Main Road",
+    "hotspot_name": "Bannerghatta Main Road",
+    "risk_score": 15,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Haines Road",
+    "hotspot_name": "Haines Road",
+    "risk_score": 15,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Haralur Road",
+    "hotspot_name": "Haralur Road",
+    "risk_score": 15,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hesarghatta Road",
+    "hotspot_name": "Hesarghatta Road",
+    "risk_score": 15,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hosur Road",
+    "hotspot_name": "Hosur Road",
+    "risk_score": 15,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Shankara Nagar Main Road",
+    "hotspot_name": "Shankara Nagar Main Road",
+    "risk_score": 15,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Tannery Road",
+    "hotspot_name": "Tannery Road",
+    "risk_score": 15,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Varthur Main Road",
+    "hotspot_name": "Varthur Main Road",
+    "risk_score": 15,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Watch Factory Road",
+    "hotspot_name": "Watch Factory Road",
+    "risk_score": 15,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Whitefield Road",
+    "hotspot_name": "Whitefield Road",
+    "risk_score": 15,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "5th Main Road",
+    "hotspot_name": "5th Main Road",
+    "risk_score": 14,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Anjanapura Main Road",
+    "hotspot_name": "Anjanapura Main Road",
+    "risk_score": 14,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP126 - Dairy Circle",
+    "hotspot_name": "BTP126 - Dairy Circle",
+    "risk_score": 14,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Bikasipura Main Road",
+    "hotspot_name": "Bikasipura Main Road",
+    "risk_score": 14,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Chunchaghatta Main Road",
+    "hotspot_name": "Chunchaghatta Main Road",
+    "risk_score": 14,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kanteerava Studio Road",
+    "hotspot_name": "Kanteerava Studio Road",
+    "risk_score": 14,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "risk_score": 14,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Watch Factory Road",
+    "hotspot_name": "Watch Factory Road",
+    "risk_score": 14,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP075 - Police Corner",
+    "hotspot_name": "BTP075 - Police Corner",
+    "risk_score": 13,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP085 - Briyand Circle",
+    "hotspot_name": "BTP085 - Briyand Circle",
+    "risk_score": 13,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP126 - Dairy Circle",
+    "hotspot_name": "BTP126 - Dairy Circle",
+    "risk_score": 13,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP221 - 15th Cross, 24th Main, JP Nagar",
+    "hotspot_name": "BTP221 - 15th Cross, 24th Main, JP Nagar",
+    "risk_score": 13,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
+    "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
+    "risk_score": 13,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hoodi Main Road",
+    "hotspot_name": "Hoodi Main Road",
+    "risk_score": 13,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sultanji Gunta Road",
+    "hotspot_name": "Sultanji Gunta Road",
+    "risk_score": 13,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "27th Main Road",
+    "hotspot_name": "27th Main Road",
+    "risk_score": 12,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP098 - Nayandahalli Junction",
+    "hotspot_name": "BTP098 - Nayandahalli Junction",
+    "risk_score": 12,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP140 - Madiwala Check Post",
+    "hotspot_name": "BTP140 - Madiwala Check Post",
+    "risk_score": 12,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP146 - Domlur Water Tank",
+    "hotspot_name": "BTP146 - Domlur Water Tank",
+    "risk_score": 12,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP215 - Vanivillas Junction",
+    "hotspot_name": "BTP215 - Vanivillas Junction",
+    "risk_score": 12,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP222 - Delmia Circle",
+    "hotspot_name": "BTP222 - Delmia Circle",
+    "risk_score": 12,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Mumbai Bengaluru Highway",
+    "hotspot_name": "Mumbai Bengaluru Highway",
+    "risk_score": 12,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "6th Main Road",
+    "hotspot_name": "6th Main Road",
+    "risk_score": 11,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP133 - Adugodi Junction",
+    "hotspot_name": "BTP133 - Adugodi Junction",
+    "risk_score": 11,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Domlur Inner Ring Road",
+    "hotspot_name": "Domlur Inner Ring Road",
+    "risk_score": 11,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Kengeri Main Road",
+    "hotspot_name": "Kengeri Main Road",
+    "risk_score": 11,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Sri Vinayaka Temple Main Road",
+    "hotspot_name": "Sri Vinayaka Temple Main Road",
+    "risk_score": 11,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Whitefield Main Road",
+    "hotspot_name": "Whitefield Main Road",
+    "risk_score": 11,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "1st Cross Road",
+    "hotspot_name": "1st Cross Road",
+    "risk_score": 10,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "80 Feet Road",
+    "hotspot_name": "80 Feet Road",
+    "risk_score": 10,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP159 - JP Nagar Metro, ORR",
+    "hotspot_name": "BTP159 - JP Nagar Metro, ORR",
+    "risk_score": 10,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "G Narayana Kumar Road",
+    "hotspot_name": "G Narayana Kumar Road",
+    "risk_score": 10,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "risk_score": 10,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "BTP134 - Mico Bande",
+    "hotspot_name": "BTP134 - Mico Bande",
+    "risk_score": 9,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Whitefield Main Road",
+    "hotspot_name": "Whitefield Main Road",
+    "risk_score": 9,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "1st Main Road",
+    "hotspot_name": "1st Main Road",
+    "risk_score": 8,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Dr Vishnuvardhan Main Road",
+    "hotspot_name": "Dr Vishnuvardhan Main Road",
+    "risk_score": 8,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hesaraghatta Main Road",
+    "hotspot_name": "Hesaraghatta Main Road",
+    "risk_score": 8,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Hesaraghatta Main Road",
+    "hotspot_name": "Hesaraghatta Main Road",
+    "risk_score": 8,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "risk_score": 8,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Magadi Main Road",
+    "hotspot_name": "Magadi Main Road",
+    "risk_score": 8,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Whitefield Road",
+    "hotspot_name": "Whitefield Road",
+    "risk_score": 8,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "risk_score": 6,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Konanakunte Main Road",
+    "hotspot_name": "Konanakunte Main Road",
+    "risk_score": 4,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "MN Krishnarao Road",
+    "hotspot_name": "MN Krishnarao Road",
+    "risk_score": 0,
+    "risk_level": "Low",
+    "prediction_horizon": "Next 24 hours"
+  },
+  {
+    "hotspot_id": "Varthur Main Road",
+    "hotspot_name": "Varthur Main Road",
+    "risk_score": 0,
     "risk_level": "Low",
     "prediction_horizon": "Next 24 hours"
   }
