@@ -20,10 +20,27 @@ const getSeverityCategoryFromRiskLevel = (riskLevel: string): string => {
   return 'LOW';
 };
 
-const getSeverityCategoryFromPII = (impactScore: number): string => {
-  if (impactScore >= 56) return 'CRITICAL';
-  if (impactScore >= 46) return 'HIGH';
-  if (impactScore >= 36) return 'MEDIUM';
+const useDynamicPiiThresholds = (scores: number[]) => {
+  if (scores.length === 0) return undefined;
+  const sorted = [...scores].sort((a, b) => a - b);
+  const max = sorted[sorted.length - 1];
+  return {
+    critical: Math.max(max - 5, Math.round(max * 0.85)),
+    high: Math.max(max - 10, Math.round(max * 0.7)),
+    medium: Math.max(max - 20, Math.round(max * 0.55)),
+  };
+};
+
+export const usePiiCategory = (impactScore: number, thresholds: { critical: number; high: number; medium: number } | undefined): string => {
+  if (!thresholds) {
+    if (impactScore >= 56) return 'CRITICAL';
+    if (impactScore >= 46) return 'HIGH';
+    if (impactScore >= 36) return 'MEDIUM';
+    return 'LOW';
+  }
+  if (impactScore >= thresholds.critical) return 'CRITICAL';
+  if (impactScore >= thresholds.high) return 'HIGH';
+  if (impactScore >= thresholds.medium) return 'MEDIUM';
   return 'LOW';
 };
 
@@ -33,6 +50,7 @@ const PRIORITY_ORDER: Record<string, number> = {
 
 export interface CommandCenterFilter {
   visibleHotspotIds: Set<string> | null;
+  piiThresholds?: { critical: number; high: number; medium: number };
 }
 
 interface CommandCenterProps {
@@ -84,6 +102,8 @@ export const CommandCenter: React.FC<CommandCenterProps> = ({
     [deployments],
   );
 
+  const dynamicPiiThresholds = useMemo(() => useDynamicPiiThresholds(hotspots.map((h) => h.impact_score)), [hotspots]);
+
   // ── Filtered + sorted zones ─────────────────────────────────────────────
   const filteredHotspots = useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -91,7 +111,7 @@ export const CommandCenter: React.FC<CommandCenterProps> = ({
       .filter((h) => {
         if (severityFilter !== 'ALL') {
           if (activeTab === 'zones') {
-            if (getSeverityCategoryFromPII(h.impact_score) !== severityFilter) return false;
+            if (usePiiCategory(h.impact_score, dynamicPiiThresholds) !== severityFilter) return false;
           } else {
             const prediction = predictions.find((p) => p.hotspot_id === h.id);
             const riskLevel = prediction?.risk_level ?? 'Low';

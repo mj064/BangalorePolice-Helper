@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { Hotspot, Prediction } from '../services/api';
@@ -25,15 +25,18 @@ const POLY_LINE_LAYER = 'hotspots-poly-line';
 const DARK_STYLE = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
 
 const COLORS = {
-  low: '#16A34A',
-  medium: '#D97706',
-  high: '#EA580C',
-  critical: '#DC2626',
+  low: '#10B981',
+  medium: '#F59E0B',
+  high: '#F97316',
+  critical: '#EF4444',
   stroke: '#FFFFFF',
   teal: '#5BC0BE',
 } as const;
 
-function severityColor(field: string): maplibregl.ExpressionSpecification {
+function severityColor(
+  field: string,
+  thresholds?: { critical: number; high: number; medium: number },
+): maplibregl.ExpressionSpecification {
   if (field === 'risk_level') {
     return [
       'case',
@@ -43,7 +46,8 @@ function severityColor(field: string): maplibregl.ExpressionSpecification {
       COLORS.low,
     ];
   }
-  return ['step', ['get', 'impact_score'], COLORS.low, 36, COLORS.medium, 46, COLORS.high, 56, COLORS.critical];
+  const t = thresholds ?? { critical: 56, high: 46, medium: 36 };
+  return ['step', ['get', 'impact_score'], COLORS.low, t.medium, COLORS.medium, t.high, COLORS.high, t.critical, COLORS.critical];
 }
 
 function buildPointGeoJson(
@@ -53,9 +57,7 @@ function buildPointGeoJson(
   colorBy: 'pii' | 'risk',
   predictions: Prediction[],
 ): GeoJSON.FeatureCollection {
-  const list = visibleIds !== null
-    ? hotspots.filter((h) => visibleIds.has(h.id))
-    : hotspots;
+  const list = visibleIds !== null ? hotspots.filter((h) => visibleIds.has(h.id)) : hotspots;
   return {
     type: 'FeatureCollection',
     features: list.map((h) => {
@@ -242,7 +244,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     map.triggerRepaint();
   };
 
-  const attachInteractions = useCallback((map: maplibregl.Map) => {
+  const attachInteractions = (map: maplibregl.Map) => {
     const popup = new maplibregl.Popup({
       closeButton: false,
       closeOnClick: false,
@@ -281,14 +283,10 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       }
     }
 
-    map.off('mouseenter', CIRCLES_LAYER, onMouseEnter as () => void);
-    map.off('mouseleave', CIRCLES_LAYER, onMouseLeave as () => void);
-    map.off('click', CIRCLES_LAYER, onClickCircle as () => void);
-
     map.on('mouseenter', CIRCLES_LAYER, onMouseEnter);
     map.on('mouseleave', CIRCLES_LAYER, onMouseLeave);
     map.on('click', CIRCLES_LAYER, onClickCircle);
-  }, [onDeselect, onSelect]);
+  };
 
   useEffect(() => {
     const container = containerRef.current;
@@ -296,6 +294,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
 
     layersReadyRef.current = false;
     hasFitBoundsRef.current = false;
+    prevSelectedIdRef.current = selectedHotspot?.id ?? null;
 
     const map = new maplibregl.Map({
       container,
@@ -325,9 +324,10 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       map.remove();
       mapRef.current = null;
     };
-  }, [attachInteractions]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
-  // Only re-push data when hotspots or visibleHotspotIds change (not on selection change)
+  // Re-push data when hotspots or visible filter changes (not selection)
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
@@ -342,22 +342,20 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     return () => { map.off('load', onReady); };
   }, [hotspots, visibleHotspotIds]);
 
+  // Fly to selected hotspot without re-pushing all data
   useEffect(() => {
     const map = mapRef.current;
-    if (!map || !selectedHotspot) {
-      prevSelectedIdRef.current = selectedHotspot?.id ?? null;
-      return;
-    }
+    if (!map) return;
 
-    const currId = selectedHotspot.id;
+    const currId = selectedHotspot?.id ?? null;
     const prevId = prevSelectedIdRef.current;
     prevSelectedIdRef.current = currId;
 
-    if (currId !== prevId) {
+    if (currId && currId !== prevId) {
       const doFly = () => {
         if (map.loaded() && layersReadyRef.current) {
           map.flyTo({
-            center: [selectedHotspot.longitude, selectedHotspot.latitude],
+            center: [selectedHotspot!.longitude, selectedHotspot!.latitude],
             zoom: 14.5,
             speed: 1.2,
             curve: 1.42,
@@ -369,7 +367,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
             requestQueuedRef.current = false;
             if (map.loaded() && layersReadyRef.current) {
               map.flyTo({
-                center: [selectedHotspot.longitude, selectedHotspot.latitude],
+                center: [selectedHotspot!.longitude, selectedHotspot!.latitude],
                 zoom: 14.5,
                 speed: 1.2,
                 curve: 1.42,
@@ -378,7 +376,6 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
             }
           };
           if (map.loaded()) {
-            // Layers not ready yet, wait a moment
             setTimeout(onReady, 100);
           } else {
             map.once('load', onReady);
