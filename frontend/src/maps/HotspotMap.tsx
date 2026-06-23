@@ -25,10 +25,10 @@ const POLY_LINE_LAYER = 'hotspots-poly-line';
 const DARK_STYLE = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
 
 const COLORS = {
-  low: '#10B981',
-  medium: '#F59E0B',
-  high: '#F97316',
-  critical: '#EF4444',
+  low: '#16A34A',
+  medium: '#D97706',
+  high: '#EA580C',
+  critical: '#DC2626',
   stroke: '#FFFFFF',
   teal: '#5BC0BE',
 } as const;
@@ -43,7 +43,7 @@ function severityColor(field: string): maplibregl.ExpressionSpecification {
       COLORS.low,
     ];
   }
-  return ['step', ['get', 'impact_score'], COLORS.low, 50, COLORS.medium, 65, COLORS.high, 80, COLORS.critical];
+  return ['step', ['get', 'impact_score'], COLORS.low, 36, COLORS.medium, 46, COLORS.high, 56, COLORS.critical];
 }
 
 function buildPointGeoJson(
@@ -79,20 +79,6 @@ function buildPointGeoJson(
   };
 }
 
-function generateBufferPolygon(lat: number, lon: number, impactScore: number): GeoJSON.Polygon {
-  const radiusDeg = 0.001 + (impactScore / 100) * 0.003;
-  const points = 32;
-  const coordinates: number[][][] = [];
-  const ring: number[][] = [];
-  for (let i = 0; i < points; i++) {
-    const angle = (2 * Math.PI * i) / points;
-    ring.push([lon + radiusDeg * Math.cos(angle), lat + radiusDeg * Math.sin(angle)]);
-  }
-  ring.push(ring[0].slice());
-  coordinates.push(ring);
-  return { type: 'Polygon', coordinates };
-}
-
 function buildPolygonGeoJson(
   hotspots: Hotspot[],
   selectedId: string | null,
@@ -102,42 +88,35 @@ function buildPolygonGeoJson(
   }
 
   const h = hotspots.find((x) => x.id === selectedId);
-  if (!h) {
+  if (!h?.polygon) {
     return { type: 'FeatureCollection', features: [] };
   }
 
-  let geometry: GeoJSON.Polygon;
-  if (h.polygon) {
-    try {
-      const parsed = JSON.parse(h.polygon);
-      if (parsed?.type === 'Polygon' && Array.isArray(parsed.coordinates)) {
-        geometry = parsed;
-      } else {
-        geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
-      }
-    } catch {
-      geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
+  try {
+    const parsed = JSON.parse(h.polygon);
+    if (parsed?.type !== 'Polygon' || !Array.isArray(parsed.coordinates)) {
+      return { type: 'FeatureCollection', features: [] };
     }
-  } else {
-    geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
-  }
 
-  return {
-    type: 'FeatureCollection',
-    features: [
-      {
-        type: 'Feature',
-        geometry,
-        properties: {
-          hsid: h.id,
-          name: h.name,
-          violations: h.violations,
-          impact_score: h.impact_score,
-          selected: 1,
+    return {
+      type: 'FeatureCollection',
+      features: [
+        {
+          type: 'Feature',
+          geometry: parsed,
+          properties: {
+            hsid: h.id,
+            name: h.name,
+            violations: h.violations,
+            impact_score: h.impact_score,
+            selected: 1,
+          },
         },
-      },
-    ],
-  };
+      ],
+    };
+  } catch {
+    return { type: 'FeatureCollection', features: [] };
+  }
 }
 
 export const HotspotMap: React.FC<HotspotMapProps> = ({
@@ -220,7 +199,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       paint: {
         'circle-radius': [
           'min',
-          ['interpolate', ['linear'], ['get', 'violations'], 10, 6, 500, 12, 2000, 20],
+          ['interpolate', ['linear'], ['get', 'violations'], 20, 8, 200, 14, 1000, 22],
           22,
         ],
         'circle-color': colExpr,
@@ -348,6 +327,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     };
   }, [attachInteractions]);
 
+  // Only re-push data when hotspots or visibleHotspotIds change (not on selection change)
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
@@ -360,7 +340,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     const onReady = () => pushDataRef.current(map);
     map.once('load', onReady);
     return () => { map.off('load', onReady); };
-  }, [hotspots, selectedHotspot, visibleHotspotIds]);
+  }, [hotspots, visibleHotspotIds]);
 
   useEffect(() => {
     const map = mapRef.current;

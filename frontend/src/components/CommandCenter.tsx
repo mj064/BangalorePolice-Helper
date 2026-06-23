@@ -21,9 +21,9 @@ const getSeverityCategoryFromRiskLevel = (riskLevel: string): string => {
 };
 
 const getSeverityCategoryFromPII = (impactScore: number): string => {
-  if (impactScore >= 66) return 'CRITICAL';
-  if (impactScore >= 56) return 'HIGH';
-  if (impactScore >= 46) return 'MEDIUM';
+  if (impactScore >= 56) return 'CRITICAL';
+  if (impactScore >= 46) return 'HIGH';
+  if (impactScore >= 36) return 'MEDIUM';
   return 'LOW';
 };
 
