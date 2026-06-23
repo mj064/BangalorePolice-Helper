@@ -397,11 +397,9 @@ export const DashboardPage: React.FC = () => {
             <HotspotMap
               hotspots={hotspots}
               selectedHotspot={selectedItem?.hotspot || null}
-              predictions={predictions}
               onSelect={handleSelectHotspot}
               onDeselect={() => setSelectedItem(null)}
               visibleHotspotIds={visibleHotspotIds}
-              colorBy={activeTab === 'deployments' ? 'risk' : 'pii'}
             />
           </main>
         </div>

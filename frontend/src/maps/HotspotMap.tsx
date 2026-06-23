@@ -1,16 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { Hotspot, Prediction } from '../services/api';
+import { Hotspot } from '../services/api';
 
 interface HotspotMapProps {
   hotspots: Hotspot[];
   selectedHotspot: Hotspot | null;
-  predictions: Prediction[];
   onSelect: (hotspot: Hotspot) => void;
   onDeselect: () => void;
   visibleHotspotIds?: Set<string> | null;
-  colorBy?: 'pii' | 'risk';
 }
 
 const BENGALURU_CENTER: [number, number] = [77.5946, 12.9716];
@@ -54,8 +52,6 @@ function buildPointGeoJson(
   hotspots: Hotspot[],
   selectedId: string | null,
   visibleIds: Set<string> | null,
-  colorBy: 'pii' | 'risk',
-  predictions: Prediction[],
 ): GeoJSON.FeatureCollection {
   const list = visibleIds !== null ? hotspots.filter((h) => visibleIds.has(h.id)) : hotspots;
   return {
@@ -63,7 +59,6 @@ function buildPointGeoJson(
     features: list.map((h) => {
       const isSelected = selectedId === h.id;
       const dimmed = selectedId !== null && !isSelected;
-      const pred = predictions.find((p) => p.hotspot_id === h.id);
       return {
         type: 'Feature',
         geometry: { type: 'Point', coordinates: [h.longitude, h.latitude] },
@@ -72,7 +67,6 @@ function buildPointGeoJson(
           name: h.name,
           violations: h.violations,
           impact_score: h.impact_score,
-          risk_level: colorBy === 'risk' ? (pred?.risk_level ?? 'Low') : '',
           dimmed: dimmed ? 1 : 0,
           selected: isSelected ? 1 : 0,
         },
@@ -124,11 +118,10 @@ function buildPolygonGeoJson(
 export const HotspotMap: React.FC<HotspotMapProps> = ({
   hotspots,
   selectedHotspot,
-  predictions,
+  
   onSelect,
   onDeselect,
   visibleHotspotIds = null,
-  colorBy = 'pii',
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -140,16 +133,12 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
   const hotspotsRef = useRef(hotspots);
   const selectedRef = useRef(selectedHotspot);
   const visibleRef = useRef(visibleHotspotIds);
-  const colorByRef = useRef(colorBy);
-  const predictionsRef = useRef<Prediction[]>([]);
   const onSelectRef = useRef(onSelect);
   const onDeselectRef = useRef(onDeselect);
 
   hotspotsRef.current = hotspots;
   selectedRef.current = selectedHotspot;
   visibleRef.current = visibleHotspotIds;
-  colorByRef.current = colorBy;
-  predictionsRef.current = predictions;
   onSelectRef.current = onSelect;
   onDeselectRef.current = onDeselect;
 
@@ -170,8 +159,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     map.addSource(POINTS_SOURCE, { type: 'geojson', data: emptyPoints });
     map.addSource(POLYGONS_SOURCE, { type: 'geojson', data: emptyPolygons });
 
-    const colorField = colorByRef.current === 'risk' ? 'risk_level' : 'impact_score';
-    const colExpr = severityColor(colorField);
+    const colExpr = severityColor('impact_score');
 
     map.addLayer({
       id: POLY_FILL_LAYER,
@@ -226,7 +214,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     const polySrc = map.getSource(POLYGONS_SOURCE) as maplibregl.GeoJSONSource | undefined;
     if (!pointsSrc || !polySrc) return;
 
-    const pointsData = buildPointGeoJson(list, selectedId, visibleIds, colorByRef.current, predictionsRef.current);
+    const pointsData = buildPointGeoJson(list, selectedId, visibleIds);
     pointsSrc.setData(pointsData);
 
     const polyData = buildPolygonGeoJson(list, selectedId);
@@ -340,7 +328,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     const onReady = () => pushDataRef.current(map);
     map.once('load', onReady);
     return () => { map.off('load', onReady); };
-  }, [hotspots, visibleHotspotIds]);
+  }, [hotspots, visibleHotspotIds, selectedHotspot]);
 
   // Fly to selected hotspot without re-pushing all data
   useEffect(() => {
