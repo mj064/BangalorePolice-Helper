@@ -47,7 +47,7 @@ class PredictionEngine:
         # Lowered from 0.5 to 0.4: recall +11pp (80.4% vs 69.3%) at the cost
         # of ~5.8pp precision — correct asymmetry for police operations where
         # missing a dangerous zone is costlier than a false alarm.
-        self.inference_threshold: float = 0.4
+        self.inference_threshold: float = 0.5
 
     def _zone_id_for_point(self, latitude: float, longitude: float) -> str:
         if h3 is not None:
@@ -252,10 +252,10 @@ class PredictionEngine:
 
     @staticmethod
     def _risk_level_from_score(score: int) -> str:
-        if score >= 66:
+        if score >= 80:
             return "Critical"
-        if score >= 56:
+        if score >= 65:
             return "High"
-        if score >= 46:
+        if score >= 50:
             return "Medium"
         return "Low"

@@ -191,290 +191,290 @@
   {
     "hotspot_id": "Chikka Banavara RS Road",
     "hotspot_name": "Chikka Banavara RS Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "MBT Road, Royal Heritage",
     "hotspot_name": "MBT Road, Royal Heritage",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Vibgyor High School Road",
     "hotspot_name": "Vibgyor High School Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Allalasandra Main Road",
     "hotspot_name": "Allalasandra Main Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Whitefield Road",
     "hotspot_name": "Whitefield Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Outer Ring Road",
     "hotspot_name": "Outer Ring Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "5th Cross Road",
     "hotspot_name": "5th Cross Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "BTP163 - 16th Main Road, BTM Layout",
     "hotspot_name": "BTP163 - 16th Main Road, BTM Layout",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Bellary Road",
     "hotspot_name": "Bellary Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Nallurahalli Road",
     "hotspot_name": "Nallurahalli Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "BTP155 - Katriguppe Junction",
     "hotspot_name": "BTP155 - Katriguppe Junction",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "BTP108 - Tagore Park Junction",
     "hotspot_name": "BTP108 - Tagore Park Junction",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "8th Main Road",
     "hotspot_name": "8th Main Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "BTP123 - 10th Cross, Wilson Garden",
     "hotspot_name": "BTP123 - 10th Cross, Wilson Garden",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "BTP105 - Shivasankara Circle",
     "hotspot_name": "BTP105 - Shivasankara Circle",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Global City Tech Park Road",
     "hotspot_name": "Global City Tech Park Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Sahakar Nagar Road",
     "hotspot_name": "Sahakar Nagar Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "20th Main Road",
     "hotspot_name": "20th Main Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "BTP027 - Modi Bridge Junction",
     "hotspot_name": "BTP027 - Modi Bridge Junction",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "BTP148 - 17th Main, Doopanahalli Bus Stop",
     "hotspot_name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Dr APJ Abdul Kalam Marg",
     "hotspot_name": "Dr APJ Abdul Kalam Marg",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Dr Rajkumar Puniya Bhoomi Road",
     "hotspot_name": "Dr Rajkumar Puniya Bhoomi Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Hosur Road",
     "hotspot_name": "Hosur Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Bellary Road",
     "hotspot_name": "Bellary Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Gnana Bharathi Road",
     "hotspot_name": "Gnana Bharathi Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Hosur Road",
     "hotspot_name": "Hosur Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Marathahalli Underpass",
     "hotspot_name": "Marathahalli Underpass",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Old Madras Road",
     "hotspot_name": "Old Madras Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "BTP186 - 9th Cross, 4th Main, Jayanagar",
     "hotspot_name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "BTP208 - Havanur Circle",
     "hotspot_name": "BTP208 - Havanur Circle",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Banaswadi Main Road",
     "hotspot_name": "Banaswadi Main Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "Sri Sri Sri Tiruchi Mahaswamiji Road",
     "hotspot_name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
-    "priority": "Critical",
-    "officers": 3,
-    "tow_vehicles": 2,
+    "priority": "High",
+    "officers": 2,
+    "tow_vehicles": 1,
     "deployment_window": "17:00-20:00",
-    "reason": "High impact score and critical next-day risk"
+    "reason": "Elevated next-day risk with high or rising hotspot impact"
   },
   {
     "hotspot_id": "8th Main Road",
@@ -515,380 +515,380 @@
   {
     "hotspot_id": "BTP041 - Gopal Gowda Circle",
     "hotspot_name": "BTP041 - Gopal Gowda Circle",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "RT Nagar Main Road",
     "hotspot_name": "RT Nagar Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Sarjapura Main Road",
     "hotspot_name": "Sarjapura Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "13th Main Road",
     "hotspot_name": "13th Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "19th Main Road",
     "hotspot_name": "19th Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "3rd Main Road",
     "hotspot_name": "3rd Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "BTP192 - Urvashi Theater",
     "hotspot_name": "BTP192 - Urvashi Theater",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "J Lingaiah Road",
     "hotspot_name": "J Lingaiah Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Seppings Road",
     "hotspot_name": "Seppings Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "27th Cross Road",
     "hotspot_name": "27th Cross Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "60 Feet Road",
     "hotspot_name": "60 Feet Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "BTP202 - East End Main Road, Jayanagar",
     "hotspot_name": "BTP202 - East End Main Road, Jayanagar",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Hosahalli Main Road",
     "hotspot_name": "Hosahalli Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "17th Cross Road",
     "hotspot_name": "17th Cross Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "BTP148 - 17th Main, Doopanahalli Bus Stop",
     "hotspot_name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Pusa Thippasandra Main Road",
     "hotspot_name": "Pusa Thippasandra Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Shri Ramalingeshwara Cave Temple Road",
     "hotspot_name": "Shri Ramalingeshwara Cave Temple Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Thanisandra Main Road",
     "hotspot_name": "Thanisandra Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "2nd Main Road",
     "hotspot_name": "2nd Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "BTP042 - Minsk Square Junction (CTO)",
     "hotspot_name": "BTP042 - Minsk Square Junction (CTO)",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "BTP135 - UCO Bank Junction",
     "hotspot_name": "BTP135 - UCO Bank Junction",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Bellahali Main Road",
     "hotspot_name": "Bellahali Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Hosapalya Main Road",
     "hotspot_name": "Hosapalya Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "BTP114 - KR Road Junction, Near JSS",
     "hotspot_name": "BTP114 - KR Road Junction, Near JSS",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Coles Road",
     "hotspot_name": "Coles Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "HMT Main Road",
     "hotspot_name": "HMT Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Old Madras Road",
     "hotspot_name": "Old Madras Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "1st Main Road",
     "hotspot_name": "1st Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "BTP018 - Dhobi Ghat Junction",
     "hotspot_name": "BTP018 - Dhobi Ghat Junction",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "BTP096 - Gali Anjaneya Temple",
     "hotspot_name": "BTP096 - Gali Anjaneya Temple",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "1st A Main Road",
     "hotspot_name": "1st A Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "1st Cross Road",
     "hotspot_name": "1st Cross Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "3rd A Cross Road",
     "hotspot_name": "3rd A Cross Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "BTP098 - Nayandahalli Junction",
     "hotspot_name": "BTP098 - Nayandahalli Junction",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "BTP214 - 5th Main Chamrajpet  Junction",
     "hotspot_name": "BTP214 - 5th Main Chamrajpet  Junction",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Bannerghatta Main Road",
     "hotspot_name": "Bannerghatta Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Professor K Venkatachalam Circle",
     "hotspot_name": "Professor K Venkatachalam Circle",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "2nd Main Road",
     "hotspot_name": "2nd Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "5th Main Road",
     "hotspot_name": "5th Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Mahadevapura Flyover",
     "hotspot_name": "Mahadevapura Flyover",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Sir CV Raman Hospital Road",
     "hotspot_name": "Sir CV Raman Hospital Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Thanisandra Main Road",
     "hotspot_name": "Thanisandra Main Road",
-    "priority": "High",
-    "officers": 2,
+    "priority": "Medium",
+    "officers": 1,
     "tow_vehicles": 1,
-    "deployment_window": "17:00-20:00",
-    "reason": "Elevated next-day risk with high or rising hotspot impact"
+    "deployment_window": "08:00-11:00",
+    "reason": "Moderate risk or impact warrants targeted morning enforcement"
   },
   {
     "hotspot_id": "Amrita College Road",
@@ -1118,137 +1118,137 @@
   {
     "hotspot_id": "10th Cross Road",
     "hotspot_name": "10th Cross Road",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "50 Feet Main Road",
     "hotspot_name": "50 Feet Main Road",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "BTP082 - KR Market Junction",
     "hotspot_name": "BTP082 - KR Market Junction",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "BTP127 - Sagar Hospital, Jayanagar",
     "hotspot_name": "BTP127 - Sagar Hospital, Jayanagar",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "BTP051 - Safina Plaza Junction",
     "hotspot_name": "BTP051 - Safina Plaza Junction",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "Kaggadaspura Main Road",
     "hotspot_name": "Kaggadaspura Main Road",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "Sri Sri Sri Tiruchi Mahaswamiji Road",
     "hotspot_name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "Tilak Nagar Main Road",
     "hotspot_name": "Tilak Nagar Main Road",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "80 Feet Road",
     "hotspot_name": "80 Feet Road",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "80 Feet Road",
     "hotspot_name": "80 Feet Road",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "BTP137 - Madiwala Traffic PS Junction",
     "hotspot_name": "BTP137 - Madiwala Traffic PS Junction",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "BTP164 - 29th Main Road, BTM Layout",
     "hotspot_name": "BTP164 - 29th Main Road, BTM Layout",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "JC Nagar Main Road",
     "hotspot_name": "JC Nagar Main Road",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "Palace Road",
     "hotspot_name": "Palace Road",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "Srinivagilu Main Road",
     "hotspot_name": "Srinivagilu Main Road",
-    "priority": "Medium",
+    "priority": "Low",
     "officers": 1,
-    "tow_vehicles": 1,
-    "deployment_window": "08:00-11:00",
-    "reason": "Moderate risk or impact warrants targeted morning enforcement"
+    "tow_vehicles": 0,
+    "deployment_window": "11:00-14:00",
+    "reason": "Routine monitoring recommended"
   },
   {
     "hotspot_id": "4th Main Road",
