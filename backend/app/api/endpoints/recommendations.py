@@ -7,7 +7,7 @@ router = APIRouter()
 
 
 @router.get("", response_model=list[RecommendationResponse])
-async def get_recommendations():
+def get_recommendations():
     try:
         data = load_recommendations()
         return data
