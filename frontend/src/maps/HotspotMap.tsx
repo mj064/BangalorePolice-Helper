@@ -29,12 +29,12 @@ function styleUrl(theme: 'dark' | 'light') {
 
 function getColors(theme: 'dark' | 'light') {
   return {
-    low:      theme === 'light' ? '#16A34A' : '#10B981',
-    medium:   theme === 'light' ? '#D97706' : '#F59E0B',
-    high:     theme === 'light' ? '#EA580C' : '#F97316',
+    low: theme === 'light' ? '#16A34A' : '#10B981',
+    medium: theme === 'light' ? '#D97706' : '#F59E0B',
+    high: theme === 'light' ? '#EA580C' : '#F97316',
     critical: theme === 'light' ? '#DC2626' : '#EF4444',
-    stroke:   theme === 'light' ? '#1e293b' : '#FFFFFF',
-    teal:     '#5BC0BE',
+    stroke: theme === 'light' ? '#1e293b' : '#FFFFFF',
+    teal: '#5BC0BE',
   };
 }
 
@@ -43,7 +43,7 @@ function severityColor(c: ReturnType<typeof getColors>): maplibregl.ExpressionSp
     'case',
     ['==', ['get', 'selected'], 1],
     c.teal,
-    ['step', ['get', 'impact_score'], c.low, 50, c.medium, 65, c.high, 80, c.critical]
+    ['step', ['get', 'impact_score'], c.low, 50, c.medium, 65, c.high, 80, c.critical],
   ];
 }
 
@@ -52,14 +52,12 @@ function buildPointGeoJson(
   selectedId: string | null,
   visibleIds: Set<string> | null,
 ): GeoJSON.FeatureCollection {
-  const list = visibleIds !== null
-    ? hotspots.filter((h) => visibleIds.has(h.id))
-    : hotspots;
   return {
     type: 'FeatureCollection',
-    features: list.map((h) => {
+    features: hotspots.map((h) => {
       const isSelected = selectedId === h.id;
-      const dimmed = (selectedId !== null && !isSelected) ? 1 : 0;
+      const filteredOut = visibleIds !== null && !visibleIds.has(h.id);
+      const dimmed = filteredOut || (selectedId !== null && !isSelected);
       return {
         type: 'Feature',
         geometry: { type: 'Point', coordinates: [h.longitude, h.latitude] },
@@ -68,30 +66,12 @@ function buildPointGeoJson(
           name: h.name,
           violations: h.violations,
           impact_score: h.impact_score,
-          dimmed,
+          dimmed: dimmed ? 1 : 0,
           selected: isSelected ? 1 : 0,
         },
       };
     }),
   };
-}
-
-function generateBufferPolygon(lat: number, lon: number, impactScore: number): GeoJSON.Polygon {
-  // Scale buffer radius by impact_score: higher score = larger influence area
-  // Base radius ~150m, scaled up to ~350m for max score
-  const radiusDeg = 0.001 + (impactScore / 100) * 0.003;
-  const points = 24;
-  const coordinates: number[][][] = [];
-  const ring: number[][] = [];
-  for (let i = 0; i < points; i++) {
-    const angle = (2 * Math.PI * i) / points;
-    const dlon = radiusDeg * Math.cos(angle);
-    const dlat = radiusDeg * Math.sin(angle);
-    ring.push([lon + dlon, lat + dlat]);
-  }
-  ring.push(ring[0].slice());
-  coordinates.push(ring);
-  return { type: 'Polygon', coordinates };
 }
 
 function buildPolygonGeoJson(
@@ -103,40 +83,35 @@ function buildPolygonGeoJson(
   }
 
   const h = hotspots.find((x) => x.id === selectedId);
-  if (!h) {
+  if (!h?.polygon) {
     return { type: 'FeatureCollection', features: [] };
   }
 
-  let geometry: GeoJSON.Polygon;
-  if (h.polygon) {
-    try {
-      const parsed = JSON.parse(h.polygon);
-      if (parsed?.type === 'Polygon' && Array.isArray(parsed.coordinates)) {
-        geometry = parsed;
-      } else {
-        geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
-      }
-    } catch {
-      geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
+  try {
+    const parsed = JSON.parse(h.polygon);
+    if (parsed?.type !== 'Polygon' || !Array.isArray(parsed.coordinates)) {
+      return { type: 'FeatureCollection', features: [] };
     }
-  } else {
-    geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
-  }
 
-  return {
-    type: 'FeatureCollection',
-    features: [{
-      type: 'Feature',
-      geometry,
-      properties: {
-        hsid: h.id,
-        name: h.name,
-        violations: h.violations,
-        impact_score: h.impact_score,
-        selected: 1,
-      },
-    }],
-  };
+    return {
+      type: 'FeatureCollection',
+      features: [
+        {
+          type: 'Feature',
+          geometry: parsed,
+          properties: {
+            hsid: h.id,
+            name: h.name,
+            violations: h.violations,
+            impact_score: h.impact_score,
+            selected: 1,
+          },
+        },
+      ],
+    };
+  } catch {
+    return { type: 'FeatureCollection', features: [] };
+  }
 }
 
 export const HotspotMap: React.FC<HotspotMapProps> = ({
@@ -168,7 +143,6 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
   onSelectRef.current = onSelect;
   onDeselectRef.current = onDeselect;
 
-  // Stable refs for functions used inside the one-time mount effect
   const installLayersRef = useRef<(map: maplibregl.Map) => void>(() => {});
   const pushDataRef = useRef<(map: maplibregl.Map) => void>(() => {});
 
@@ -236,6 +210,15 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     const visibleIds = visibleRef.current;
     const list = hotspotsRef.current;
 
+    console.log('[HotspotMap] pushData', {
+      selectedId,
+      visibleCount: visibleIds?.size ?? list.length,
+      filter: visibleIds ? 'ACTIVE' : 'ALL',
+      theme: themeRef.current,
+      polygonLoaded: !!selectedId,
+      totalHotspots: list.length,
+    });
+
     const pointsSrc = map.getSource(POINTS_SOURCE) as maplibregl.GeoJSONSource | undefined;
     const polySrc = map.getSource(POLYGONS_SOURCE) as maplibregl.GeoJSONSource | undefined;
     if (!pointsSrc || !polySrc) return;
@@ -258,7 +241,6 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     map.triggerRepaint();
   };
 
-  // Create map once — empty deps, all dynamic state via refs
   useEffect(() => {
     if (!containerRef.current) return;
 
@@ -325,13 +307,13 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     }
 
     const setupLayers = () => {
+      console.log('[HotspotMap] setupLayers', { theme: themeRef.current, selectedId: selectedRef.current?.id ?? null });
       map.resize();
       installLayersRef.current(map);
       attachInteractions();
     };
 
     map.on('load', setupLayers);
-    // setStyle (theme toggle) re-fires style.load but NOT load — must handle both
     map.on('style.load', setupLayers);
 
     const ro = new ResizeObserver(() => map.resize());
@@ -345,7 +327,6 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     };
   }, []);
 
-  // Push hotspot data whenever props change
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
@@ -360,7 +341,6 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     return () => { map.off('load', onReady); };
   }, [hotspots, selectedHotspot, visibleHotspotIds]);
 
-  // Theme toggle — skip the first render (map already created with correct style)
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
@@ -372,7 +352,6 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     map.setStyle(styleUrl(theme));
   }, [theme]);
 
-  // Fly to selected hotspot (skip when deselected)
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
@@ -399,9 +378,9 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
         <div className="flex items-center gap-4 text-[11px] font-medium tracking-wide text-slate-300">
           {[
             { label: 'Critical', color: 'bg-severity-critical' },
-            { label: 'High',     color: 'bg-severity-high'     },
-            { label: 'Medium',   color: 'bg-severity-medium'   },
-            { label: 'Low',      color: 'bg-severity-low'      },
+            { label: 'High', color: 'bg-severity-high' },
+            { label: 'Medium', color: 'bg-severity-medium' },
+            { label: 'Low', color: 'bg-severity-low' },
           ].map((item) => (
             <span key={item.label} className="inline-flex items-center gap-2">
               <span className={`h-2.5 w-2.5 rounded-full ${item.color} shadow-sm`} />
