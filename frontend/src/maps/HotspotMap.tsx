@@ -22,6 +22,17 @@ const POLY_LINE_LAYER = 'hotspots-poly-line';
 
 const DARK_STYLE = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
 
+function computePiiThresholds(scores: number[]) {
+  if (!scores.length) return { critical: 56, high: 46, medium: 36 } as const;
+  const sorted = [...scores].sort((a, b) => a - b);
+  const q = (p: number) => sorted[Math.min(sorted.length - 1, Math.floor(sorted.length * p))];
+  return {
+    critical: q(0.9),
+    high: q(0.75),
+    medium: q(0.5),
+  } as const;
+}
+
 const COLORS = {
   low: '#10B981',
   medium: '#F59E0B',
@@ -128,7 +139,6 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
   const layersReadyRef = useRef(false);
   const hasFitBoundsRef = useRef(false);
   const prevSelectedIdRef = useRef<string | null>(null);
-  const requestQueuedRef = useRef(false);
 
   const hotspotsRef = useRef(hotspots);
   const selectedRef = useRef(selectedHotspot);
@@ -159,7 +169,9 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     map.addSource(POINTS_SOURCE, { type: 'geojson', data: emptyPoints });
     map.addSource(POLYGONS_SOURCE, { type: 'geojson', data: emptyPolygons });
 
-    const colExpr = severityColor('impact_score');
+    const scores = hotspotsRef.current.map((h: any) => h.impact_score);
+    const th = computePiiThresholds(scores as number[]);
+    const colExpr = severityColor('impact_score', th);
 
     map.addLayer({
       id: POLY_FILL_LAYER,
@@ -349,10 +361,8 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
             curve: 1.42,
             essential: true,
           });
-        } else if (!requestQueuedRef.current) {
-          requestQueuedRef.current = true;
-          const onReady = () => {
-            requestQueuedRef.current = false;
+        } else {
+          const tryFly = () => {
             if (map.loaded() && layersReadyRef.current) {
               map.flyTo({
                 center: [selectedHotspot!.longitude, selectedHotspot!.latitude],
@@ -361,13 +371,11 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
                 curve: 1.42,
                 essential: true,
               });
+            } else {
+              setTimeout(tryFly, 50);
             }
           };
-          if (map.loaded()) {
-            setTimeout(onReady, 100);
-          } else {
-            map.once('load', onReady);
-          }
+          tryFly();
         }
       };
       doFly();
