@@ -38,8 +38,13 @@ function getColors(theme: 'dark' | 'light') {
   };
 }
 
-function severityColor(c: ReturnType<typeof getColors>): maplibregl.ExpressionSpecification {
-  return ['step', ['get', 'impact_score'], c.low, 46, c.medium, 56, c.high, 66, c.critical];
+function severityColor(c: ReturnType<typeof getColors>, selectedId: string | null): maplibregl.ExpressionSpecification {
+  return [
+    'case',
+    ['==', ['get', 'selected'], 1],
+    c.teal,
+    ['step', ['get', 'impact_score'], c.low, 50, c.medium, 65, c.high, 80, c.critical]
+  ];
 }
 
 function buildPointGeoJson(
@@ -160,7 +165,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       type: 'fill',
       source: POLYGONS_SOURCE,
       paint: {
-        'fill-color': severityColor(c),
+        'fill-color': severityColor(c, null),
         'fill-opacity': 0.35,
       },
     });
@@ -170,7 +175,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       type: 'line',
       source: POLYGONS_SOURCE,
       paint: {
-        'line-color': severityColor(c),
+        'line-color': severityColor(c, null),
         'line-width': 3,
         'line-opacity': 0.9,
       },
@@ -186,7 +191,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
           ['interpolate', ['linear'], ['get', 'violations'], 20, 8, 200, 14, 1000, 22],
           22,
         ],
-        'circle-color': severityColor(c),
+        'circle-color': severityColor(c, null),
         'circle-opacity': ['case', ['==', ['get', 'dimmed'], 1], 0.25, 0.95],
         'circle-stroke-width': ['case', ['==', ['get', 'selected'], 1], 3, 1.5],
         'circle-stroke-color': ['case', ['==', ['get', 'selected'], 1], c.teal, c.stroke],
@@ -208,8 +213,11 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     const polySrc = map.getSource(POLYGONS_SOURCE) as maplibregl.GeoJSONSource | undefined;
     if (!pointsSrc || !polySrc) return;
 
-    pointsSrc.setData(buildPointGeoJson(list, selectedId, visibleIds));
-    polySrc.setData(buildPolygonGeoJson(list, selectedId));
+    const pointsData = buildPointGeoJson(list, selectedId, visibleIds);
+    pointsSrc.setData(pointsData);
+
+    const polyData = buildPolygonGeoJson(list, selectedId);
+    polySrc.setData(polyData);
 
     if (!hasFitBoundsRef.current && list.length > 0) {
       const bounds = new maplibregl.LngLatBounds();
