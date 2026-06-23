@@ -52,12 +52,14 @@ function buildPointGeoJson(
   selectedId: string | null,
   visibleIds: Set<string> | null,
 ): GeoJSON.FeatureCollection {
+  const list = visibleIds !== null
+    ? hotspots.filter((h) => visibleIds.has(h.id))
+    : hotspots;
   return {
     type: 'FeatureCollection',
-    features: hotspots.map((h) => {
+    features: list.map((h) => {
       const isSelected = selectedId === h.id;
-      const filteredOut = visibleIds !== null && !visibleIds.has(h.id);
-      const dimmed = filteredOut || (selectedId !== null && !isSelected);
+      const dimmed = (selectedId !== null && !isSelected) ? 1 : 0;
       return {
         type: 'Feature',
         geometry: { type: 'Point', coordinates: [h.longitude, h.latitude] },
@@ -66,12 +68,30 @@ function buildPointGeoJson(
           name: h.name,
           violations: h.violations,
           impact_score: h.impact_score,
-          dimmed: dimmed ? 1 : 0,
+          dimmed,
           selected: isSelected ? 1 : 0,
         },
       };
     }),
   };
+}
+
+function generateBufferPolygon(lat: number, lon: number, impactScore: number): GeoJSON.Polygon {
+  // Scale buffer radius by impact_score: higher score = larger influence area
+  // Base radius ~150m, scaled up to ~350m for max score
+  const radiusDeg = 0.001 + (impactScore / 100) * 0.003;
+  const points = 24;
+  const coordinates: number[][][] = [];
+  const ring: number[][] = [];
+  for (let i = 0; i < points; i++) {
+    const angle = (2 * Math.PI * i) / points;
+    const dlon = radiusDeg * Math.cos(angle);
+    const dlat = radiusDeg * Math.sin(angle);
+    ring.push([lon + dlon, lat + dlat]);
+  }
+  ring.push(ring[0].slice());
+  coordinates.push(ring);
+  return { type: 'Polygon', coordinates };
 }
 
 function buildPolygonGeoJson(
@@ -83,33 +103,40 @@ function buildPolygonGeoJson(
   }
 
   const h = hotspots.find((x) => x.id === selectedId);
-  if (!h?.polygon) {
+  if (!h) {
     return { type: 'FeatureCollection', features: [] };
   }
 
-  try {
-    const parsed = JSON.parse(h.polygon);
-    if (parsed?.type !== 'Polygon' || !Array.isArray(parsed.coordinates)) {
-      return { type: 'FeatureCollection', features: [] };
+  let geometry: GeoJSON.Polygon;
+  if (h.polygon) {
+    try {
+      const parsed = JSON.parse(h.polygon);
+      if (parsed?.type === 'Polygon' && Array.isArray(parsed.coordinates)) {
+        geometry = parsed;
+      } else {
+        geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
+      }
+    } catch {
+      geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
     }
-
-    return {
-      type: 'FeatureCollection',
-      features: [{
-        type: 'Feature',
-        geometry: parsed,
-        properties: {
-          hsid: h.id,
-          name: h.name,
-          violations: h.violations,
-          impact_score: h.impact_score,
-          selected: 1,
-        },
-      }],
-    };
-  } catch {
-    return { type: 'FeatureCollection', features: [] };
+  } else {
+    geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
   }
+
+  return {
+    type: 'FeatureCollection',
+    features: [{
+      type: 'Feature',
+      geometry,
+      properties: {
+        hsid: h.id,
+        name: h.name,
+        violations: h.violations,
+        impact_score: h.impact_score,
+        selected: 1,
+      },
+    }],
+  };
 }
 
 export const HotspotMap: React.FC<HotspotMapProps> = ({
