@@ -12,11 +12,18 @@ import { TopPriorityDeployments } from './TopPriorityDeployments';
 
 export type CommandTab = 'deployments' | 'zones';
 
-const getSeverityCategory = (riskLevel: string): string => {
+const getSeverityCategoryFromRiskLevel = (riskLevel: string): string => {
   const normalized = riskLevel.trim().toUpperCase();
   if (normalized === 'CRITICAL') return 'CRITICAL';
   if (normalized === 'HIGH') return 'HIGH';
   if (normalized === 'MEDIUM') return 'MEDIUM';
+  return 'LOW';
+};
+
+const getSeverityCategoryFromPII = (impactScore: number): string => {
+  if (impactScore >= 66) return 'CRITICAL';
+  if (impactScore >= 56) return 'HIGH';
+  if (impactScore >= 46) return 'MEDIUM';
   return 'LOW';
 };
 
@@ -82,9 +89,15 @@ export const CommandCenter: React.FC<CommandCenterProps> = ({
     const q = search.trim().toLowerCase();
     return hotspots
       .filter((h) => {
-        const prediction = predictions.find((p) => p.hotspot_id === h.id);
-        const riskLevel = prediction?.risk_level ?? 'Low';
-        if (severityFilter !== 'ALL' && getSeverityCategory(riskLevel) !== severityFilter) return false;
+        if (severityFilter !== 'ALL') {
+          if (activeTab === 'zones') {
+            if (getSeverityCategoryFromPII(h.impact_score) !== severityFilter) return false;
+          } else {
+            const prediction = predictions.find((p) => p.hotspot_id === h.id);
+            const riskLevel = prediction?.risk_level ?? 'Low';
+            if (getSeverityCategoryFromRiskLevel(riskLevel) !== severityFilter) return false;
+          }
+        }
         if (!q) return true;
         const dep = deploymentByHotspotId.get(h.id);
         return [h.id, h.name, dep?.priority ?? '', dep?.deployment_window ?? '', dep?.reason ?? '']
@@ -94,7 +107,7 @@ export const CommandCenter: React.FC<CommandCenterProps> = ({
         if (sortBy === 'VIOLATIONS') return b.violations - a.violations;
         return b.impact_score - a.impact_score;
       });
-  }, [hotspots, predictions, search, severityFilter, sortBy, deploymentByHotspotId]);
+  }, [hotspots, predictions, search, severityFilter, sortBy, activeTab, deploymentByHotspotId]);
 
   // ── Filtered + sorted deployments ──────────────────────────────────────
   const filteredDeployments = useMemo(() => {
@@ -102,7 +115,7 @@ export const CommandCenter: React.FC<CommandCenterProps> = ({
     return deployments
       .filter((d) => {
         if (severityFilter !== 'ALL') {
-          if (getSeverityCategory(d.priority) !== severityFilter) return false;
+          if (getSeverityCategoryFromRiskLevel(d.priority) !== severityFilter) return false;
         }
         if (!q) return true;
         return [d.hotspot_id, d.hotspot_name, d.priority, d.deployment_window, d.reason]
