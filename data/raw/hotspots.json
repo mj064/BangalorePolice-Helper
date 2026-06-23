@@ -8,7 +8,8 @@
     "violation_density": 100.0,
     "main_road_score": 99.93,
     "peak_hour_score": 13.25,
-    "repeat_violation_score": 20.91
+    "repeat_violation_score": 20.91,
+    "id": "BTP082 - KR Market Junction"
   },
   {
     "name": "BTP051 - Safina Plaza Junction",
@@ -19,7 +20,8 @@
     "violation_density": 92.81,
     "main_road_score": 98.67,
     "peak_hour_score": 7.17,
-    "repeat_violation_score": 26.04
+    "repeat_violation_score": 26.04,
+    "id": "BTP051 - Safina Plaza Junction"
   },
   {
     "name": "BTP027 - Modi Bridge Junction",
@@ -30,7 +32,8 @@
     "violation_density": 95.03,
     "main_road_score": 99.69,
     "peak_hour_score": 3.75,
-    "repeat_violation_score": 23.51
+    "repeat_violation_score": 23.51,
+    "id": "BTP027 - Modi Bridge Junction"
   },
   {
     "name": "MBT Road, Devasandra Junction",
@@ -41,7 +44,8 @@
     "violation_density": 75.53,
     "main_road_score": 98.66,
     "peak_hour_score": 43.37,
-    "repeat_violation_score": 16.9
+    "repeat_violation_score": 16.9,
+    "id": "MBT Road, Devasandra Junction"
   },
   {
     "name": "New Horizon College Road",
@@ -52,7 +56,8 @@
     "violation_density": 88.44,
     "main_road_score": 96.19,
     "peak_hour_score": 2.8,
-    "repeat_violation_score": 30.89
+    "repeat_violation_score": 30.89,
+    "id": "New Horizon College Road"
   },
   {
     "name": "Unnamed Road",
@@ -63,7 +68,8 @@
     "violation_density": 77.07,
     "main_road_score": 98.89,
     "peak_hour_score": 18.57,
-    "repeat_violation_score": 11.8
+    "repeat_violation_score": 11.8,
+    "id": "Unnamed Road"
   },
   {
     "name": "BTP054 - Shivananda Circle",
@@ -74,7 +80,8 @@
     "violation_density": 83.71,
     "main_road_score": 98.47,
     "peak_hour_score": 1.9,
-    "repeat_violation_score": 13.41
+    "repeat_violation_score": 13.41,
+    "id": "BTP054 - Shivananda Circle"
   },
   {
     "name": "Sahakar Nagar Road",
@@ -85,7 +92,8 @@
     "violation_density": 78.93,
     "main_road_score": 99.39,
     "peak_hour_score": 3.86,
-    "repeat_violation_score": 25.36
+    "repeat_violation_score": 25.36,
+    "id": "Sahakar Nagar Road"
   },
   {
     "name": "17th Cross Road",
@@ -96,7 +104,8 @@
     "violation_density": 68.98,
     "main_road_score": 98.4,
     "peak_hour_score": 26.86,
-    "repeat_violation_score": 11.85
+    "repeat_violation_score": 11.85,
+    "id": "17th Cross Road"
   },
   {
     "name": "BTP032 - Windsor Circle",
@@ -107,7 +116,8 @@
     "violation_density": 72.42,
     "main_road_score": 100.0,
     "peak_hour_score": 2.49,
-    "repeat_violation_score": 49.12
+    "repeat_violation_score": 49.12,
+    "id": "BTP032 - Windsor Circle"
   },
   {
     "name": "BTP137 - Madiwala Traffic PS Junction",
@@ -118,7 +128,8 @@
     "violation_density": 40.06,
     "main_road_score": 100.0,
     "peak_hour_score": 87.95,
-    "repeat_violation_score": 3.61
+    "repeat_violation_score": 3.61,
+    "id": "BTP137 - Madiwala Traffic PS Junction"
   },
   {
     "name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
@@ -129,7 +140,8 @@
     "violation_density": 70.93,
     "main_road_score": 99.53,
     "peak_hour_score": 14.56,
-    "repeat_violation_score": 14.72
+    "repeat_violation_score": 14.72,
+    "id": "BTP148 - 17th Main, Doopanahalli Bus Stop"
   },
   {
     "name": "Neeladri Road",
@@ -140,7 +152,8 @@
     "violation_density": 69.27,
     "main_road_score": 98.64,
     "peak_hour_score": 20.75,
-    "repeat_violation_score": 16.8
+    "repeat_violation_score": 16.8,
+    "id": "Neeladri Road"
   },
   {
     "name": "Outer Ring Road",
@@ -151,7 +164,8 @@
     "violation_density": 69.14,
     "main_road_score": 99.28,
     "peak_hour_score": 23.43,
-    "repeat_violation_score": 9.64
+    "repeat_violation_score": 9.64,
+    "id": "Outer Ring Road"
   },
   {
     "name": "Old Madras Road",
@@ -162,7 +176,8 @@
     "violation_density": 61.56,
     "main_road_score": 99.56,
     "peak_hour_score": 35.25,
-    "repeat_violation_score": 12.27
+    "repeat_violation_score": 12.27,
+    "id": "Old Madras Road"
   },
   {
     "name": "Thanisandra Main Road",
@@ -173,7 +188,8 @@
     "violation_density": 36.71,
     "main_road_score": 100.0,
     "peak_hour_score": 77.19,
-    "repeat_violation_score": 31.58
+    "repeat_violation_score": 31.58,
+    "id": "Thanisandra Main Road"
   },
   {
     "name": "Coles Road",
@@ -184,7 +200,8 @@
     "violation_density": 72.83,
     "main_road_score": 97.56,
     "peak_hour_score": 9.23,
-    "repeat_violation_score": 15.1
+    "repeat_violation_score": 15.1,
+    "id": "Coles Road"
   },
   {
     "name": "BTP016 - 5th Main Road, RPC Layout",
@@ -195,7 +212,8 @@
     "violation_density": 76.59,
     "main_road_score": 99.96,
     "peak_hour_score": 1.88,
-    "repeat_violation_score": 13.1
+    "repeat_violation_score": 13.1,
+    "id": "BTP016 - 5th Main Road, RPC Layout"
   },
   {
     "name": "Bellary Road",
@@ -206,7 +224,8 @@
     "violation_density": 73.73,
     "main_road_score": 98.36,
     "peak_hour_score": 4.28,
-    "repeat_violation_score": 24.81
+    "repeat_violation_score": 24.81,
+    "id": "Bellary Road"
   },
   {
     "name": "MN Krishnarao Road",
@@ -217,7 +236,8 @@
     "violation_density": 29.8,
     "main_road_score": 100.0,
     "peak_hour_score": 100.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "MN Krishnarao Road"
   },
   {
     "name": "BTP051 - Safina Plaza Junction",
@@ -228,7 +248,8 @@
     "violation_density": 77.44,
     "main_road_score": 89.63,
     "peak_hour_score": 7.09,
-    "repeat_violation_score": 17.61
+    "repeat_violation_score": 17.61,
+    "id": "BTP051 - Safina Plaza Junction"
   },
   {
     "name": "MBT Road, Royal Heritage",
@@ -239,7 +260,8 @@
     "violation_density": 68.85,
     "main_road_score": 99.16,
     "peak_hour_score": 11.13,
-    "repeat_violation_score": 14.83
+    "repeat_violation_score": 14.83,
+    "id": "MBT Road, Royal Heritage"
   },
   {
     "name": "BTP096 - Gali Anjaneya Temple",
@@ -250,7 +272,8 @@
     "violation_density": 67.9,
     "main_road_score": 100.0,
     "peak_hour_score": 17.91,
-    "repeat_violation_score": 7.34
+    "repeat_violation_score": 7.34,
+    "id": "BTP096 - Gali Anjaneya Temple"
   },
   {
     "name": "BTP137 - Madiwala Traffic PS Junction",
@@ -261,7 +284,8 @@
     "violation_density": 58.95,
     "main_road_score": 99.56,
     "peak_hour_score": 19.76,
-    "repeat_violation_score": 24.93
+    "repeat_violation_score": 24.93,
+    "id": "BTP137 - Madiwala Traffic PS Junction"
   },
   {
     "name": "Hosur Road",
@@ -272,7 +296,8 @@
     "violation_density": 67.3,
     "main_road_score": 96.14,
     "peak_hour_score": 8.02,
-    "repeat_violation_score": 24.28
+    "repeat_violation_score": 24.28,
+    "id": "Hosur Road"
   },
   {
     "name": "BTP189 - New Diagonal Road, Jayanagar",
@@ -283,7 +308,8 @@
     "violation_density": 70.73,
     "main_road_score": 99.96,
     "peak_hour_score": 2.72,
-    "repeat_violation_score": 12.53
+    "repeat_violation_score": 12.53,
+    "id": "BTP189 - New Diagonal Road, Jayanagar"
   },
   {
     "name": "20th Main Road",
@@ -294,7 +320,8 @@
     "violation_density": 61.59,
     "main_road_score": 99.67,
     "peak_hour_score": 22.25,
-    "repeat_violation_score": 9.69
+    "repeat_violation_score": 9.69,
+    "id": "20th Main Road"
   },
   {
     "name": "BTP172 - Nanjappa Circle",
@@ -305,7 +332,8 @@
     "violation_density": 65.04,
     "main_road_score": 100.0,
     "peak_hour_score": 0.53,
-    "repeat_violation_score": 39.82
+    "repeat_violation_score": 39.82,
+    "id": "BTP172 - Nanjappa Circle"
   },
   {
     "name": "BTP135 - UCO Bank Junction",
@@ -316,7 +344,8 @@
     "violation_density": 66.33,
     "main_road_score": 99.74,
     "peak_hour_score": 14.01,
-    "repeat_violation_score": 8.21
+    "repeat_violation_score": 8.21,
+    "id": "BTP135 - UCO Bank Junction"
   },
   {
     "name": "BTP108 - Tagore Park Junction",
@@ -327,7 +356,8 @@
     "violation_density": 70.51,
     "main_road_score": 100.0,
     "peak_hour_score": 5.37,
-    "repeat_violation_score": 10.82
+    "repeat_violation_score": 10.82,
+    "id": "BTP108 - Tagore Park Junction"
   },
   {
     "name": "Jakkur Main Road",
@@ -338,7 +368,8 @@
     "violation_density": 60.86,
     "main_road_score": 99.28,
     "peak_hour_score": 21.96,
-    "repeat_violation_score": 10.86
+    "repeat_violation_score": 10.86,
+    "id": "Jakkur Main Road"
   },
   {
     "name": "ITPL Main Road",
@@ -349,7 +380,8 @@
     "violation_density": 71.85,
     "main_road_score": 99.68,
     "peak_hour_score": 0.57,
-    "repeat_violation_score": 10.71
+    "repeat_violation_score": 10.71,
+    "id": "ITPL Main Road"
   },
   {
     "name": "Pusa Thippasandra Main Road",
@@ -360,7 +392,8 @@
     "violation_density": 64.36,
     "main_road_score": 100.0,
     "peak_hour_score": 9.72,
-    "repeat_violation_score": 24.45
+    "repeat_violation_score": 24.45,
+    "id": "Pusa Thippasandra Main Road"
   },
   {
     "name": "MBT Road, SM Layout",
@@ -371,7 +404,8 @@
     "violation_density": 65.09,
     "main_road_score": 94.62,
     "peak_hour_score": 18.75,
-    "repeat_violation_score": 5.75
+    "repeat_violation_score": 5.75,
+    "id": "MBT Road, SM Layout"
   },
   {
     "name": "Whitefield Road",
@@ -382,7 +416,8 @@
     "violation_density": 66.13,
     "main_road_score": 99.07,
     "peak_hour_score": 8.93,
-    "repeat_violation_score": 8.19
+    "repeat_violation_score": 8.19,
+    "id": "Whitefield Road"
   },
   {
     "name": "BTP074 - Leprosy Hospital Junction",
@@ -393,7 +428,8 @@
     "violation_density": 67.95,
     "main_road_score": 99.89,
     "peak_hour_score": 3.0,
-    "repeat_violation_score": 10.19
+    "repeat_violation_score": 10.19,
+    "id": "BTP074 - Leprosy Hospital Junction"
   },
   {
     "name": "Hosapalya Main Road",
@@ -404,7 +440,8 @@
     "violation_density": 65.33,
     "main_road_score": 97.23,
     "peak_hour_score": 11.79,
-    "repeat_violation_score": 16.38
+    "repeat_violation_score": 16.38,
+    "id": "Hosapalya Main Road"
   },
   {
     "name": "BTP115 - Sahasra Hospital, Jayanagar",
@@ -415,7 +452,8 @@
     "violation_density": 61.75,
     "main_road_score": 100.0,
     "peak_hour_score": 14.16,
-    "repeat_violation_score": 13.19
+    "repeat_violation_score": 13.19,
+    "id": "BTP115 - Sahasra Hospital, Jayanagar"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -426,7 +464,8 @@
     "violation_density": 64.57,
     "main_road_score": 97.78,
     "peak_hour_score": 11.8,
-    "repeat_violation_score": 12.51
+    "repeat_violation_score": 12.51,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "BTP192 - Urvashi Theater",
@@ -437,7 +476,8 @@
     "violation_density": 64.94,
     "main_road_score": 100.0,
     "peak_hour_score": 3.65,
-    "repeat_violation_score": 12.08
+    "repeat_violation_score": 12.08,
+    "id": "BTP192 - Urvashi Theater"
   },
   {
     "name": "Bhadrappa Flyover",
@@ -448,7 +488,8 @@
     "violation_density": 63.24,
     "main_road_score": 96.06,
     "peak_hour_score": 4.13,
-    "repeat_violation_score": 27.43
+    "repeat_violation_score": 27.43,
+    "id": "Bhadrappa Flyover"
   },
   {
     "name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
@@ -459,7 +500,8 @@
     "violation_density": 62.26,
     "main_road_score": 98.88,
     "peak_hour_score": 16.67,
-    "repeat_violation_score": 5.01
+    "repeat_violation_score": 5.01,
+    "id": "BTP186 - 9th Cross, 4th Main, Jayanagar"
   },
   {
     "name": "Bengaluru Bellary Road",
@@ -470,7 +512,8 @@
     "violation_density": 61.97,
     "main_road_score": 96.41,
     "peak_hour_score": 18.04,
-    "repeat_violation_score": 6.75
+    "repeat_violation_score": 6.75,
+    "id": "Bengaluru Bellary Road"
   },
   {
     "name": "Bagalur Road",
@@ -481,7 +524,8 @@
     "violation_density": 31.61,
     "main_road_score": 100.0,
     "peak_hour_score": 75.0,
-    "repeat_violation_score": 6.25
+    "repeat_violation_score": 6.25,
+    "id": "Bagalur Road"
   },
   {
     "name": "Amrutha College Road",
@@ -492,7 +536,8 @@
     "violation_density": 58.51,
     "main_road_score": 98.3,
     "peak_hour_score": 16.87,
-    "repeat_violation_score": 8.05
+    "repeat_violation_score": 8.05,
+    "id": "Amrutha College Road"
   },
   {
     "name": "BTP148 - 17th Main, Doopanahalli Bus Stop",
@@ -503,7 +548,8 @@
     "violation_density": 66.26,
     "main_road_score": 99.61,
     "peak_hour_score": 1.64,
-    "repeat_violation_score": 7.74
+    "repeat_violation_score": 7.74,
+    "id": "BTP148 - 17th Main, Doopanahalli Bus Stop"
   },
   {
     "name": "Whitefield Road",
@@ -514,7 +560,8 @@
     "violation_density": 59.01,
     "main_road_score": 99.71,
     "peak_hour_score": 5.86,
-    "repeat_violation_score": 22.99
+    "repeat_violation_score": 22.99,
+    "id": "Whitefield Road"
   },
   {
     "name": "BTP208 - Havanur Circle",
@@ -525,7 +572,8 @@
     "violation_density": 62.63,
     "main_road_score": 100.0,
     "peak_hour_score": 5.59,
-    "repeat_violation_score": 12.37
+    "repeat_violation_score": 12.37,
+    "id": "BTP208 - Havanur Circle"
   },
   {
     "name": "BTP091 - Sirsi Circle",
@@ -536,7 +584,8 @@
     "violation_density": 60.81,
     "main_road_score": 98.32,
     "peak_hour_score": 4.44,
-    "repeat_violation_score": 18.25
+    "repeat_violation_score": 18.25,
+    "id": "BTP091 - Sirsi Circle"
   },
   {
     "name": "80 Feet Road",
@@ -547,7 +596,8 @@
     "violation_density": 64.41,
     "main_road_score": 99.27,
     "peak_hour_score": 2.74,
-    "repeat_violation_score": 12.01
+    "repeat_violation_score": 12.01,
+    "id": "80 Feet Road"
   },
   {
     "name": "Shri Ramalingeshwara Cave Temple Road",
@@ -558,7 +608,8 @@
     "violation_density": 56.62,
     "main_road_score": 98.09,
     "peak_hour_score": 13.36,
-    "repeat_violation_score": 25.95
+    "repeat_violation_score": 25.95,
+    "id": "Shri Ramalingeshwara Cave Temple Road"
   },
   {
     "name": "BTP017 - Attiguppe Circle",
@@ -569,7 +620,8 @@
     "violation_density": 62.32,
     "main_road_score": 100.0,
     "peak_hour_score": 0.71,
-    "repeat_violation_score": 17.77
+    "repeat_violation_score": 17.77,
+    "id": "BTP017 - Attiguppe Circle"
   },
   {
     "name": "BTP041 - Gopal Gowda Circle",
@@ -580,7 +632,8 @@
     "violation_density": 60.41,
     "main_road_score": 100.0,
     "peak_hour_score": 7.4,
-    "repeat_violation_score": 8.91
+    "repeat_violation_score": 8.91,
+    "id": "BTP041 - Gopal Gowda Circle"
   },
   {
     "name": "ITPL Main Road",
@@ -591,7 +644,8 @@
     "violation_density": 61.03,
     "main_road_score": 99.18,
     "peak_hour_score": 8.55,
-    "repeat_violation_score": 6.32
+    "repeat_violation_score": 6.32,
+    "id": "ITPL Main Road"
   },
   {
     "name": "BTP098 - Nayandahalli Junction",
@@ -602,7 +656,8 @@
     "violation_density": 47.34,
     "main_road_score": 97.86,
     "peak_hour_score": 31.02,
-    "repeat_violation_score": 27.27
+    "repeat_violation_score": 27.27,
+    "id": "BTP098 - Nayandahalli Junction"
   },
   {
     "name": "Dr Rajkumar Puniya Bhoomi Road",
@@ -613,7 +668,8 @@
     "violation_density": 60.75,
     "main_road_score": 94.69,
     "peak_hour_score": 8.57,
-    "repeat_violation_score": 14.49
+    "repeat_violation_score": 14.49,
+    "id": "Dr Rajkumar Puniya Bhoomi Road"
   },
   {
     "name": "Srinivagilu Main Road",
@@ -624,7 +680,8 @@
     "violation_density": 62.01,
     "main_road_score": 99.05,
     "peak_hour_score": 2.1,
-    "repeat_violation_score": 14.5
+    "repeat_violation_score": 14.5,
+    "id": "Srinivagilu Main Road"
   },
   {
     "name": "BTP136 - Hosur-Tavarkere Road Junction",
@@ -635,7 +692,8 @@
     "violation_density": 54.48,
     "main_road_score": 99.52,
     "peak_hour_score": 2.91,
-    "repeat_violation_score": 35.59
+    "repeat_violation_score": 35.59,
+    "id": "BTP136 - Hosur-Tavarkere Road Junction"
   },
   {
     "name": "BTP137 - Madiwala Traffic PS Junction",
@@ -646,7 +704,8 @@
     "violation_density": 43.13,
     "main_road_score": 100.0,
     "peak_hour_score": 39.32,
-    "repeat_violation_score": 4.27
+    "repeat_violation_score": 4.27,
+    "id": "BTP137 - Madiwala Traffic PS Junction"
   },
   {
     "name": "Vibgyor High School Road",
@@ -657,7 +716,8 @@
     "violation_density": 54.1,
     "main_road_score": 98.23,
     "peak_hour_score": 15.91,
-    "repeat_violation_score": 12.37
+    "repeat_violation_score": 12.37,
+    "id": "Vibgyor High School Road"
   },
   {
     "name": "Chikka Banavara RS Road",
@@ -668,7 +728,8 @@
     "violation_density": 49.92,
     "main_road_score": 98.8,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 59.04
+    "repeat_violation_score": 59.04,
+    "id": "Chikka Banavara RS Road"
   },
   {
     "name": "Gnana Bharathi Road",
@@ -679,7 +740,8 @@
     "violation_density": 56.61,
     "main_road_score": 97.13,
     "peak_hour_score": 13.58,
-    "repeat_violation_score": 5.35
+    "repeat_violation_score": 5.35,
+    "id": "Gnana Bharathi Road"
   },
   {
     "name": "RT Nagar Main Road",
@@ -690,7 +752,8 @@
     "violation_density": 57.92,
     "main_road_score": 99.34,
     "peak_hour_score": 3.8,
-    "repeat_violation_score": 8.26
+    "repeat_violation_score": 8.26,
+    "id": "RT Nagar Main Road"
   },
   {
     "name": "4th Cross Road",
@@ -701,7 +764,8 @@
     "violation_density": 53.41,
     "main_road_score": 98.64,
     "peak_hour_score": 13.9,
-    "repeat_violation_score": 11.99
+    "repeat_violation_score": 11.99,
+    "id": "4th Cross Road"
   },
   {
     "name": "5th Cross Road",
@@ -712,7 +776,8 @@
     "violation_density": 56.93,
     "main_road_score": 98.89,
     "peak_hour_score": 0.18,
-    "repeat_violation_score": 26.75
+    "repeat_violation_score": 26.75,
+    "id": "5th Cross Road"
   },
   {
     "name": "BTP010 - Rajajinagar Entrance",
@@ -723,7 +788,8 @@
     "violation_density": 58.29,
     "main_road_score": 100.0,
     "peak_hour_score": 0.16,
-    "repeat_violation_score": 16.03
+    "repeat_violation_score": 16.03,
+    "id": "BTP010 - Rajajinagar Entrance"
   },
   {
     "name": "BTP130 - GD Mara Junction",
@@ -734,7 +800,8 @@
     "violation_density": 57.92,
     "main_road_score": 100.0,
     "peak_hour_score": 0.5,
-    "repeat_violation_score": 20.33
+    "repeat_violation_score": 20.33,
+    "id": "BTP130 - GD Mara Junction"
   },
   {
     "name": "BTP163 - 16th Main Road, BTM Layout",
@@ -745,7 +812,8 @@
     "violation_density": 58.08,
     "main_road_score": 100.0,
     "peak_hour_score": 2.76,
-    "repeat_violation_score": 8.12
+    "repeat_violation_score": 8.12,
+    "id": "BTP163 - 16th Main Road, BTM Layout"
   },
   {
     "name": "Hosa Road, Channakeshava Nagar",
@@ -756,7 +824,8 @@
     "violation_density": 57.16,
     "main_road_score": 95.5,
     "peak_hour_score": 2.34,
-    "repeat_violation_score": 34.71
+    "repeat_violation_score": 34.71,
+    "id": "Hosa Road, Channakeshava Nagar"
   },
   {
     "name": "Allalasandra Main Road",
@@ -767,7 +836,8 @@
     "violation_density": 54.25,
     "main_road_score": 98.26,
     "peak_hour_score": 7.69,
-    "repeat_violation_score": 23.08
+    "repeat_violation_score": 23.08,
+    "id": "Allalasandra Main Road"
   },
   {
     "name": "Bellary Road",
@@ -778,7 +848,8 @@
     "violation_density": 55.81,
     "main_road_score": 98.75,
     "peak_hour_score": 7.1,
-    "repeat_violation_score": 14.41
+    "repeat_violation_score": 14.41,
+    "id": "Bellary Road"
   },
   {
     "name": "Dr Rajkumar Puniya Bhoomi Road",
@@ -789,7 +860,8 @@
     "violation_density": 49.62,
     "main_road_score": 99.59,
     "peak_hour_score": 19.09,
-    "repeat_violation_score": 12.45
+    "repeat_violation_score": 12.45,
+    "id": "Dr Rajkumar Puniya Bhoomi Road"
   },
   {
     "name": "Thanisandra Main Road",
@@ -800,7 +872,8 @@
     "violation_density": 41.45,
     "main_road_score": 98.97,
     "peak_hour_score": 37.11,
-    "repeat_violation_score": 15.46
+    "repeat_violation_score": 15.46,
+    "id": "Thanisandra Main Road"
   },
   {
     "name": "Hosahalli Main Road",
@@ -811,7 +884,8 @@
     "violation_density": 42.66,
     "main_road_score": 100.0,
     "peak_hour_score": 39.64,
-    "repeat_violation_score": 1.8
+    "repeat_violation_score": 1.8,
+    "id": "Hosahalli Main Road"
   },
   {
     "name": "8th Main Road",
@@ -822,7 +896,8 @@
     "violation_density": 49.73,
     "main_road_score": 99.18,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 42.21
+    "repeat_violation_score": 42.21,
+    "id": "8th Main Road"
   },
   {
     "name": "Chinmaya Mission Hospital Road",
@@ -833,7 +908,8 @@
     "violation_density": 58.29,
     "main_road_score": 98.1,
     "peak_hour_score": 1.27,
-    "repeat_violation_score": 12.22
+    "repeat_violation_score": 12.22,
+    "id": "Chinmaya Mission Hospital Road"
   },
   {
     "name": "BTP123 - 10th Cross, Wilson Garden",
@@ -844,7 +920,8 @@
     "violation_density": 54.19,
     "main_road_score": 100.0,
     "peak_hour_score": 4.25,
-    "repeat_violation_score": 17.5
+    "repeat_violation_score": 17.5,
+    "id": "BTP123 - 10th Cross, Wilson Garden"
   },
   {
     "name": "BTP030 - Mekhri Circle",
@@ -855,7 +932,8 @@
     "violation_density": 59.49,
     "main_road_score": 96.67,
     "peak_hour_score": 2.92,
-    "repeat_violation_score": 9.17
+    "repeat_violation_score": 9.17,
+    "id": "BTP030 - Mekhri Circle"
   },
   {
     "name": "BTP140 - Madiwala Check Post",
@@ -866,7 +944,8 @@
     "violation_density": 55.29,
     "main_road_score": 99.12,
     "peak_hour_score": 3.32,
-    "repeat_violation_score": 14.38
+    "repeat_violation_score": 14.38,
+    "id": "BTP140 - Madiwala Check Post"
   },
   {
     "name": "BTP197 - 9th Cross, 24th Main, JP Nagar",
@@ -877,7 +956,8 @@
     "violation_density": 54.03,
     "main_road_score": 100.0,
     "peak_hour_score": 6.36,
-    "repeat_violation_score": 6.62
+    "repeat_violation_score": 6.62,
+    "id": "BTP197 - 9th Cross, 24th Main, JP Nagar"
   },
   {
     "name": "Mallathahalli Road",
@@ -888,7 +968,8 @@
     "violation_density": 55.87,
     "main_road_score": 98.34,
     "peak_hour_score": 8.71,
-    "repeat_violation_score": 6.64
+    "repeat_violation_score": 6.64,
+    "id": "Mallathahalli Road"
   },
   {
     "name": "CV Raman Road",
@@ -899,7 +980,8 @@
     "violation_density": 54.41,
     "main_road_score": 99.51,
     "peak_hour_score": 2.44,
-    "repeat_violation_score": 14.88
+    "repeat_violation_score": 14.88,
+    "id": "CV Raman Road"
   },
   {
     "name": "CMR Road, Jahnavi Layout",
@@ -910,7 +992,8 @@
     "violation_density": 50.3,
     "main_road_score": 98.85,
     "peak_hour_score": 19.23,
-    "repeat_violation_score": 0.77
+    "repeat_violation_score": 0.77,
+    "id": "CMR Road, Jahnavi Layout"
   },
   {
     "name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
@@ -921,7 +1004,8 @@
     "violation_density": 54.07,
     "main_road_score": 98.48,
     "peak_hour_score": 9.11,
-    "repeat_violation_score": 5.06
+    "repeat_violation_score": 5.06,
+    "id": "Sri Sri Sri Tiruchi Mahaswamiji Road"
   },
   {
     "name": "BTP091 - Sirsi Circle",
@@ -932,7 +1016,8 @@
     "violation_density": 50.84,
     "main_road_score": 100.0,
     "peak_hour_score": 17.75,
-    "repeat_violation_score": 5.43
+    "repeat_violation_score": 5.43,
+    "id": "BTP091 - Sirsi Circle"
   },
   {
     "name": "Jayamahal Main Road",
@@ -943,7 +1028,8 @@
     "violation_density": 48.59,
     "main_road_score": 97.67,
     "peak_hour_score": 21.4,
-    "repeat_violation_score": 13.95
+    "repeat_violation_score": 13.95,
+    "id": "Jayamahal Main Road"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -954,7 +1040,8 @@
     "violation_density": 37.74,
     "main_road_score": 96.88,
     "peak_hour_score": 46.88,
-    "repeat_violation_score": 3.12
+    "repeat_violation_score": 3.12,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "Siddhapura Road",
@@ -965,7 +1052,8 @@
     "violation_density": 44.41,
     "main_road_score": 98.52,
     "peak_hour_score": 27.41,
-    "repeat_violation_score": 9.63
+    "repeat_violation_score": 9.63,
+    "id": "Siddhapura Road"
   },
   {
     "name": "BTP203 - RRMR Junction",
@@ -976,7 +1064,8 @@
     "violation_density": 43.58,
     "main_road_score": 100.0,
     "peak_hour_score": 30.89,
-    "repeat_violation_score": 4.07
+    "repeat_violation_score": 4.07,
+    "id": "BTP203 - RRMR Junction"
   },
   {
     "name": "BTP032 - Windsor Circle",
@@ -987,7 +1076,8 @@
     "violation_density": 53.26,
     "main_road_score": 100.0,
     "peak_hour_score": 1.94,
-    "repeat_violation_score": 15.79
+    "repeat_violation_score": 15.79,
+    "id": "BTP032 - Windsor Circle"
   },
   {
     "name": "BTP102 - BMTC Junction, KH Road",
@@ -998,7 +1088,8 @@
     "violation_density": 54.05,
     "main_road_score": 100.0,
     "peak_hour_score": 2.28,
-    "repeat_violation_score": 4.31
+    "repeat_violation_score": 4.31,
+    "id": "BTP102 - BMTC Junction, KH Road"
   },
   {
     "name": "Laggere Service Road",
@@ -1009,7 +1100,8 @@
     "violation_density": 55.09,
     "main_road_score": 93.44,
     "peak_hour_score": 5.66,
-    "repeat_violation_score": 20.59
+    "repeat_violation_score": 20.59,
+    "id": "Laggere Service Road"
   },
   {
     "name": "Outer Ring Road",
@@ -1020,7 +1112,8 @@
     "violation_density": 56.71,
     "main_road_score": 96.41,
     "peak_hour_score": 0.19,
-    "repeat_violation_score": 13.23
+    "repeat_violation_score": 13.23,
+    "id": "Outer Ring Road"
   },
   {
     "name": "BTP106 - VV Puram College",
@@ -1031,7 +1124,8 @@
     "violation_density": 40.78,
     "main_road_score": 100.0,
     "peak_hour_score": 33.33,
-    "repeat_violation_score": 2.22
+    "repeat_violation_score": 2.22,
+    "id": "BTP106 - VV Puram College"
   },
   {
     "name": "20th Main Road",
@@ -1042,7 +1136,8 @@
     "violation_density": 46.64,
     "main_road_score": 100.0,
     "peak_hour_score": 15.03,
-    "repeat_violation_score": 8.67
+    "repeat_violation_score": 8.67,
+    "id": "20th Main Road"
   },
   {
     "name": "Sarjapura Main Road",
@@ -1053,7 +1148,8 @@
     "violation_density": 53.68,
     "main_road_score": 98.68,
     "peak_hour_score": 5.82,
-    "repeat_violation_score": 2.65
+    "repeat_violation_score": 2.65,
+    "id": "Sarjapura Main Road"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -1064,7 +1160,8 @@
     "violation_density": 30.44,
     "main_road_score": 100.0,
     "peak_hour_score": 53.57,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "BTP132 - Anepalya Junction",
@@ -1075,7 +1172,8 @@
     "violation_density": 42.66,
     "main_road_score": 100.0,
     "peak_hour_score": 8.11,
-    "repeat_violation_score": 38.74
+    "repeat_violation_score": 38.74,
+    "id": "BTP132 - Anepalya Junction"
   },
   {
     "name": "BTP098 - Nayandahalli Junction",
@@ -1086,7 +1184,8 @@
     "violation_density": 52.91,
     "main_road_score": 98.27,
     "peak_hour_score": 11.53,
-    "repeat_violation_score": 4.03
+    "repeat_violation_score": 4.03,
+    "id": "BTP098 - Nayandahalli Junction"
   },
   {
     "name": "Hosur Road",
@@ -1097,7 +1196,8 @@
     "violation_density": 54.54,
     "main_road_score": 92.07,
     "peak_hour_score": 13.94,
-    "repeat_violation_score": 8.65
+    "repeat_violation_score": 8.65,
+    "id": "Hosur Road"
   },
   {
     "name": "BTP145 - Sri Hatti Maramma Circle, Domluru",
@@ -1108,7 +1208,8 @@
     "violation_density": 51.26,
     "main_road_score": 100.0,
     "peak_hour_score": 3.46,
-    "repeat_violation_score": 13.49
+    "repeat_violation_score": 13.49,
+    "id": "BTP145 - Sri Hatti Maramma Circle, Domluru"
   },
   {
     "name": "Srinivagilu Main Road",
@@ -1119,7 +1220,8 @@
     "violation_density": 46.59,
     "main_road_score": 98.26,
     "peak_hour_score": 23.84,
-    "repeat_violation_score": 1.74
+    "repeat_violation_score": 1.74,
+    "id": "Srinivagilu Main Road"
   },
   {
     "name": "BTP034 - LRDE Junction",
@@ -1130,7 +1232,8 @@
     "violation_density": 50.97,
     "main_road_score": 100.0,
     "peak_hour_score": 1.43,
-    "repeat_violation_score": 11.43
+    "repeat_violation_score": 11.43,
+    "id": "BTP034 - LRDE Junction"
   },
   {
     "name": "BTP155 - Katriguppe Junction",
@@ -1141,7 +1244,8 @@
     "violation_density": 52.64,
     "main_road_score": 100.0,
     "peak_hour_score": 0.3,
-    "repeat_violation_score": 5.93
+    "repeat_violation_score": 5.93,
+    "id": "BTP155 - Katriguppe Junction"
   },
   {
     "name": "Hosur Road",
@@ -1152,7 +1256,8 @@
     "violation_density": 55.05,
     "main_road_score": 89.55,
     "peak_hour_score": 11.36,
-    "repeat_violation_score": 7.95
+    "repeat_violation_score": 7.95,
+    "id": "Hosur Road"
   },
   {
     "name": "Konanakunte Main Road",
@@ -1163,7 +1268,8 @@
     "violation_density": 53.16,
     "main_road_score": 98.32,
     "peak_hour_score": 4.2,
-    "repeat_violation_score": 4.76
+    "repeat_violation_score": 4.76,
+    "id": "Konanakunte Main Road"
   },
   {
     "name": "SM Road, Sri Ayyappa Nagar",
@@ -1174,7 +1280,8 @@
     "violation_density": 37.01,
     "main_road_score": 100.0,
     "peak_hour_score": 37.29,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "SM Road, Sri Ayyappa Nagar"
   },
   {
     "name": "3rd Main Road",
@@ -1185,7 +1292,8 @@
     "violation_density": 49.84,
     "main_road_score": 99.19,
     "peak_hour_score": 5.26,
-    "repeat_violation_score": 8.1
+    "repeat_violation_score": 8.1,
+    "id": "3rd Main Road"
   },
   {
     "name": "MS Ramaiah Road",
@@ -1196,7 +1304,8 @@
     "violation_density": 51.71,
     "main_road_score": 99.34,
     "peak_hour_score": 1.97,
-    "repeat_violation_score": 8.55
+    "repeat_violation_score": 8.55,
+    "id": "MS Ramaiah Road"
   },
   {
     "name": "BTP136 - Hosur-Tavarkere Road Junction",
@@ -1207,7 +1316,8 @@
     "violation_density": 50.27,
     "main_road_score": 100.0,
     "peak_hour_score": 0.77,
-    "repeat_violation_score": 13.13
+    "repeat_violation_score": 13.13,
+    "id": "BTP136 - Hosur-Tavarkere Road Junction"
   },
   {
     "name": "BTP215 - Vanivillas Junction",
@@ -1218,7 +1328,8 @@
     "violation_density": 55.15,
     "main_road_score": 98.43,
     "peak_hour_score": 0.67,
-    "repeat_violation_score": 6.29
+    "repeat_violation_score": 6.29,
+    "id": "BTP215 - Vanivillas Junction"
   },
   {
     "name": "BTP202 - East End Main Road, Jayanagar",
@@ -1229,7 +1340,8 @@
     "violation_density": 49.36,
     "main_road_score": 100.0,
     "peak_hour_score": 3.42,
-    "repeat_violation_score": 11.54
+    "repeat_violation_score": 11.54,
+    "id": "BTP202 - East End Main Road, Jayanagar"
   },
   {
     "name": "Jalahalli Cross Road",
@@ -1240,7 +1352,8 @@
     "violation_density": 53.19,
     "main_road_score": 97.21,
     "peak_hour_score": 6.42,
-    "repeat_violation_score": 5.59
+    "repeat_violation_score": 5.59,
+    "id": "Jalahalli Cross Road"
   },
   {
     "name": "BTP098 - Nayandahalli Junction",
@@ -1251,7 +1364,8 @@
     "violation_density": 44.87,
     "main_road_score": 99.3,
     "peak_hour_score": 20.42,
-    "repeat_violation_score": 4.23
+    "repeat_violation_score": 4.23,
+    "id": "BTP098 - Nayandahalli Junction"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -1262,7 +1376,8 @@
     "violation_density": 50.24,
     "main_road_score": 97.29,
     "peak_hour_score": 7.75,
-    "repeat_violation_score": 5.43
+    "repeat_violation_score": 5.43,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "Magadi Main Road",
@@ -1273,7 +1388,8 @@
     "violation_density": 53.8,
     "main_road_score": 97.39,
     "peak_hour_score": 2.35,
-    "repeat_violation_score": 2.87
+    "repeat_violation_score": 2.87,
+    "id": "Magadi Main Road"
   },
   {
     "name": "Sarjapura Main Road",
@@ -1284,7 +1400,8 @@
     "violation_density": 48.34,
     "main_road_score": 98.56,
     "peak_hour_score": 8.61,
-    "repeat_violation_score": 2.87
+    "repeat_violation_score": 2.87,
+    "id": "Sarjapura Main Road"
   },
   {
     "name": "BTP126 - Dairy Circle",
@@ -1295,7 +1412,8 @@
     "violation_density": 48.51,
     "main_road_score": 100.0,
     "peak_hour_score": 3.76,
-    "repeat_violation_score": 5.16
+    "repeat_violation_score": 5.16,
+    "id": "BTP126 - Dairy Circle"
   },
   {
     "name": "Chikkabellanduru Road",
@@ -1306,7 +1424,8 @@
     "violation_density": 46.05,
     "main_road_score": 96.3,
     "peak_hour_score": 17.28,
-    "repeat_violation_score": 5.56
+    "repeat_violation_score": 5.56,
+    "id": "Chikkabellanduru Road"
   },
   {
     "name": "Sarjapura Main Road",
@@ -1317,7 +1436,8 @@
     "violation_density": 51.59,
     "main_road_score": 97.33,
     "peak_hour_score": 3.67,
-    "repeat_violation_score": 3.33
+    "repeat_violation_score": 3.33,
+    "id": "Sarjapura Main Road"
   },
   {
     "name": "1st Cross Road",
@@ -1328,7 +1448,8 @@
     "violation_density": 48.88,
     "main_road_score": 98.2,
     "peak_hour_score": 5.86,
-    "repeat_violation_score": 3.6
+    "repeat_violation_score": 3.6,
+    "id": "1st Cross Road"
   },
   {
     "name": "BTP099 - Cash Pharmacy, Residency Road",
@@ -1339,7 +1460,8 @@
     "violation_density": 48.17,
     "main_road_score": 100.0,
     "peak_hour_score": 1.95,
-    "repeat_violation_score": 9.76
+    "repeat_violation_score": 9.76,
+    "id": "BTP099 - Cash Pharmacy, Residency Road"
   },
   {
     "name": "Hosur Road",
@@ -1350,7 +1472,8 @@
     "violation_density": 52.56,
     "main_road_score": 84.73,
     "peak_hour_score": 10.18,
-    "repeat_violation_score": 27.25
+    "repeat_violation_score": 27.25,
+    "id": "Hosur Road"
   },
   {
     "name": "Munninarasimha Road",
@@ -1361,7 +1484,8 @@
     "violation_density": 38.66,
     "main_road_score": 97.18,
     "peak_hour_score": 29.58,
-    "repeat_violation_score": 2.82
+    "repeat_violation_score": 2.82,
+    "id": "Munninarasimha Road"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -1372,7 +1496,8 @@
     "violation_density": 46.1,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 21.47
+    "repeat_violation_score": 21.47,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "Soniya Gandhi Road",
@@ -1383,7 +1508,8 @@
     "violation_density": 48.68,
     "main_road_score": 98.62,
     "peak_hour_score": 0.92,
-    "repeat_violation_score": 13.36
+    "repeat_violation_score": 13.36,
+    "id": "Soniya Gandhi Road"
   },
   {
     "name": "BTP023 - Mahalaxmi Layout Entrance",
@@ -1394,7 +1520,8 @@
     "violation_density": 50.51,
     "main_road_score": 96.24,
     "peak_hour_score": 4.14,
-    "repeat_violation_score": 7.52
+    "repeat_violation_score": 7.52,
+    "id": "BTP023 - Mahalaxmi Layout Entrance"
   },
   {
     "name": "19th Main Road",
@@ -1405,7 +1532,8 @@
     "violation_density": 48.55,
     "main_road_score": 99.53,
     "peak_hour_score": 5.61,
-    "repeat_violation_score": 7.94
+    "repeat_violation_score": 7.94,
+    "id": "19th Main Road"
   },
   {
     "name": "BTP163 - 16th Main Road, BTM Layout",
@@ -1416,7 +1544,8 @@
     "violation_density": 37.31,
     "main_road_score": 100.0,
     "peak_hour_score": 27.87,
-    "repeat_violation_score": 4.92
+    "repeat_violation_score": 4.92,
+    "id": "BTP163 - 16th Main Road, BTM Layout"
   },
   {
     "name": "Professor K Venkatachalam Circle",
@@ -1427,7 +1556,8 @@
     "violation_density": 48.8,
     "main_road_score": 95.91,
     "peak_hour_score": 6.36,
-    "repeat_violation_score": 14.09
+    "repeat_violation_score": 14.09,
+    "id": "Professor K Venkatachalam Circle"
   },
   {
     "name": "Bellahali Main Road",
@@ -1438,7 +1568,8 @@
     "violation_density": 51.44,
     "main_road_score": 73.9,
     "peak_hour_score": 38.31,
-    "repeat_violation_score": 4.75
+    "repeat_violation_score": 4.75,
+    "id": "Bellahali Main Road"
   },
   {
     "name": "BTP216 - Yediyur Junction",
@@ -1449,7 +1580,8 @@
     "violation_density": 47.43,
     "main_road_score": 100.0,
     "peak_hour_score": 1.59,
-    "repeat_violation_score": 12.17
+    "repeat_violation_score": 12.17,
+    "id": "BTP216 - Yediyur Junction"
   },
   {
     "name": "Subramanyapura Main Road",
@@ -1460,7 +1592,8 @@
     "violation_density": 45.71,
     "main_road_score": 97.44,
     "peak_hour_score": 16.67,
-    "repeat_violation_score": 3.21
+    "repeat_violation_score": 3.21,
+    "id": "Subramanyapura Main Road"
   },
   {
     "name": "Nallurahalli Road",
@@ -1471,7 +1604,8 @@
     "violation_density": 44.67,
     "main_road_score": 99.28,
     "peak_hour_score": 15.11,
-    "repeat_violation_score": 2.88
+    "repeat_violation_score": 2.88,
+    "id": "Nallurahalli Road"
   },
   {
     "name": "BTP142 - Lower Agram Road Junction",
@@ -1482,7 +1616,8 @@
     "violation_density": 34.81,
     "main_road_score": 100.0,
     "peak_hour_score": 17.39,
-    "repeat_violation_score": 32.61
+    "repeat_violation_score": 32.61,
+    "id": "BTP142 - Lower Agram Road Junction"
   },
   {
     "name": "HAL Airport Road",
@@ -1493,7 +1628,8 @@
     "violation_density": 41.17,
     "main_road_score": 100.0,
     "peak_hour_score": 19.15,
-    "repeat_violation_score": 2.13
+    "repeat_violation_score": 2.13,
+    "id": "HAL Airport Road"
   },
   {
     "name": "Dr BR Ambedkar Road",
@@ -1504,7 +1640,8 @@
     "violation_density": 51.59,
     "main_road_score": 97.67,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 7.67
+    "repeat_violation_score": 7.67,
+    "id": "Dr BR Ambedkar Road"
   },
   {
     "name": "Jalahalli Main Road",
@@ -1515,7 +1652,8 @@
     "violation_density": 35.18,
     "main_road_score": 95.83,
     "peak_hour_score": 37.5,
-    "repeat_violation_score": 4.17
+    "repeat_violation_score": 4.17,
+    "id": "Jalahalli Main Road"
   },
   {
     "name": "80 Feet Road",
@@ -1526,7 +1664,8 @@
     "violation_density": 34.81,
     "main_road_score": 100.0,
     "peak_hour_score": 34.78,
-    "repeat_violation_score": 4.35
+    "repeat_violation_score": 4.35,
+    "id": "80 Feet Road"
   },
   {
     "name": "Bellary Road",
@@ -1537,7 +1676,8 @@
     "violation_density": 46.27,
     "main_road_score": 100.0,
     "peak_hour_score": 1.2,
-    "repeat_violation_score": 9.04
+    "repeat_violation_score": 9.04,
+    "id": "Bellary Road"
   },
   {
     "name": "Whitefield Road",
@@ -1548,7 +1688,8 @@
     "violation_density": 43.5,
     "main_road_score": 97.54,
     "peak_hour_score": 10.66,
-    "repeat_violation_score": 14.75
+    "repeat_violation_score": 14.75,
+    "id": "Whitefield Road"
   },
   {
     "name": "Sarjapura Main Road",
@@ -1559,7 +1700,8 @@
     "violation_density": 46.69,
     "main_road_score": 98.28,
     "peak_hour_score": 8.05,
-    "repeat_violation_score": 0.57
+    "repeat_violation_score": 0.57,
+    "id": "Sarjapura Main Road"
   },
   {
     "name": "BTP123 - 10th Cross, Wilson Garden",
@@ -1570,7 +1712,8 @@
     "violation_density": 45.88,
     "main_road_score": 100.0,
     "peak_hour_score": 6.92,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTP123 - 10th Cross, Wilson Garden"
   },
   {
     "name": "Thanisandra Main Road",
@@ -1581,7 +1724,8 @@
     "violation_density": 42.24,
     "main_road_score": 100.0,
     "peak_hour_score": 11.32,
-    "repeat_violation_score": 6.6
+    "repeat_violation_score": 6.6,
+    "id": "Thanisandra Main Road"
   },
   {
     "name": "BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar",
@@ -1592,7 +1736,8 @@
     "violation_density": 47.72,
     "main_road_score": 100.0,
     "peak_hour_score": 1.03,
-    "repeat_violation_score": 9.74
+    "repeat_violation_score": 9.74,
+    "id": "BTP176 - Rajalakshmi Kalyana Mantapa, JP Nagar"
   },
   {
     "name": "Bannerghatta Main Road",
@@ -1603,7 +1748,8 @@
     "violation_density": 47.39,
     "main_road_score": 100.0,
     "peak_hour_score": 1.06,
-    "repeat_violation_score": 4.79
+    "repeat_violation_score": 4.79,
+    "id": "Bannerghatta Main Road"
   },
   {
     "name": "Banaswadi Main Road",
@@ -1614,7 +1760,8 @@
     "violation_density": 48.03,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 3.47
+    "repeat_violation_score": 3.47,
+    "id": "Banaswadi Main Road"
   },
   {
     "name": "ITPL Main Road",
@@ -1625,7 +1772,8 @@
     "violation_density": 43.13,
     "main_road_score": 99.15,
     "peak_hour_score": 11.11,
-    "repeat_violation_score": 3.42
+    "repeat_violation_score": 3.42,
+    "id": "ITPL Main Road"
   },
   {
     "name": "J Lingaiah Road",
@@ -1636,7 +1784,8 @@
     "violation_density": 46.64,
     "main_road_score": 95.95,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 26.59
+    "repeat_violation_score": 26.59,
+    "id": "J Lingaiah Road"
   },
   {
     "name": "Commissariat Road",
@@ -1647,7 +1796,8 @@
     "violation_density": 41.26,
     "main_road_score": 100.0,
     "peak_hour_score": 12.63,
-    "repeat_violation_score": 8.42
+    "repeat_violation_score": 8.42,
+    "id": "Commissariat Road"
   },
   {
     "name": "BTP222 - Delmia Circle",
@@ -1658,7 +1808,8 @@
     "violation_density": 36.55,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 55.36
+    "repeat_violation_score": 55.36,
+    "id": "BTP222 - Delmia Circle"
   },
   {
     "name": "8th Main Road",
@@ -1669,7 +1820,8 @@
     "violation_density": 42.24,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 27.36
+    "repeat_violation_score": 27.36,
+    "id": "8th Main Road"
   },
   {
     "name": "Hoodi Main Road",
@@ -1680,7 +1832,8 @@
     "violation_density": 41.07,
     "main_road_score": 100.0,
     "peak_hour_score": 15.05,
-    "repeat_violation_score": 3.23
+    "repeat_violation_score": 3.23,
+    "id": "Hoodi Main Road"
   },
   {
     "name": "Bagaluru Main Road",
@@ -1691,7 +1844,8 @@
     "violation_density": 48.17,
     "main_road_score": 99.02,
     "peak_hour_score": 1.95,
-    "repeat_violation_score": 4.88
+    "repeat_violation_score": 4.88,
+    "id": "Bagaluru Main Road"
   },
   {
     "name": "2nd Main Road",
@@ -1702,7 +1856,8 @@
     "violation_density": 41.07,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 32.26
+    "repeat_violation_score": 32.26,
+    "id": "2nd Main Road"
   },
   {
     "name": "Railway Line Road",
@@ -1713,7 +1868,8 @@
     "violation_density": 46.16,
     "main_road_score": 100.0,
     "peak_hour_score": 0.61,
-    "repeat_violation_score": 14.02
+    "repeat_violation_score": 14.02,
+    "id": "Railway Line Road"
   },
   {
     "name": "Bengaluru Bellary Road",
@@ -1724,7 +1880,8 @@
     "violation_density": 27.94,
     "main_road_score": 95.24,
     "peak_hour_score": 47.62,
-    "repeat_violation_score": 9.52
+    "repeat_violation_score": 9.52,
+    "id": "Bengaluru Bellary Road"
   },
   {
     "name": "27th Main Road",
@@ -1735,7 +1892,8 @@
     "violation_density": 47.05,
     "main_road_score": 96.69,
     "peak_hour_score": 3.87,
-    "repeat_violation_score": 3.87
+    "repeat_violation_score": 3.87,
+    "id": "27th Main Road"
   },
   {
     "name": "Kengeri Main Road",
@@ -1746,7 +1904,8 @@
     "violation_density": 43.43,
     "main_road_score": 99.17,
     "peak_hour_score": 4.96,
-    "repeat_violation_score": 9.09
+    "repeat_violation_score": 9.09,
+    "id": "Kengeri Main Road"
   },
   {
     "name": "Hosur Road",
@@ -1757,7 +1916,8 @@
     "violation_density": 49.58,
     "main_road_score": 96.25,
     "peak_hour_score": 1.25,
-    "repeat_violation_score": 4.58
+    "repeat_violation_score": 4.58,
+    "id": "Hosur Road"
   },
   {
     "name": "BTP085 - Briyand Circle",
@@ -1768,7 +1928,8 @@
     "violation_density": 46.16,
     "main_road_score": 95.73,
     "peak_hour_score": 4.27,
-    "repeat_violation_score": 8.54
+    "repeat_violation_score": 8.54,
+    "id": "BTP085 - Briyand Circle"
   },
   {
     "name": "Whitefield Main Road",
@@ -1779,7 +1940,8 @@
     "violation_density": 46.38,
     "main_road_score": 99.4,
     "peak_hour_score": 1.19,
-    "repeat_violation_score": 1.79
+    "repeat_violation_score": 1.79,
+    "id": "Whitefield Main Road"
   },
   {
     "name": "BTP052 - CID Carlton House Junction",
@@ -1790,7 +1952,8 @@
     "violation_density": 46.48,
     "main_road_score": 100.0,
     "peak_hour_score": 1.18,
-    "repeat_violation_score": 5.88
+    "repeat_violation_score": 5.88,
+    "id": "BTP052 - CID Carlton House Junction"
   },
   {
     "name": "BTP122 - Siddapura Junction",
@@ -1801,7 +1964,8 @@
     "violation_density": 39.61,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 30.38
+    "repeat_violation_score": 30.38,
+    "id": "BTP122 - Siddapura Junction"
   },
   {
     "name": "3rd A Cross Road",
@@ -1812,7 +1976,8 @@
     "violation_density": 47.0,
     "main_road_score": 100.0,
     "peak_hour_score": 0.56,
-    "repeat_violation_score": 2.22
+    "repeat_violation_score": 2.22,
+    "id": "3rd A Cross Road"
   },
   {
     "name": "Rajatha Bhavana Road",
@@ -1823,7 +1988,8 @@
     "violation_density": 47.58,
     "main_road_score": 97.4,
     "peak_hour_score": 0.52,
-    "repeat_violation_score": 6.25
+    "repeat_violation_score": 6.25,
+    "id": "Rajatha Bhavana Road"
   },
   {
     "name": "Magadi Main Road",
@@ -1834,7 +2000,8 @@
     "violation_density": 41.36,
     "main_road_score": 100.0,
     "peak_hour_score": 14.58,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Magadi Main Road"
   },
   {
     "name": "Millers Road",
@@ -1845,7 +2012,8 @@
     "violation_density": 43.58,
     "main_road_score": 100.0,
     "peak_hour_score": 4.88,
-    "repeat_violation_score": 5.69
+    "repeat_violation_score": 5.69,
+    "id": "Millers Road"
   },
   {
     "name": "1st Cross Road",
@@ -1856,7 +2024,8 @@
     "violation_density": 40.58,
     "main_road_score": 100.0,
     "peak_hour_score": 10.23,
-    "repeat_violation_score": 11.36
+    "repeat_violation_score": 11.36,
+    "id": "1st Cross Road"
   },
   {
     "name": "BTP217 - Baleyele Junction",
@@ -1867,7 +2036,8 @@
     "violation_density": 44.21,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 9.09
+    "repeat_violation_score": 9.09,
+    "id": "BTP217 - Baleyele Junction"
   },
   {
     "name": "27th Cross Road",
@@ -1878,7 +2048,8 @@
     "violation_density": 36.71,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 47.37
+    "repeat_violation_score": 47.37,
+    "id": "27th Cross Road"
   },
   {
     "name": "Forest Region Road",
@@ -1889,7 +2060,8 @@
     "violation_density": 39.27,
     "main_road_score": 98.68,
     "peak_hour_score": 15.79,
-    "repeat_violation_score": 5.26
+    "repeat_violation_score": 5.26,
+    "id": "Forest Region Road"
   },
   {
     "name": "2nd Main Road",
@@ -1900,7 +2072,8 @@
     "violation_density": 38.66,
     "main_road_score": 100.0,
     "peak_hour_score": 2.82,
-    "repeat_violation_score": 32.39
+    "repeat_violation_score": 32.39,
+    "id": "2nd Main Road"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -1911,7 +2084,8 @@
     "violation_density": 44.61,
     "main_road_score": 97.83,
     "peak_hour_score": 2.17,
-    "repeat_violation_score": 10.14
+    "repeat_violation_score": 10.14,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "BTP184 - Lalbagh West Gate",
@@ -1922,7 +2096,8 @@
     "violation_density": 47.29,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 4.3
+    "repeat_violation_score": 4.3,
+    "id": "BTP184 - Lalbagh West Gate"
   },
   {
     "name": "Mims Gulmohar Road",
@@ -1933,7 +2108,8 @@
     "violation_density": 42.24,
     "main_road_score": 100.0,
     "peak_hour_score": 0.94,
-    "repeat_violation_score": 20.75
+    "repeat_violation_score": 20.75,
+    "id": "Mims Gulmohar Road"
   },
   {
     "name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
@@ -1944,7 +2120,8 @@
     "violation_density": 41.26,
     "main_road_score": 100.0,
     "peak_hour_score": 2.11,
-    "repeat_violation_score": 17.89
+    "repeat_violation_score": 17.89,
+    "id": "BTP186 - 9th Cross, 4th Main, Jayanagar"
   },
   {
     "name": "Sir CV Raman Hospital Road",
@@ -1955,7 +2132,8 @@
     "violation_density": 32.88,
     "main_road_score": 100.0,
     "peak_hour_score": 18.92,
-    "repeat_violation_score": 18.92
+    "repeat_violation_score": 18.92,
+    "id": "Sir CV Raman Hospital Road"
   },
   {
     "name": "BDA 80 Feet Road",
@@ -1966,7 +2144,8 @@
     "violation_density": 39.03,
     "main_road_score": 100.0,
     "peak_hour_score": 2.7,
-    "repeat_violation_score": 28.38
+    "repeat_violation_score": 28.38,
+    "id": "BDA 80 Feet Road"
   },
   {
     "name": "1st Main Road",
@@ -1977,7 +2156,8 @@
     "violation_density": 36.55,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 42.86
+    "repeat_violation_score": 42.86,
+    "id": "1st Main Road"
   },
   {
     "name": "Road Number 1",
@@ -1988,7 +2168,8 @@
     "violation_density": 43.05,
     "main_road_score": 100.0,
     "peak_hour_score": 4.31,
-    "repeat_violation_score": 13.79
+    "repeat_violation_score": 13.79,
+    "id": "Road Number 1"
   },
   {
     "name": "BTP042 - Minsk Square Junction (CTO)",
@@ -1999,7 +2180,8 @@
     "violation_density": 40.88,
     "main_road_score": 97.8,
     "peak_hour_score": 2.2,
-    "repeat_violation_score": 20.88
+    "repeat_violation_score": 20.88,
+    "id": "BTP042 - Minsk Square Junction (CTO)"
   },
   {
     "name": "BTP166 - Coffee Board Junction",
@@ -2010,7 +2192,8 @@
     "violation_density": 42.16,
     "main_road_score": 100.0,
     "peak_hour_score": 0.95,
-    "repeat_violation_score": 9.52
+    "repeat_violation_score": 9.52,
+    "id": "BTP166 - Coffee Board Junction"
   },
   {
     "name": "ITPL Main Road",
@@ -2021,7 +2204,8 @@
     "violation_density": 37.46,
     "main_road_score": 100.0,
     "peak_hour_score": 16.13,
-    "repeat_violation_score": 1.61
+    "repeat_violation_score": 1.61,
+    "id": "ITPL Main Road"
   },
   {
     "name": "BTP074 - Leprosy Hospital Junction",
@@ -2032,7 +2216,8 @@
     "violation_density": 43.65,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 3.23
+    "repeat_violation_score": 3.23,
+    "id": "BTP074 - Leprosy Hospital Junction"
   },
   {
     "name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
@@ -2043,7 +2228,8 @@
     "violation_density": 42.66,
     "main_road_score": 99.1,
     "peak_hour_score": 3.6,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Sri Sri Sri Tiruchi Mahaswamiji Road"
   },
   {
     "name": "Hesaraghatta Main Road",
@@ -2054,7 +2240,8 @@
     "violation_density": 42.97,
     "main_road_score": 98.26,
     "peak_hour_score": 5.22,
-    "repeat_violation_score": 5.22
+    "repeat_violation_score": 5.22,
+    "id": "Hesaraghatta Main Road"
   },
   {
     "name": "Amrita College Road",
@@ -2065,7 +2252,8 @@
     "violation_density": 39.61,
     "main_road_score": 100.0,
     "peak_hour_score": 1.27,
-    "repeat_violation_score": 18.99
+    "repeat_violation_score": 18.99,
+    "id": "Amrita College Road"
   },
   {
     "name": "BTP030 - Mekhri Circle",
@@ -2076,7 +2264,8 @@
     "violation_density": 36.23,
     "main_road_score": 100.0,
     "peak_hour_score": 14.81,
-    "repeat_violation_score": 5.56
+    "repeat_violation_score": 5.56,
+    "id": "BTP030 - Mekhri Circle"
   },
   {
     "name": "Old Airport Road",
@@ -2087,7 +2276,8 @@
     "violation_density": 43.58,
     "main_road_score": 97.56,
     "peak_hour_score": 6.5,
-    "repeat_violation_score": 1.63
+    "repeat_violation_score": 1.63,
+    "id": "Old Airport Road"
   },
   {
     "name": "Yelahanka New Town Main Road",
@@ -2098,7 +2288,8 @@
     "violation_density": 41.81,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 11.88
+    "repeat_violation_score": 11.88,
+    "id": "Yelahanka New Town Main Road"
   },
   {
     "name": "Kodigehalli Main Road",
@@ -2109,7 +2300,8 @@
     "violation_density": 45.24,
     "main_road_score": 99.32,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 4.73
+    "repeat_violation_score": 4.73,
+    "id": "Kodigehalli Main Road"
   },
   {
     "name": "Kodigehalli Main Road",
@@ -2120,7 +2312,8 @@
     "violation_density": 41.81,
     "main_road_score": 99.01,
     "peak_hour_score": 2.97,
-    "repeat_violation_score": 6.93
+    "repeat_violation_score": 6.93,
+    "id": "Kodigehalli Main Road"
   },
   {
     "name": "Tannery Road",
@@ -2131,7 +2324,8 @@
     "violation_density": 32.64,
     "main_road_score": 100.0,
     "peak_hour_score": 25.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Tannery Road"
   },
   {
     "name": "KIADB Road",
@@ -2142,7 +2336,8 @@
     "violation_density": 42.16,
     "main_road_score": 96.19,
     "peak_hour_score": 5.71,
-    "repeat_violation_score": 8.57
+    "repeat_violation_score": 8.57,
+    "id": "KIADB Road"
   },
   {
     "name": "Old Airport Road",
@@ -2153,7 +2348,8 @@
     "violation_density": 31.33,
     "main_road_score": 100.0,
     "peak_hour_score": 19.35,
-    "repeat_violation_score": 19.35
+    "repeat_violation_score": 19.35,
+    "id": "Old Airport Road"
   },
   {
     "name": "Dr Rajgopal Road",
@@ -2164,7 +2360,8 @@
     "violation_density": 44.67,
     "main_road_score": 99.28,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 2.16
+    "repeat_violation_score": 2.16,
+    "id": "Dr Rajgopal Road"
   },
   {
     "name": "Whitefield Main Road",
@@ -2175,7 +2372,8 @@
     "violation_density": 43.13,
     "main_road_score": 99.15,
     "peak_hour_score": 2.56,
-    "repeat_violation_score": 2.56
+    "repeat_violation_score": 2.56,
+    "id": "Whitefield Main Road"
   },
   {
     "name": "BTP035 - Basaweshwara Circle (LH) Junction",
@@ -2186,7 +2384,8 @@
     "violation_density": 37.6,
     "main_road_score": 100.0,
     "peak_hour_score": 14.29,
-    "repeat_violation_score": 3.17
+    "repeat_violation_score": 3.17,
+    "id": "BTP035 - Basaweshwara Circle (LH) Junction"
   },
   {
     "name": "Outer Ring Road",
@@ -2197,7 +2396,8 @@
     "violation_density": 45.54,
     "main_road_score": 97.39,
     "peak_hour_score": 1.96,
-    "repeat_violation_score": 6.54
+    "repeat_violation_score": 6.54,
+    "id": "Outer Ring Road"
   },
   {
     "name": "Muthsandra Main Road",
@@ -2208,7 +2408,8 @@
     "violation_density": 41.81,
     "main_road_score": 99.01,
     "peak_hour_score": 6.93,
-    "repeat_violation_score": 1.98
+    "repeat_violation_score": 1.98,
+    "id": "Muthsandra Main Road"
   },
   {
     "name": "BTP221 - 15th Cross, 24th Main, JP Nagar",
@@ -2219,7 +2420,8 @@
     "violation_density": 41.07,
     "main_road_score": 100.0,
     "peak_hour_score": 6.45,
-    "repeat_violation_score": 3.23
+    "repeat_violation_score": 3.23,
+    "id": "BTP221 - 15th Cross, 24th Main, JP Nagar"
   },
   {
     "name": "BTP133 - Adugodi Junction",
@@ -2230,7 +2432,8 @@
     "violation_density": 35.0,
     "main_road_score": 100.0,
     "peak_hour_score": 4.26,
-    "repeat_violation_score": 29.79
+    "repeat_violation_score": 29.79,
+    "id": "BTP133 - Adugodi Junction"
   },
   {
     "name": "BTP105 - Shivasankara Circle",
@@ -2241,7 +2444,8 @@
     "violation_density": 43.5,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 7.38
+    "repeat_violation_score": 7.38,
+    "id": "BTP105 - Shivasankara Circle"
   },
   {
     "name": "4th Main Road",
@@ -2252,7 +2456,8 @@
     "violation_density": 32.88,
     "main_road_score": 100.0,
     "peak_hour_score": 24.32,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "4th Main Road"
   },
   {
     "name": "BTP214 - 5th Main Chamrajpet  Junction",
@@ -2263,7 +2468,8 @@
     "violation_density": 43.36,
     "main_road_score": 100.0,
     "peak_hour_score": 1.67,
-    "repeat_violation_score": 5.83
+    "repeat_violation_score": 5.83,
+    "id": "BTP214 - 5th Main Chamrajpet  Junction"
   },
   {
     "name": "1st Cross Road",
@@ -2274,7 +2480,8 @@
     "violation_density": 41.63,
     "main_road_score": 98.99,
     "peak_hour_score": 2.02,
-    "repeat_violation_score": 11.11
+    "repeat_violation_score": 11.11,
+    "id": "1st Cross Road"
   },
   {
     "name": "Bengaluru Bellary Road",
@@ -2285,7 +2492,8 @@
     "violation_density": 30.75,
     "main_road_score": 100.0,
     "peak_hour_score": 27.59,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Bengaluru Bellary Road"
   },
   {
     "name": "Konanakunte Main Road",
@@ -2296,7 +2504,8 @@
     "violation_density": 44.87,
     "main_road_score": 93.66,
     "peak_hour_score": 2.82,
-    "repeat_violation_score": 2.82
+    "repeat_violation_score": 2.82,
+    "id": "Konanakunte Main Road"
   },
   {
     "name": "Rajgopal Nagar Main Road",
@@ -2307,7 +2516,8 @@
     "violation_density": 37.6,
     "main_road_score": 98.41,
     "peak_hour_score": 9.52,
-    "repeat_violation_score": 9.52
+    "repeat_violation_score": 9.52,
+    "id": "Rajgopal Nagar Main Road"
   },
   {
     "name": "Marathahalli Underpass",
@@ -2318,7 +2528,8 @@
     "violation_density": 68.02,
     "main_road_score": 56.94,
     "peak_hour_score": 4.92,
-    "repeat_violation_score": 13.56
+    "repeat_violation_score": 13.56,
+    "id": "Marathahalli Underpass"
   },
   {
     "name": "Kodichikkanahalli Main Road",
@@ -2329,7 +2540,8 @@
     "violation_density": 37.6,
     "main_road_score": 100.0,
     "peak_hour_score": 3.17,
-    "repeat_violation_score": 9.52
+    "repeat_violation_score": 9.52,
+    "id": "Kodichikkanahalli Main Road"
   },
   {
     "name": "Subramanyapura Main Road",
@@ -2340,7 +2552,8 @@
     "violation_density": 43.86,
     "main_road_score": 95.28,
     "peak_hour_score": 3.94,
-    "repeat_violation_score": 3.94
+    "repeat_violation_score": 3.94,
+    "id": "Subramanyapura Main Road"
   },
   {
     "name": "MBT Road, Avalahalli South Taluka",
@@ -2351,7 +2564,8 @@
     "violation_density": 41.9,
     "main_road_score": 98.04,
     "peak_hour_score": 2.94,
-    "repeat_violation_score": 3.92
+    "repeat_violation_score": 3.92,
+    "id": "MBT Road, Avalahalli South Taluka"
   },
   {
     "name": "Dr Rajkumar Puniya Bhoomi Road",
@@ -2362,7 +2576,8 @@
     "violation_density": 28.73,
     "main_road_score": 100.0,
     "peak_hour_score": 21.74,
-    "repeat_violation_score": 13.04
+    "repeat_violation_score": 13.04,
+    "id": "Dr Rajkumar Puniya Bhoomi Road"
   },
   {
     "name": "Dr Rajkumar Puniya Bhoomi Road",
@@ -2373,7 +2588,8 @@
     "violation_density": 46.59,
     "main_road_score": 88.95,
     "peak_hour_score": 2.33,
-    "repeat_violation_score": 15.7
+    "repeat_violation_score": 15.7,
+    "id": "Dr Rajkumar Puniya Bhoomi Road"
   },
   {
     "name": "Sarjapura Main Road",
@@ -2384,7 +2600,8 @@
     "violation_density": 41.17,
     "main_road_score": 98.94,
     "peak_hour_score": 1.06,
-    "repeat_violation_score": 2.13
+    "repeat_violation_score": 2.13,
+    "id": "Sarjapura Main Road"
   },
   {
     "name": "BTP172 - Nanjappa Circle",
@@ -2395,7 +2612,8 @@
     "violation_density": 38.54,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 17.14
+    "repeat_violation_score": 17.14,
+    "id": "BTP172 - Nanjappa Circle"
   },
   {
     "name": "Sultanji Gunta Road",
@@ -2406,7 +2624,8 @@
     "violation_density": 37.31,
     "main_road_score": 100.0,
     "peak_hour_score": 4.92,
-    "repeat_violation_score": 11.48
+    "repeat_violation_score": 11.48,
+    "id": "Sultanji Gunta Road"
   },
   {
     "name": "BTP222 - Delmia Circle",
@@ -2417,7 +2636,8 @@
     "violation_density": 40.16,
     "main_road_score": 100.0,
     "peak_hour_score": 4.76,
-    "repeat_violation_score": 1.19
+    "repeat_violation_score": 1.19,
+    "id": "BTP222 - Delmia Circle"
   },
   {
     "name": "Hosur Road",
@@ -2428,7 +2648,8 @@
     "violation_density": 45.82,
     "main_road_score": 86.08,
     "peak_hour_score": 1.27,
-    "repeat_violation_score": 29.11
+    "repeat_violation_score": 29.11,
+    "id": "Hosur Road"
   },
   {
     "name": "BTP191 - 40th Cross, 4th Main, Jayanagar",
@@ -2439,7 +2660,8 @@
     "violation_density": 41.81,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 2.97
+    "repeat_violation_score": 2.97,
+    "id": "BTP191 - 40th Cross, 4th Main, Jayanagar"
   },
   {
     "name": "BTP106 - VV Puram College",
@@ -2450,7 +2672,8 @@
     "violation_density": 33.57,
     "main_road_score": 100.0,
     "peak_hour_score": 5.0,
-    "repeat_violation_score": 25.0
+    "repeat_violation_score": 25.0,
+    "id": "BTP106 - VV Puram College"
   },
   {
     "name": "Dr APJ Abdul Kalam Marg",
@@ -2461,7 +2684,8 @@
     "violation_density": 42.58,
     "main_road_score": 97.27,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 9.09
+    "repeat_violation_score": 9.09,
+    "id": "Dr APJ Abdul Kalam Marg"
   },
   {
     "name": "Kanteerava Studio Road",
@@ -2472,7 +2696,8 @@
     "violation_density": 42.07,
     "main_road_score": 98.08,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 3.85
+    "repeat_violation_score": 3.85,
+    "id": "Kanteerava Studio Road"
   },
   {
     "name": "Dr Vishnuvardhan Main Road",
@@ -2483,7 +2708,8 @@
     "violation_density": 38.91,
     "main_road_score": 100.0,
     "peak_hour_score": 8.22,
-    "repeat_violation_score": 1.37
+    "repeat_violation_score": 1.37,
+    "id": "Dr Vishnuvardhan Main Road"
   },
   {
     "name": "HAL Airport Road",
@@ -2494,7 +2720,8 @@
     "violation_density": 41.72,
     "main_road_score": 94.0,
     "peak_hour_score": 9.0,
-    "repeat_violation_score": 3.0
+    "repeat_violation_score": 3.0,
+    "id": "HAL Airport Road"
   },
   {
     "name": "BTP190 - 36th Cross, 4th Main, Jayanagar",
@@ -2505,7 +2732,8 @@
     "violation_density": 42.66,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 3.6
+    "repeat_violation_score": 3.6,
+    "id": "BTP190 - 36th Cross, 4th Main, Jayanagar"
   },
   {
     "name": "BTP221 - 15th Cross, 24th Main, JP Nagar",
@@ -2516,7 +2744,8 @@
     "violation_density": 37.16,
     "main_road_score": 96.67,
     "peak_hour_score": 15.0,
-    "repeat_violation_score": 1.67
+    "repeat_violation_score": 1.67,
+    "id": "BTP221 - 15th Cross, 24th Main, JP Nagar"
   },
   {
     "name": "Haralur Road",
@@ -2527,7 +2756,8 @@
     "violation_density": 36.71,
     "main_road_score": 98.25,
     "peak_hour_score": 12.28,
-    "repeat_violation_score": 5.26
+    "repeat_violation_score": 5.26,
+    "id": "Haralur Road"
   },
   {
     "name": "Sri Vinayaka Temple Main Road",
@@ -2538,7 +2768,8 @@
     "violation_density": 37.6,
     "main_road_score": 100.0,
     "peak_hour_score": 1.59,
-    "repeat_violation_score": 17.46
+    "repeat_violation_score": 17.46,
+    "id": "Sri Vinayaka Temple Main Road"
   },
   {
     "name": "60 Feet Road",
@@ -2549,7 +2780,8 @@
     "violation_density": 37.31,
     "main_road_score": 96.72,
     "peak_hour_score": 8.2,
-    "repeat_violation_score": 11.48
+    "repeat_violation_score": 11.48,
+    "id": "60 Feet Road"
   },
   {
     "name": "Marathahalli Bridge Service Road",
@@ -2560,7 +2792,8 @@
     "violation_density": 39.5,
     "main_road_score": 100.0,
     "peak_hour_score": 1.28,
-    "repeat_violation_score": 5.13
+    "repeat_violation_score": 5.13,
+    "id": "Marathahalli Bridge Service Road"
   },
   {
     "name": "Bannerghatta Main Road",
@@ -2571,7 +2804,8 @@
     "violation_density": 35.54,
     "main_road_score": 100.0,
     "peak_hour_score": 12.0,
-    "repeat_violation_score": 4.0
+    "repeat_violation_score": 4.0,
+    "id": "Bannerghatta Main Road"
   },
   {
     "name": "5th A Cross Road",
@@ -2582,7 +2816,8 @@
     "violation_density": 29.1,
     "main_road_score": 100.0,
     "peak_hour_score": 20.83,
-    "repeat_violation_score": 12.5
+    "repeat_violation_score": 12.5,
+    "id": "5th A Cross Road"
   },
   {
     "name": "BTP127 - Sagar Hospital, Jayanagar",
@@ -2593,7 +2828,8 @@
     "violation_density": 37.31,
     "main_road_score": 100.0,
     "peak_hour_score": 6.56,
-    "repeat_violation_score": 11.48
+    "repeat_violation_score": 11.48,
+    "id": "BTP127 - Sagar Hospital, Jayanagar"
   },
   {
     "name": "Hebbal Flyover",
@@ -2604,7 +2840,8 @@
     "violation_density": 37.31,
     "main_road_score": 98.36,
     "peak_hour_score": 6.56,
-    "repeat_violation_score": 16.39
+    "repeat_violation_score": 16.39,
+    "id": "Hebbal Flyover"
   },
   {
     "name": "MBT Road, Brigade Golden Triangle",
@@ -2615,7 +2852,8 @@
     "violation_density": 41.9,
     "main_road_score": 97.06,
     "peak_hour_score": 3.92,
-    "repeat_violation_score": 5.88
+    "repeat_violation_score": 5.88,
+    "id": "MBT Road, Brigade Golden Triangle"
   },
   {
     "name": "BTP193 - Vasavi Circle",
@@ -2626,7 +2864,8 @@
     "violation_density": 38.91,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 13.7
+    "repeat_violation_score": 13.7,
+    "id": "BTP193 - Vasavi Circle"
   },
   {
     "name": "BTP063 - Siddalingaiah Circle",
@@ -2637,7 +2876,8 @@
     "violation_density": 32.14,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 38.24
+    "repeat_violation_score": 38.24,
+    "id": "BTP063 - Siddalingaiah Circle"
   },
   {
     "name": "Konanakunte Main Road",
@@ -2648,7 +2888,8 @@
     "violation_density": 38.91,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 9.59
+    "repeat_violation_score": 9.59,
+    "id": "Konanakunte Main Road"
   },
   {
     "name": "Westend Avenue",
@@ -2659,7 +2900,8 @@
     "violation_density": 36.39,
     "main_road_score": 100.0,
     "peak_hour_score": 12.73,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Westend Avenue"
   },
   {
     "name": "Hosur Road",
@@ -2670,7 +2912,8 @@
     "violation_density": 40.78,
     "main_road_score": 94.44,
     "peak_hour_score": 8.89,
-    "repeat_violation_score": 4.44
+    "repeat_violation_score": 4.44,
+    "id": "Hosur Road"
   },
   {
     "name": "Palace Road",
@@ -2681,7 +2924,8 @@
     "violation_density": 34.0,
     "main_road_score": 97.62,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 40.48
+    "repeat_violation_score": 40.48,
+    "id": "Palace Road"
   },
   {
     "name": "BTP185 - RV Teachers College",
@@ -2692,7 +2936,8 @@
     "violation_density": 33.79,
     "main_road_score": 100.0,
     "peak_hour_score": 4.88,
-    "repeat_violation_score": 21.95
+    "repeat_violation_score": 21.95,
+    "id": "BTP185 - RV Teachers College"
   },
   {
     "name": "80 Feet Road",
@@ -2703,7 +2948,8 @@
     "violation_density": 27.52,
     "main_road_score": 100.0,
     "peak_hour_score": 30.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "80 Feet Road"
   },
   {
     "name": "BTP091 - Sirsi Circle",
@@ -2714,7 +2960,8 @@
     "violation_density": 34.21,
     "main_road_score": 100.0,
     "peak_hour_score": 4.65,
-    "repeat_violation_score": 9.3
+    "repeat_violation_score": 9.3,
+    "id": "BTP091 - Sirsi Circle"
   },
   {
     "name": "19th Main Road",
@@ -2725,7 +2972,8 @@
     "violation_density": 41.07,
     "main_road_score": 95.7,
     "peak_hour_score": 2.15,
-    "repeat_violation_score": 4.3
+    "repeat_violation_score": 4.3,
+    "id": "19th Main Road"
   },
   {
     "name": "HMT Main Road",
@@ -2736,7 +2984,8 @@
     "violation_density": 41.07,
     "main_road_score": 95.7,
     "peak_hour_score": 3.23,
-    "repeat_violation_score": 3.23
+    "repeat_violation_score": 3.23,
+    "id": "HMT Main Road"
   },
   {
     "name": "BTP215 - Vanivillas Junction",
@@ -2747,7 +2996,8 @@
     "violation_density": 36.23,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 14.81
+    "repeat_violation_score": 14.81,
+    "id": "BTP215 - Vanivillas Junction"
   },
   {
     "name": "17th Cross Road",
@@ -2758,7 +3008,8 @@
     "violation_density": 38.01,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 9.09
+    "repeat_violation_score": 9.09,
+    "id": "17th Cross Road"
   },
   {
     "name": "G Narayana Kumar Road",
@@ -2769,7 +3020,8 @@
     "violation_density": 38.01,
     "main_road_score": 93.94,
     "peak_hour_score": 7.58,
-    "repeat_violation_score": 7.58
+    "repeat_violation_score": 7.58,
+    "id": "G Narayana Kumar Road"
   },
   {
     "name": "BTP159 - JP Nagar Metro, ORR",
@@ -2780,7 +3032,8 @@
     "violation_density": 37.74,
     "main_road_score": 100.0,
     "peak_hour_score": 4.69,
-    "repeat_violation_score": 3.12
+    "repeat_violation_score": 3.12,
+    "id": "BTP159 - JP Nagar Metro, ORR"
   },
   {
     "name": "Bannerghatta Main Road",
@@ -2791,7 +3044,8 @@
     "violation_density": 36.71,
     "main_road_score": 100.0,
     "peak_hour_score": 7.02,
-    "repeat_violation_score": 1.75
+    "repeat_violation_score": 1.75,
+    "id": "Bannerghatta Main Road"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -2802,7 +3056,8 @@
     "violation_density": 35.54,
     "main_road_score": 98.0,
     "peak_hour_score": 14.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "10th Cross Road",
@@ -2813,7 +3068,8 @@
     "violation_density": 34.81,
     "main_road_score": 100.0,
     "peak_hour_score": 8.7,
-    "repeat_violation_score": 4.35
+    "repeat_violation_score": 4.35,
+    "id": "10th Cross Road"
   },
   {
     "name": "Bannerghatta Main Road",
@@ -2824,7 +3080,8 @@
     "violation_density": 40.98,
     "main_road_score": 93.48,
     "peak_hour_score": 6.52,
-    "repeat_violation_score": 5.43
+    "repeat_violation_score": 5.43,
+    "id": "Bannerghatta Main Road"
   },
   {
     "name": "Suranjan Das Road",
@@ -2835,7 +3092,8 @@
     "violation_density": 27.94,
     "main_road_score": 100.0,
     "peak_hour_score": 23.81,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Suranjan Das Road"
   },
   {
     "name": "Kodigehalli Road",
@@ -2846,7 +3104,8 @@
     "violation_density": 34.81,
     "main_road_score": 100.0,
     "peak_hour_score": 2.17,
-    "repeat_violation_score": 17.39
+    "repeat_violation_score": 17.39,
+    "id": "Kodigehalli Road"
   },
   {
     "name": "BTP214 - 5th Main Chamrajpet  Junction",
@@ -2857,7 +3116,8 @@
     "violation_density": 39.84,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 2.47
+    "repeat_violation_score": 2.47,
+    "id": "BTP214 - 5th Main Chamrajpet  Junction"
   },
   {
     "name": "Whitefield Main Road",
@@ -2868,7 +3128,8 @@
     "violation_density": 31.61,
     "main_road_score": 96.88,
     "peak_hour_score": 18.75,
-    "repeat_violation_score": 6.25
+    "repeat_violation_score": 6.25,
+    "id": "Whitefield Main Road"
   },
   {
     "name": "Horamavu Main Road",
@@ -2879,7 +3140,8 @@
     "violation_density": 37.46,
     "main_road_score": 98.39,
     "peak_hour_score": 8.06,
-    "repeat_violation_score": 1.61
+    "repeat_violation_score": 1.61,
+    "id": "Horamavu Main Road"
   },
   {
     "name": "Banaswadi Main Road",
@@ -2890,7 +3152,8 @@
     "violation_density": 37.88,
     "main_road_score": 100.0,
     "peak_hour_score": 3.08,
-    "repeat_violation_score": 4.62
+    "repeat_violation_score": 4.62,
+    "id": "Banaswadi Main Road"
   },
   {
     "name": "Hesaraghatta Main Road",
@@ -2901,7 +3164,8 @@
     "violation_density": 36.71,
     "main_road_score": 92.98,
     "peak_hour_score": 14.04,
-    "repeat_violation_score": 5.26
+    "repeat_violation_score": 5.26,
+    "id": "Hesaraghatta Main Road"
   },
   {
     "name": "27th Main Road",
@@ -2912,7 +3176,8 @@
     "violation_density": 41.45,
     "main_road_score": 97.94,
     "peak_hour_score": 1.03,
-    "repeat_violation_score": 3.09
+    "repeat_violation_score": 3.09,
+    "id": "27th Main Road"
   },
   {
     "name": "BTP074 - Leprosy Hospital Junction",
@@ -2923,7 +3188,8 @@
     "violation_density": 36.86,
     "main_road_score": 100.0,
     "peak_hour_score": 6.9,
-    "repeat_violation_score": 1.72
+    "repeat_violation_score": 1.72,
+    "id": "BTP074 - Leprosy Hospital Junction"
   },
   {
     "name": "Doddagubbi Road",
@@ -2934,7 +3200,8 @@
     "violation_density": 38.28,
     "main_road_score": 100.0,
     "peak_hour_score": 4.41,
-    "repeat_violation_score": 1.47
+    "repeat_violation_score": 1.47,
+    "id": "Doddagubbi Road"
   },
   {
     "name": "Kengeri Main Road",
@@ -2945,7 +3212,8 @@
     "violation_density": 38.28,
     "main_road_score": 100.0,
     "peak_hour_score": 1.47,
-    "repeat_violation_score": 1.47
+    "repeat_violation_score": 1.47,
+    "id": "Kengeri Main Road"
   },
   {
     "name": "Industrial Park Road",
@@ -2956,7 +3224,8 @@
     "violation_density": 38.41,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 1.45
+    "repeat_violation_score": 1.45,
+    "id": "Industrial Park Road"
   },
   {
     "name": "Gear School Road",
@@ -2967,7 +3236,8 @@
     "violation_density": 30.75,
     "main_road_score": 100.0,
     "peak_hour_score": 17.24,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Gear School Road"
   },
   {
     "name": "Varthur Main Road",
@@ -2978,7 +3248,8 @@
     "violation_density": 36.71,
     "main_road_score": 100.0,
     "peak_hour_score": 5.26,
-    "repeat_violation_score": 5.26
+    "repeat_violation_score": 5.26,
+    "id": "Varthur Main Road"
   },
   {
     "name": "Amrutha College Road",
@@ -2989,7 +3260,8 @@
     "violation_density": 33.57,
     "main_road_score": 100.0,
     "peak_hour_score": 12.5,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Amrutha College Road"
   },
   {
     "name": "BTP107 - National College Junction",
@@ -3000,7 +3272,8 @@
     "violation_density": 34.0,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 21.43
+    "repeat_violation_score": 21.43,
+    "id": "BTP107 - National College Junction"
   },
   {
     "name": "4th Main Road",
@@ -3011,7 +3284,8 @@
     "violation_density": 31.88,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 36.36
+    "repeat_violation_score": 36.36,
+    "id": "4th Main Road"
   },
   {
     "name": "Amrutha College Road",
@@ -3022,7 +3296,8 @@
     "violation_density": 38.54,
     "main_road_score": 97.14,
     "peak_hour_score": 1.43,
-    "repeat_violation_score": 4.29
+    "repeat_violation_score": 4.29,
+    "id": "Amrutha College Road"
   },
   {
     "name": "Whitefield Main Road",
@@ -3033,7 +3308,8 @@
     "violation_density": 33.79,
     "main_road_score": 100.0,
     "peak_hour_score": 2.44,
-    "repeat_violation_score": 7.32
+    "repeat_violation_score": 7.32,
+    "id": "Whitefield Main Road"
   },
   {
     "name": "Kengeri Magadi Road",
@@ -3044,7 +3320,8 @@
     "violation_density": 34.41,
     "main_road_score": 100.0,
     "peak_hour_score": 4.55,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Kengeri Magadi Road"
   },
   {
     "name": "Hoodi Main Road",
@@ -3055,7 +3332,8 @@
     "violation_density": 34.0,
     "main_road_score": 100.0,
     "peak_hour_score": 4.76,
-    "repeat_violation_score": 2.38
+    "repeat_violation_score": 2.38,
+    "id": "Hoodi Main Road"
   },
   {
     "name": "BTP074 - Leprosy Hospital Junction",
@@ -3066,7 +3344,8 @@
     "violation_density": 35.18,
     "main_road_score": 97.92,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 14.58
+    "repeat_violation_score": 14.58,
+    "id": "BTP074 - Leprosy Hospital Junction"
   },
   {
     "name": "Kengeri Main Road",
@@ -3077,7 +3356,8 @@
     "violation_density": 36.55,
     "main_road_score": 100.0,
     "peak_hour_score": 1.79,
-    "repeat_violation_score": 1.79
+    "repeat_violation_score": 1.79,
+    "id": "Kengeri Main Road"
   },
   {
     "name": "BTP126 - Dairy Circle",
@@ -3088,7 +3368,8 @@
     "violation_density": 29.1,
     "main_road_score": 100.0,
     "peak_hour_score": 12.5,
-    "repeat_violation_score": 4.17
+    "repeat_violation_score": 4.17,
+    "id": "BTP126 - Dairy Circle"
   },
   {
     "name": "Sarjapura Main Road",
@@ -3099,7 +3380,8 @@
     "violation_density": 31.88,
     "main_road_score": 96.97,
     "peak_hour_score": 15.15,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Sarjapura Main Road"
   },
   {
     "name": "BTP191 - 40th Cross, 4th Main, Jayanagar",
@@ -3110,7 +3392,8 @@
     "violation_density": 31.61,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 25.0
+    "repeat_violation_score": 25.0,
+    "id": "BTP191 - 40th Cross, 4th Main, Jayanagar"
   },
   {
     "name": "Shankara Nagar Main Road",
@@ -3121,7 +3404,8 @@
     "violation_density": 31.88,
     "main_road_score": 96.97,
     "peak_hour_score": 18.18,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Shankara Nagar Main Road"
   },
   {
     "name": "Abbigere Main Road",
@@ -3132,7 +3416,8 @@
     "violation_density": 38.79,
     "main_road_score": 97.22,
     "peak_hour_score": 1.39,
-    "repeat_violation_score": 1.39
+    "repeat_violation_score": 1.39,
+    "id": "Abbigere Main Road"
   },
   {
     "name": "Haralur Road",
@@ -3143,7 +3428,8 @@
     "violation_density": 39.03,
     "main_road_score": 95.95,
     "peak_hour_score": 1.35,
-    "repeat_violation_score": 4.05
+    "repeat_violation_score": 4.05,
+    "id": "Haralur Road"
   },
   {
     "name": "Sulibele Road",
@@ -3154,7 +3440,8 @@
     "violation_density": 39.84,
     "main_road_score": 96.3,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 1.23
+    "repeat_violation_score": 1.23,
+    "id": "Sulibele Road"
   },
   {
     "name": "Doddaballapur Main Road",
@@ -3165,7 +3452,8 @@
     "violation_density": 33.79,
     "main_road_score": 100.0,
     "peak_hour_score": 7.32,
-    "repeat_violation_score": 2.44
+    "repeat_violation_score": 2.44,
+    "id": "Doddaballapur Main Road"
   },
   {
     "name": "Whitefield Main Road",
@@ -3176,7 +3464,8 @@
     "violation_density": 38.79,
     "main_road_score": 94.44,
     "peak_hour_score": 2.78,
-    "repeat_violation_score": 6.94
+    "repeat_violation_score": 6.94,
+    "id": "Whitefield Main Road"
   },
   {
     "name": "Watch Factory Road",
@@ -3187,7 +3476,8 @@
     "violation_density": 34.41,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 13.64
+    "repeat_violation_score": 13.64,
+    "id": "Watch Factory Road"
   },
   {
     "name": "Hosur Road",
@@ -3198,7 +3488,8 @@
     "violation_density": 35.89,
     "main_road_score": 94.23,
     "peak_hour_score": 9.62,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Hosur Road"
   },
   {
     "name": "BTP132 - Anepalya Junction",
@@ -3209,7 +3500,8 @@
     "violation_density": 30.44,
     "main_road_score": 100.0,
     "peak_hour_score": 7.14,
-    "repeat_violation_score": 10.71
+    "repeat_violation_score": 10.71,
+    "id": "BTP132 - Anepalya Junction"
   },
   {
     "name": "Bagaluru Main Road",
@@ -3220,7 +3512,8 @@
     "violation_density": 36.39,
     "main_road_score": 96.36,
     "peak_hour_score": 5.45,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Bagaluru Main Road"
   },
   {
     "name": "6th Main Road",
@@ -3231,7 +3524,8 @@
     "violation_density": 33.57,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 12.5
+    "repeat_violation_score": 12.5,
+    "id": "6th Main Road"
   },
   {
     "name": "Nandini Layout Club Road",
@@ -3242,7 +3536,8 @@
     "violation_density": 27.94,
     "main_road_score": 100.0,
     "peak_hour_score": 4.76,
-    "repeat_violation_score": 23.81
+    "repeat_violation_score": 23.81,
+    "id": "Nandini Layout Club Road"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -3253,7 +3548,8 @@
     "violation_density": 36.86,
     "main_road_score": 98.28,
     "peak_hour_score": 1.72,
-    "repeat_violation_score": 8.62
+    "repeat_violation_score": 8.62,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "Seppings Road",
@@ -3264,7 +3560,8 @@
     "violation_density": 43.36,
     "main_road_score": 89.17,
     "peak_hour_score": 0.83,
-    "repeat_violation_score": 10.0
+    "repeat_violation_score": 10.0,
+    "id": "Seppings Road"
   },
   {
     "name": "15th Main Road",
@@ -3275,7 +3572,8 @@
     "violation_density": 30.44,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 25.0
+    "repeat_violation_score": 25.0,
+    "id": "15th Main Road"
   },
   {
     "name": "Sri Kumaraswamy Temple Road",
@@ -3286,7 +3584,8 @@
     "violation_density": 32.14,
     "main_road_score": 97.06,
     "peak_hour_score": 11.76,
-    "repeat_violation_score": 2.94
+    "repeat_violation_score": 2.94,
+    "id": "Sri Kumaraswamy Temple Road"
   },
   {
     "name": "Varthur Main Road",
@@ -3297,7 +3596,8 @@
     "violation_density": 35.37,
     "main_road_score": 97.96,
     "peak_hour_score": 8.16,
-    "repeat_violation_score": 2.04
+    "repeat_violation_score": 2.04,
+    "id": "Varthur Main Road"
   },
   {
     "name": "BTP106 - VV Puram College",
@@ -3308,7 +3608,8 @@
     "violation_density": 34.21,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 9.3
+    "repeat_violation_score": 9.3,
+    "id": "BTP106 - VV Puram College"
   },
   {
     "name": "Ittamadu Road",
@@ -3319,7 +3620,8 @@
     "violation_density": 30.12,
     "main_road_score": 88.89,
     "peak_hour_score": 29.63,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Ittamadu Road"
   },
   {
     "name": "BTP128 - Gorappanapalya Junction",
@@ -3330,7 +3632,8 @@
     "violation_density": 33.79,
     "main_road_score": 100.0,
     "peak_hour_score": 7.32,
-    "repeat_violation_score": 2.44
+    "repeat_violation_score": 2.44,
+    "id": "BTP128 - Gorappanapalya Junction"
   },
   {
     "name": "Old Madras Road",
@@ -3341,7 +3644,8 @@
     "violation_density": 27.94,
     "main_road_score": 100.0,
     "peak_hour_score": 14.29,
-    "repeat_violation_score": 4.76
+    "repeat_violation_score": 4.76,
+    "id": "Old Madras Road"
   },
   {
     "name": "Chunchaghatta Main Road",
@@ -3352,7 +3656,8 @@
     "violation_density": 30.75,
     "main_road_score": 100.0,
     "peak_hour_score": 10.34,
-    "repeat_violation_score": 3.45
+    "repeat_violation_score": 3.45,
+    "id": "Chunchaghatta Main Road"
   },
   {
     "name": "Thigalarapalya Main Road",
@@ -3363,7 +3668,8 @@
     "violation_density": 37.01,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 3.39
+    "repeat_violation_score": 3.39,
+    "id": "Thigalarapalya Main Road"
   },
   {
     "name": "Global City Tech Park Road",
@@ -3374,7 +3680,8 @@
     "violation_density": 35.72,
     "main_road_score": 96.08,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 11.76
+    "repeat_violation_score": 11.76,
+    "id": "Global City Tech Park Road"
   },
   {
     "name": "BTP134 - Mico Bande",
@@ -3385,7 +3692,8 @@
     "violation_density": 29.1,
     "main_road_score": 100.0,
     "peak_hour_score": 12.5,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTP134 - Mico Bande"
   },
   {
     "name": "80 Feet Main Road",
@@ -3396,7 +3704,8 @@
     "violation_density": 31.88,
     "main_road_score": 100.0,
     "peak_hour_score": 3.03,
-    "repeat_violation_score": 3.03
+    "repeat_violation_score": 3.03,
+    "id": "80 Feet Main Road"
   },
   {
     "name": "5th Main Road",
@@ -3407,7 +3716,8 @@
     "violation_density": 34.21,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 6.98
+    "repeat_violation_score": 6.98,
+    "id": "5th Main Road"
   },
   {
     "name": "BTP164 - 29th Main Road, BTM Layout",
@@ -3418,7 +3728,8 @@
     "violation_density": 30.75,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 13.79
+    "repeat_violation_score": 13.79,
+    "id": "BTP164 - 29th Main Road, BTM Layout"
   },
   {
     "name": "Magadi Main Road",
@@ -3429,7 +3740,8 @@
     "violation_density": 36.55,
     "main_road_score": 96.43,
     "peak_hour_score": 1.79,
-    "repeat_violation_score": 5.36
+    "repeat_violation_score": 5.36,
+    "id": "Magadi Main Road"
   },
   {
     "name": "MBT Road, Zero Tolerance Junction",
@@ -3440,7 +3752,8 @@
     "violation_density": 34.81,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "MBT Road, Zero Tolerance Junction"
   },
   {
     "name": "Watch Factory Road",
@@ -3451,7 +3764,8 @@
     "violation_density": 30.75,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 13.79
+    "repeat_violation_score": 13.79,
+    "id": "Watch Factory Road"
   },
   {
     "name": "1st Main Road",
@@ -3462,7 +3776,8 @@
     "violation_density": 39.15,
     "main_road_score": 93.33,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 4.0
+    "repeat_violation_score": 4.0,
+    "id": "1st Main Road"
   },
   {
     "name": "BTP190 - 36th Cross, 4th Main, Jayanagar",
@@ -3473,7 +3788,8 @@
     "violation_density": 35.0,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 2.13
+    "repeat_violation_score": 2.13,
+    "id": "BTP190 - 36th Cross, 4th Main, Jayanagar"
   },
   {
     "name": "BTP099 - Cash Pharmacy, Residency Road",
@@ -3484,7 +3800,8 @@
     "violation_density": 36.06,
     "main_road_score": 94.34,
     "peak_hour_score": 5.66,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTP099 - Cash Pharmacy, Residency Road"
   },
   {
     "name": "Konanakunte Main Road",
@@ -3495,7 +3812,8 @@
     "violation_density": 34.41,
     "main_road_score": 95.45,
     "peak_hour_score": 2.27,
-    "repeat_violation_score": 13.64
+    "repeat_violation_score": 13.64,
+    "id": "Konanakunte Main Road"
   },
   {
     "name": "Konanakunte Main Road",
@@ -3506,7 +3824,8 @@
     "violation_density": 32.4,
     "main_road_score": 94.29,
     "peak_hour_score": 11.43,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Konanakunte Main Road"
   },
   {
     "name": "Hesarghatta Road",
@@ -3517,7 +3836,8 @@
     "violation_density": 36.06,
     "main_road_score": 90.57,
     "peak_hour_score": 7.55,
-    "repeat_violation_score": 11.32
+    "repeat_violation_score": 11.32,
+    "id": "Hesarghatta Road"
   },
   {
     "name": "Padmasri CK Venkata Ramaiah Road",
@@ -3528,7 +3848,8 @@
     "violation_density": 33.35,
     "main_road_score": 100.0,
     "peak_hour_score": 5.13,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Padmasri CK Venkata Ramaiah Road"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -3539,7 +3860,8 @@
     "violation_density": 38.54,
     "main_road_score": 91.43,
     "peak_hour_score": 4.29,
-    "repeat_violation_score": 4.29
+    "repeat_violation_score": 4.29,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "Outer Ring Road",
@@ -3550,7 +3872,8 @@
     "violation_density": 32.88,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 5.41
+    "repeat_violation_score": 5.41,
+    "id": "Outer Ring Road"
   },
   {
     "name": "HAL Airport Road",
@@ -3561,7 +3884,8 @@
     "violation_density": 32.4,
     "main_road_score": 100.0,
     "peak_hour_score": 2.86,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "HAL Airport Road"
   },
   {
     "name": "BTP053 - Three Let Junction",
@@ -3572,7 +3896,8 @@
     "violation_density": 32.4,
     "main_road_score": 100.0,
     "peak_hour_score": 5.71,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTP053 - Three Let Junction"
   },
   {
     "name": "Konanakunte Main Road",
@@ -3583,7 +3908,8 @@
     "violation_density": 33.12,
     "main_road_score": 94.74,
     "peak_hour_score": 7.89,
-    "repeat_violation_score": 2.63
+    "repeat_violation_score": 2.63,
+    "id": "Konanakunte Main Road"
   },
   {
     "name": "Yemalur Road",
@@ -3594,7 +3920,8 @@
     "violation_density": 31.33,
     "main_road_score": 100.0,
     "peak_hour_score": 9.68,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Yemalur Road"
   },
   {
     "name": "Old Madras Road",
@@ -3605,7 +3932,8 @@
     "violation_density": 33.57,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 7.5
+    "repeat_violation_score": 7.5,
+    "id": "Old Madras Road"
   },
   {
     "name": "Siddavanahalli Krishna Sharma Road",
@@ -3616,7 +3944,8 @@
     "violation_density": 33.79,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 7.32
+    "repeat_violation_score": 7.32,
+    "id": "Siddavanahalli Krishna Sharma Road"
   },
   {
     "name": "BTP133 - Adugodi Junction",
@@ -3627,7 +3956,8 @@
     "violation_density": 30.12,
     "main_road_score": 100.0,
     "peak_hour_score": 7.41,
-    "repeat_violation_score": 7.41
+    "repeat_violation_score": 7.41,
+    "id": "BTP133 - Adugodi Junction"
   },
   {
     "name": "MEC Road, BCM Vertex",
@@ -3638,7 +3968,8 @@
     "violation_density": 30.12,
     "main_road_score": 100.0,
     "peak_hour_score": 11.11,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "MEC Road, BCM Vertex"
   },
   {
     "name": "60 Feet Road",
@@ -3649,7 +3980,8 @@
     "violation_density": 35.37,
     "main_road_score": 97.96,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 6.12
+    "repeat_violation_score": 6.12,
+    "id": "60 Feet Road"
   },
   {
     "name": "1st A Main Road",
@@ -3660,7 +3992,8 @@
     "violation_density": 34.41,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 2.27
+    "repeat_violation_score": 2.27,
+    "id": "1st A Main Road"
   },
   {
     "name": "Sri Annapoorneshwari Temple Road",
@@ -3671,7 +4004,8 @@
     "violation_density": 31.33,
     "main_road_score": 100.0,
     "peak_hour_score": 6.45,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Sri Annapoorneshwari Temple Road"
   },
   {
     "name": "8th Main Road",
@@ -3682,7 +4016,8 @@
     "violation_density": 33.12,
     "main_road_score": 92.11,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 28.95
+    "repeat_violation_score": 28.95,
+    "id": "8th Main Road"
   },
   {
     "name": "Hennur Main Road",
@@ -3693,7 +4028,8 @@
     "violation_density": 33.35,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 2.56
+    "repeat_violation_score": 2.56,
+    "id": "Hennur Main Road"
   },
   {
     "name": "1st Main Road",
@@ -3704,7 +4040,8 @@
     "violation_density": 33.57,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 2.5
+    "repeat_violation_score": 2.5,
+    "id": "1st Main Road"
   },
   {
     "name": "HMT Main Road",
@@ -3715,7 +4052,8 @@
     "violation_density": 33.79,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 2.44
+    "repeat_violation_score": 2.44,
+    "id": "HMT Main Road"
   },
   {
     "name": "Hewlett Packard Avenue",
@@ -3726,7 +4064,8 @@
     "violation_density": 31.04,
     "main_road_score": 100.0,
     "peak_hour_score": 6.67,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Hewlett Packard Avenue"
   },
   {
     "name": "Dr Ambedkar Medical College Road",
@@ -3737,7 +4076,8 @@
     "violation_density": 27.94,
     "main_road_score": 100.0,
     "peak_hour_score": 4.76,
-    "repeat_violation_score": 14.29
+    "repeat_violation_score": 14.29,
+    "id": "Dr Ambedkar Medical College Road"
   },
   {
     "name": "Domlur Inner Ring Road",
@@ -3748,7 +4088,8 @@
     "violation_density": 35.54,
     "main_road_score": 94.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 2.0
+    "repeat_violation_score": 2.0,
+    "id": "Domlur Inner Ring Road"
   },
   {
     "name": "Bikasipura Main Road",
@@ -3759,7 +4100,8 @@
     "violation_density": 36.23,
     "main_road_score": 90.74,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 16.67
+    "repeat_violation_score": 16.67,
+    "id": "Bikasipura Main Road"
   },
   {
     "name": "Hoodi Main Road",
@@ -3770,7 +4112,8 @@
     "violation_density": 27.94,
     "main_road_score": 100.0,
     "peak_hour_score": 9.52,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Hoodi Main Road"
   },
   {
     "name": "Andhrahalli Main Road",
@@ -3781,7 +4124,8 @@
     "violation_density": 36.23,
     "main_road_score": 96.3,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Andhrahalli Main Road"
   },
   {
     "name": "BTP141 - Palmgroove Junction",
@@ -3792,7 +4136,8 @@
     "violation_density": 36.06,
     "main_road_score": 86.79,
     "peak_hour_score": 9.43,
-    "repeat_violation_score": 7.55
+    "repeat_violation_score": 7.55,
+    "id": "BTP141 - Palmgroove Junction"
   },
   {
     "name": "5th Main Road",
@@ -3803,7 +4148,8 @@
     "violation_density": 31.33,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 3.23
+    "repeat_violation_score": 3.23,
+    "id": "5th Main Road"
   },
   {
     "name": "MS Ramaiah Road",
@@ -3814,7 +4160,8 @@
     "violation_density": 32.88,
     "main_road_score": 97.3,
     "peak_hour_score": 2.7,
-    "repeat_violation_score": 5.41
+    "repeat_violation_score": 5.41,
+    "id": "MS Ramaiah Road"
   },
   {
     "name": "Kengeri Main Road",
@@ -3825,7 +4172,8 @@
     "violation_density": 32.64,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 2.78
+    "repeat_violation_score": 2.78,
+    "id": "Kengeri Main Road"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -3836,7 +4184,8 @@
     "violation_density": 32.4,
     "main_road_score": 97.14,
     "peak_hour_score": 2.86,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "HMT Main Road",
@@ -3847,7 +4196,8 @@
     "violation_density": 32.4,
     "main_road_score": 91.43,
     "peak_hour_score": 5.71,
-    "repeat_violation_score": 11.43
+    "repeat_violation_score": 11.43,
+    "id": "HMT Main Road"
   },
   {
     "name": "Whitefield Road",
@@ -3858,7 +4208,8 @@
     "violation_density": 28.35,
     "main_road_score": 100.0,
     "peak_hour_score": 4.55,
-    "repeat_violation_score": 4.55
+    "repeat_violation_score": 4.55,
+    "id": "Whitefield Road"
   },
   {
     "name": "1st Main Road",
@@ -3869,7 +4220,8 @@
     "violation_density": 31.88,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 3.03
+    "repeat_violation_score": 3.03,
+    "id": "1st Main Road"
   },
   {
     "name": "Outer Ring Road",
@@ -3880,7 +4232,8 @@
     "violation_density": 32.64,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Outer Ring Road"
   },
   {
     "name": "Konanakunte Main Road",
@@ -3891,7 +4244,8 @@
     "violation_density": 33.12,
     "main_road_score": 97.37,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 5.26
+    "repeat_violation_score": 5.26,
+    "id": "Konanakunte Main Road"
   },
   {
     "name": "MBT Road, Govind Pura",
@@ -3902,7 +4256,8 @@
     "violation_density": 34.21,
     "main_road_score": 95.35,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 2.33
+    "repeat_violation_score": 2.33,
+    "id": "MBT Road, Govind Pura"
   },
   {
     "name": "Whitefield Road",
@@ -3913,7 +4268,8 @@
     "violation_density": 31.88,
     "main_road_score": 93.94,
     "peak_hour_score": 6.06,
-    "repeat_violation_score": 6.06
+    "repeat_violation_score": 6.06,
+    "id": "Whitefield Road"
   },
   {
     "name": "13th Main Road",
@@ -3924,7 +4280,8 @@
     "violation_density": 29.45,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 8.0
+    "repeat_violation_score": 8.0,
+    "id": "13th Main Road"
   },
   {
     "name": "Canara Union Road",
@@ -3935,7 +4292,8 @@
     "violation_density": 31.33,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 6.45
+    "repeat_violation_score": 6.45,
+    "id": "Canara Union Road"
   },
   {
     "name": "Anjanapura Main Road",
@@ -3946,7 +4304,8 @@
     "violation_density": 31.61,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 3.12
+    "repeat_violation_score": 3.12,
+    "id": "Anjanapura Main Road"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -3957,7 +4316,8 @@
     "violation_density": 33.35,
     "main_road_score": 97.44,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "Magadi Main Road",
@@ -3968,7 +4328,8 @@
     "violation_density": 30.44,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 3.57
+    "repeat_violation_score": 3.57,
+    "id": "Magadi Main Road"
   },
   {
     "name": "Tilak Nagar Main Road",
@@ -3979,7 +4340,8 @@
     "violation_density": 28.73,
     "main_road_score": 100.0,
     "peak_hour_score": 4.35,
-    "repeat_violation_score": 4.35
+    "repeat_violation_score": 4.35,
+    "id": "Tilak Nagar Main Road"
   },
   {
     "name": "BTP093 - Toll Gate, Mysore Road",
@@ -3990,7 +4352,8 @@
     "violation_density": 30.75,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 10.34
+    "repeat_violation_score": 10.34,
+    "id": "BTP093 - Toll Gate, Mysore Road"
   },
   {
     "name": "BTP101 - Blood Bank Circle, KH Road",
@@ -4001,7 +4364,8 @@
     "violation_density": 30.12,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 7.41
+    "repeat_violation_score": 7.41,
+    "id": "BTP101 - Blood Bank Circle, KH Road"
   },
   {
     "name": "Lingarajapuram Flyover",
@@ -4012,7 +4376,8 @@
     "violation_density": 38.91,
     "main_road_score": 80.82,
     "peak_hour_score": 4.11,
-    "repeat_violation_score": 27.4
+    "repeat_violation_score": 27.4,
+    "id": "Lingarajapuram Flyover"
   },
   {
     "name": "BTS Bus Depot Road",
@@ -4023,7 +4388,8 @@
     "violation_density": 29.8,
     "main_road_score": 100.0,
     "peak_hour_score": 3.85,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTS Bus Depot Road"
   },
   {
     "name": "Sri Sri Sri Tiruchi Mahaswamiji Road",
@@ -4034,7 +4400,8 @@
     "violation_density": 31.33,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Sri Sri Sri Tiruchi Mahaswamiji Road"
   },
   {
     "name": "Suranjan Das Road",
@@ -4045,7 +4412,8 @@
     "violation_density": 27.94,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 14.29
+    "repeat_violation_score": 14.29,
+    "id": "Suranjan Das Road"
   },
   {
     "name": "BTP114 - KR Road Junction, Near JSS",
@@ -4056,7 +4424,8 @@
     "violation_density": 31.61,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTP114 - KR Road Junction, Near JSS"
   },
   {
     "name": "Horamavu Main Road",
@@ -4067,7 +4436,8 @@
     "violation_density": 27.94,
     "main_road_score": 100.0,
     "peak_hour_score": 9.52,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Horamavu Main Road"
   },
   {
     "name": "Haralur Road",
@@ -4078,7 +4448,8 @@
     "violation_density": 29.45,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Haralur Road"
   },
   {
     "name": "Kengeri Main Road",
@@ -4089,7 +4460,8 @@
     "violation_density": 29.8,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Kengeri Main Road"
   },
   {
     "name": "BTP054 - Shivananda Circle",
@@ -4100,7 +4472,8 @@
     "violation_density": 28.35,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 9.09
+    "repeat_violation_score": 9.09,
+    "id": "BTP054 - Shivananda Circle"
   },
   {
     "name": "Magadi Main Road",
@@ -4111,7 +4484,8 @@
     "violation_density": 28.73,
     "main_road_score": 100.0,
     "peak_hour_score": 4.35,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Magadi Main Road"
   },
   {
     "name": "Neelasandra Road",
@@ -4122,7 +4496,8 @@
     "violation_density": 29.8,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 3.85
+    "repeat_violation_score": 3.85,
+    "id": "Neelasandra Road"
   },
   {
     "name": "BTP186 - 9th Cross, 4th Main, Jayanagar",
@@ -4133,7 +4508,8 @@
     "violation_density": 30.44,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTP186 - 9th Cross, 4th Main, Jayanagar"
   },
   {
     "name": "BTP146 - Domlur Water Tank",
@@ -4144,7 +4520,8 @@
     "violation_density": 29.8,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTP146 - Domlur Water Tank"
   },
   {
     "name": "Yelahanka Road",
@@ -4155,7 +4532,8 @@
     "violation_density": 30.44,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Yelahanka Road"
   },
   {
     "name": "MBT Road, Vinayaka Layout",
@@ -4166,7 +4544,8 @@
     "violation_density": 27.94,
     "main_road_score": 95.24,
     "peak_hour_score": 9.52,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "MBT Road, Vinayaka Layout"
   },
   {
     "name": "5th Main Road",
@@ -4177,7 +4556,8 @@
     "violation_density": 30.12,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 3.7
+    "repeat_violation_score": 3.7,
+    "id": "5th Main Road"
   },
   {
     "name": "50 Feet Main Road",
@@ -4188,7 +4568,8 @@
     "violation_density": 30.75,
     "main_road_score": 96.55,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 3.45
+    "repeat_violation_score": 3.45,
+    "id": "50 Feet Main Road"
   },
   {
     "name": "Basavanapura Road",
@@ -4199,7 +4580,8 @@
     "violation_density": 30.12,
     "main_road_score": 96.3,
     "peak_hour_score": 7.41,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Basavanapura Road"
   },
   {
     "name": "MS Ramaiah Road",
@@ -4210,7 +4592,8 @@
     "violation_density": 27.94,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 4.76
+    "repeat_violation_score": 4.76,
+    "id": "MS Ramaiah Road"
   },
   {
     "name": "Rajgopal Nagar Main Road",
@@ -4221,7 +4604,8 @@
     "violation_density": 29.1,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 8.33
+    "repeat_violation_score": 8.33,
+    "id": "Rajgopal Nagar Main Road"
   },
   {
     "name": "BTP122 - Siddapura Junction",
@@ -4232,7 +4616,8 @@
     "violation_density": 27.94,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 4.76
+    "repeat_violation_score": 4.76,
+    "id": "BTP122 - Siddapura Junction"
   },
   {
     "name": "BTP107 - National College Junction",
@@ -4243,7 +4628,8 @@
     "violation_density": 29.1,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTP107 - National College Junction"
   },
   {
     "name": "Hosur Road",
@@ -4254,7 +4640,8 @@
     "violation_density": 27.52,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 5.0
+    "repeat_violation_score": 5.0,
+    "id": "Hosur Road"
   },
   {
     "name": "80 Feet Road",
@@ -4265,7 +4652,8 @@
     "violation_density": 31.33,
     "main_road_score": 96.77,
     "peak_hour_score": 3.23,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "80 Feet Road"
   },
   {
     "name": "Jogupalaya Main Road",
@@ -4276,7 +4664,8 @@
     "violation_density": 28.73,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 8.7
+    "repeat_violation_score": 8.7,
+    "id": "Jogupalaya Main Road"
   },
   {
     "name": "Cline Road",
@@ -4287,7 +4676,8 @@
     "violation_density": 27.52,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 5.0
+    "repeat_violation_score": 5.0,
+    "id": "Cline Road"
   },
   {
     "name": "Haines Road",
@@ -4298,7 +4688,8 @@
     "violation_density": 26.13,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 11.76
+    "repeat_violation_score": 11.76,
+    "id": "Haines Road"
   },
   {
     "name": "Mahadevapura Flyover",
@@ -4309,7 +4700,8 @@
     "violation_density": 30.44,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Mahadevapura Flyover"
   },
   {
     "name": "Kanteerava Studio Road",
@@ -4320,7 +4712,8 @@
     "violation_density": 26.13,
     "main_road_score": 100.0,
     "peak_hour_score": 5.88,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Kanteerava Studio Road"
   },
   {
     "name": "4th Main Road",
@@ -4331,7 +4724,8 @@
     "violation_density": 37.74,
     "main_road_score": 84.38,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 4.69
+    "repeat_violation_score": 4.69,
+    "id": "4th Main Road"
   },
   {
     "name": "BTP017 - Attiguppe Circle",
@@ -4342,7 +4736,8 @@
     "violation_density": 27.94,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTP017 - Attiguppe Circle"
   },
   {
     "name": "Varthur Main Road",
@@ -4353,7 +4748,8 @@
     "violation_density": 28.35,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Varthur Main Road"
   },
   {
     "name": "JC Nagar Main Road",
@@ -4364,7 +4760,8 @@
     "violation_density": 28.35,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "JC Nagar Main Road"
   },
   {
     "name": "Hesaraghatta Main Road",
@@ -4375,7 +4772,8 @@
     "violation_density": 27.94,
     "main_road_score": 90.48,
     "peak_hour_score": 14.29,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Hesaraghatta Main Road"
   },
   {
     "name": "Andrahalli Main Road",
@@ -4386,7 +4784,8 @@
     "violation_density": 27.52,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Andrahalli Main Road"
   },
   {
     "name": "50 Feet Main Road",
@@ -4397,7 +4796,8 @@
     "violation_density": 28.73,
     "main_road_score": 95.65,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 8.7
+    "repeat_violation_score": 8.7,
+    "id": "50 Feet Main Road"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -4408,7 +4808,8 @@
     "violation_density": 32.4,
     "main_road_score": 91.43,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 2.86
+    "repeat_violation_score": 2.86,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "Kaggadaspura Main Road",
@@ -4419,7 +4820,8 @@
     "violation_density": 31.61,
     "main_road_score": 87.5,
     "peak_hour_score": 9.38,
-    "repeat_violation_score": 3.12
+    "repeat_violation_score": 3.12,
+    "id": "Kaggadaspura Main Road"
   },
   {
     "name": "Magadi Main Road",
@@ -4430,7 +4832,8 @@
     "violation_density": 27.52,
     "main_road_score": 95.0,
     "peak_hour_score": 5.0,
-    "repeat_violation_score": 5.0
+    "repeat_violation_score": 5.0,
+    "id": "Magadi Main Road"
   },
   {
     "name": "5th Main Road",
@@ -4441,7 +4844,8 @@
     "violation_density": 29.8,
     "main_road_score": 96.15,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "5th Main Road"
   },
   {
     "name": "11th Main Road",
@@ -4452,7 +4856,8 @@
     "violation_density": 27.94,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "11th Main Road"
   },
   {
     "name": "MBT Road, Kodandaram",
@@ -4463,7 +4868,8 @@
     "violation_density": 35.89,
     "main_road_score": 78.85,
     "peak_hour_score": 7.69,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "MBT Road, Kodandaram"
   },
   {
     "name": "6th Main Road",
@@ -4474,7 +4880,8 @@
     "violation_density": 27.52,
     "main_road_score": 95.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "6th Main Road"
   },
   {
     "name": "1st A Cross Road",
@@ -4485,7 +4892,8 @@
     "violation_density": 28.35,
     "main_road_score": 86.36,
     "peak_hour_score": 9.09,
-    "repeat_violation_score": 4.55
+    "repeat_violation_score": 4.55,
+    "id": "1st A Cross Road"
   },
   {
     "name": "100 Feet Road",
@@ -4496,7 +4904,8 @@
     "violation_density": 31.61,
     "main_road_score": 90.62,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 6.25
+    "repeat_violation_score": 6.25,
+    "id": "100 Feet Road"
   },
   {
     "name": "Konanakunte Main Road",
@@ -4507,7 +4916,8 @@
     "violation_density": 28.35,
     "main_road_score": 90.91,
     "peak_hour_score": 4.55,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Konanakunte Main Road"
   },
   {
     "name": "BTP018 - Dhobi Ghat Junction",
@@ -4518,7 +4928,8 @@
     "violation_density": 24.48,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTP018 - Dhobi Ghat Junction"
   },
   {
     "name": "BTP099 - Cash Pharmacy, Residency Road",
@@ -4529,7 +4940,8 @@
     "violation_density": 25.61,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTP099 - Cash Pharmacy, Residency Road"
   },
   {
     "name": "BTP075 - Police Corner",
@@ -4540,7 +4952,8 @@
     "violation_density": 25.61,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "BTP075 - Police Corner"
   },
   {
     "name": "Varthur Main Road",
@@ -4551,7 +4964,8 @@
     "violation_density": 30.12,
     "main_road_score": 77.78,
     "peak_hour_score": 14.81,
-    "repeat_violation_score": 3.7
+    "repeat_violation_score": 3.7,
+    "id": "Varthur Main Road"
   },
   {
     "name": "Harris Road",
@@ -4562,7 +4976,8 @@
     "violation_density": 30.12,
     "main_road_score": 77.78,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 14.81
+    "repeat_violation_score": 14.81,
+    "id": "Harris Road"
   },
   {
     "name": "3rd Main Road",
@@ -4573,7 +4988,8 @@
     "violation_density": 39.95,
     "main_road_score": 62.2,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 15.85
+    "repeat_violation_score": 15.85,
+    "id": "3rd Main Road"
   },
   {
     "name": "Outer Ring Road",
@@ -4584,7 +5000,8 @@
     "violation_density": 27.52,
     "main_road_score": 65.0,
     "peak_hour_score": 20.0,
-    "repeat_violation_score": 10.0
+    "repeat_violation_score": 10.0,
+    "id": "Outer Ring Road"
   },
   {
     "name": "1st Cross Road",
@@ -4595,7 +5012,8 @@
     "violation_density": 14.55,
     "main_road_score": 100.0,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "1st Cross Road"
   },
   {
     "name": "Mumbai Bengaluru Highway",
@@ -4606,7 +5024,8 @@
     "violation_density": 24.48,
     "main_road_score": 85.71,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 0.0
+    "repeat_violation_score": 0.0,
+    "id": "Mumbai Bengaluru Highway"
   },
   {
     "name": "Bangalore Bellary Road",
@@ -4617,7 +5036,8 @@
     "violation_density": 28.35,
     "main_road_score": 72.73,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 4.55
+    "repeat_violation_score": 4.55,
+    "id": "Bangalore Bellary Road"
   },
   {
     "name": "Nandanavana G Street",
@@ -4628,6 +5048,7 @@
     "violation_density": 33.12,
     "main_road_score": 47.37,
     "peak_hour_score": 0.0,
-    "repeat_violation_score": 31.58
+    "repeat_violation_score": 31.58,
+    "id": "Nandanavana G Street"
   }
 ]
