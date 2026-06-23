@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { ArrowUpDown, Compass, Moon, Search, Sun, X } from 'lucide-react';
+import { ArrowUpDown, Compass, Search, X } from 'lucide-react';
 import { apiService, Hotspot, DashboardSummary, Prediction, Recommendation } from '../services/api';
 import { CommandCenter, CommandCenterFilter, CommandTab } from '../components/CommandCenter';
 import { HotspotMap } from '../maps/HotspotMap';
@@ -46,12 +46,6 @@ export const DashboardPage: React.FC = () => {
   const [search,         setSearch]         = useState('');
   const [severityFilter, setSeverityFilter] = useState('ALL');
   const [sortBy,         setSortBy]         = useState('PRIORITY');
-
-  // ── Theme ──────────────────────────────────────────────────────────────
-  const [mapTheme, setMapTheme] = useState<'dark' | 'light'>(() => {
-    try { return (localStorage.getItem('mapTheme') as 'dark' | 'light') || 'dark'; }
-    catch { return 'dark'; }
-  });
 
   // Debounce search 300ms
   useEffect(() => {
@@ -179,14 +173,6 @@ export const DashboardPage: React.FC = () => {
     setVisibleHotspotIds(filter.visibleHotspotIds);
   }, []);
 
-  const toggleMapTheme = () => {
-    setMapTheme((prev) => {
-      const next = prev === 'dark' ? 'light' : 'dark';
-      try { localStorage.setItem('mapTheme', next); } catch { /* ignore */ }
-      return next;
-    });
-  };
-
   // ── Derived ────────────────────────────────────────────────────────────
   const loadingOperations = loadingPredictions || loadingRecommendations;
 
@@ -285,16 +271,7 @@ export const DashboardPage: React.FC = () => {
           </div>
         </div>
 
-        {/* Theme toggle */}
-        <button
-          type="button"
-          onClick={toggleMapTheme}
-          className="shrink-0 flex items-center gap-1.5 rounded-lg border border-white/8 bg-white/[0.03] px-2.5 py-1.5 text-[11px] font-semibold uppercase tracking-[0.14em] text-slate-300 transition hover:bg-white/[0.06]"
-          title={`Switch to ${mapTheme === 'dark' ? 'light' : 'dark'} map`}
-        >
-          {mapTheme === 'dark' ? <Moon className="h-3.5 w-3.5" /> : <Sun className="h-3.5 w-3.5" />}
-          <span className="hidden sm:inline">{mapTheme === 'dark' ? 'Dark' : 'Light'}</span>
-        </button>
+        {/* Theme toggle removed */}
       </header>
 
       {/* ════════════════════════════════════════════════════════════════

@@ -32,12 +32,11 @@ const COLORS = {
 } as const;
 
 function severityColor(): maplibregl.ExpressionSpecification {
-  return [
-    'case',
-    ['==', ['get', 'selected'], 1],
-    COLORS.teal,
-    ['step', ['get', 'impact_score'], COLORS.low, 50, COLORS.medium, 65, COLORS.high, 80, COLORS.critical],
-  ];
+  return ['step', ['get', 'impact_score'], COLORS.low, 50, COLORS.medium, 65, COLORS.high, 80, COLORS.critical];
+}
+
+function selectedColor(): maplibregl.ExpressionSpecification {
+  return ['case', ['==', ['get', 'selected'], 1], '#FFFFFF', severityColor()];
 }
 
 function buildPointGeoJson(
@@ -78,58 +77,35 @@ function buildPolygonGeoJson(
   }
 
   const h = hotspots.find((x) => x.id === selectedId);
-  if (!h) {
+  if (!h?.polygon) {
     return { type: 'FeatureCollection', features: [] };
   }
 
-  let geometry: GeoJSON.Polygon;
-  if (h.polygon) {
-    try {
-      const parsed = JSON.parse(h.polygon);
-      if (parsed?.type === 'Polygon' && Array.isArray(parsed.coordinates)) {
-        geometry = parsed;
-      } else {
-        geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
-      }
-    } catch {
-      geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
+  try {
+    const parsed = JSON.parse(h.polygon);
+    if (parsed?.type !== 'Polygon' || !Array.isArray(parsed.coordinates)) {
+      return { type: 'FeatureCollection', features: [] };
     }
-  } else {
-    geometry = generateBufferPolygon(h.latitude, h.longitude, h.impact_score);
-  }
 
-  return {
-    type: 'FeatureCollection',
-    features: [
-      {
-        type: 'Feature',
-        geometry,
-        properties: {
-          hsid: h.id,
-          name: h.name,
-          violations: h.violations,
-          impact_score: h.impact_score,
-          selected: 1,
+    return {
+      type: 'FeatureCollection',
+      features: [
+        {
+          type: 'Feature',
+          geometry: parsed,
+          properties: {
+            hsid: h.id,
+            name: h.name,
+            violations: h.violations,
+            impact_score: h.impact_score,
+            selected: 1,
+          },
         },
-      },
-    ],
-  };
-}
-
-function generateBufferPolygon(lat: number, lon: number, impactScore: number): GeoJSON.Polygon {
-  const radiusDeg = 0.0008 + (impactScore / 100) * 0.002;
-  const points = 32;
-  const coordinates: number[][][] = [];
-  const ring: number[][] = [];
-  for (let i = 0; i < points; i++) {
-    const angle = (2 * Math.PI * i) / points;
-    const dlon = radiusDeg * Math.cos(angle);
-    const dlat = radiusDeg * Math.sin(angle);
-    ring.push([lon + dlon, lat + dlat]);
+      ],
+    };
+  } catch {
+    return { type: 'FeatureCollection', features: [] };
   }
-  ring.push(ring[0].slice());
-  coordinates.push(ring);
-  return { type: 'Polygon', coordinates };
 }
 
 export const HotspotMap: React.FC<HotspotMapProps> = ({
@@ -179,8 +155,8 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       type: 'fill',
       source: POLYGONS_SOURCE,
       paint: {
-        'fill-color': severityColor(),
-        'fill-opacity': 0.35,
+        'fill-color': selectedColor(),
+        'fill-opacity': ['case', ['==', ['get', 'selected'], 1], 0.25, 0],
       },
     });
 
@@ -189,9 +165,9 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
       type: 'line',
       source: POLYGONS_SOURCE,
       paint: {
-        'line-color': severityColor(),
-        'line-width': 3,
-        'line-opacity': 0.9,
+        'line-color': selectedColor(),
+        'line-width': ['case', ['==', ['get', 'selected'], 1], 4, 2],
+        'line-opacity': ['case', ['==', ['get', 'selected'], 1], 1, 0.6],
       },
     });
 
@@ -206,9 +182,9 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
           22,
         ],
         'circle-color': severityColor(),
-        'circle-opacity': ['case', ['==', ['get', 'dimmed'], 1], 0.25, 0.95],
-        'circle-stroke-width': ['case', ['==', ['get', 'selected'], 1], 3, 1.5],
-        'circle-stroke-color': ['case', ['==', ['get', 'selected'], 1], COLORS.teal, COLORS.stroke],
+        'circle-opacity': ['case', ['==', ['get', 'dimmed'], 1], 0.15, 0.9],
+        'circle-stroke-width': ['case', ['==', ['get', 'selected'], 1], 4, 1.5],
+        'circle-stroke-color': ['case', ['==', ['get', 'selected'], 1], '#FFFFFF', COLORS.stroke],
       },
     });
 
@@ -352,7 +328,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     const prevId = prevSelectedIdRef.current;
     prevSelectedIdRef.current = currId;
 
-    if (selectedHotspot && currId !== prevId) {
+    if (selectedHotspot && currId !== prevId && map.loaded() && layersReadyRef.current) {
       map.flyTo({
         center: [selectedHotspot.longitude, selectedHotspot.latitude],
         zoom: 14.5,
