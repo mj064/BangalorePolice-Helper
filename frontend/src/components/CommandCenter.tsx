@@ -20,16 +20,6 @@ const getSeverityCategoryFromRiskLevel = (riskLevel: string): string => {
   return 'LOW';
 };
 
-const useDynamicPiiThresholds = (scores: number[]) => {
-  if (scores.length === 0) return undefined;
-  const sorted = [...scores].sort((a, b) => a - b);
-  const max = sorted[sorted.length - 1];
-  return {
-    critical: Math.max(max - 5, Math.round(max * 0.85)),
-    high: Math.max(max - 10, Math.round(max * 0.7)),
-    medium: Math.max(max - 20, Math.round(max * 0.55)),
-  };
-};
 
 export const usePiiCategory = (impactScore: number, thresholds: { critical: number; high: number; medium: number } | undefined): string => {
   if (!thresholds) {
@@ -70,6 +60,7 @@ interface CommandCenterProps {
   search: string;
   severityFilter: string;
   sortBy: string;
+  piiThresholds?: { critical: number; high: number; medium: number };
 }
 
 export const CommandCenter: React.FC<CommandCenterProps> = ({
@@ -88,6 +79,7 @@ export const CommandCenter: React.FC<CommandCenterProps> = ({
   search,
   severityFilter,
   sortBy,
+  piiThresholds,
 }) => {
   const [showAllDeployments, setShowAllDeployments] = useState(false);
 
@@ -102,7 +94,7 @@ export const CommandCenter: React.FC<CommandCenterProps> = ({
     [deployments],
   );
 
-  const dynamicPiiThresholds = useMemo(() => useDynamicPiiThresholds(hotspots.map((h) => h.impact_score)), [hotspots]);
+  const dynamicPiiThresholds = piiThresholds;
 
   // ── Filtered + sorted zones ─────────────────────────────────────────────
   const filteredHotspots = useMemo(() => {

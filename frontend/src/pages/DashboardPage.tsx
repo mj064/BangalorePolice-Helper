@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { ArrowUpDown, Compass, Search, X } from 'lucide-react';
 import { apiService, Hotspot, DashboardSummary, Prediction, Recommendation } from '../services/api';
 import { CommandCenter, CommandCenterFilter, CommandTab } from '../components/CommandCenter';
@@ -34,6 +34,18 @@ export const DashboardPage: React.FC = () => {
   const [recommendations, setRecommendations] = useState<Recommendation[]>([]);
   const [selectedItem,    setSelectedItem]    = useState<SelectedDashboardItem | null>(null);
   const [visibleHotspotIds, setVisibleHotspotIds] = useState<Set<string> | null>(null);
+
+  const piiThresholds = useMemo(() => {
+    const scores = hotspots.map((h) => h.impact_score);
+    if (!scores.length) return undefined;
+    const sorted = [...scores].sort((a, b) => a - b);
+    const max = sorted[sorted.length - 1];
+    return {
+      critical: Math.max(max - 5, Math.round(max * 0.85)),
+      high: Math.max(max - 10, Math.round(max * 0.7)),
+      medium: Math.max(max - 20, Math.round(max * 0.55)),
+    };
+  }, [hotspots]);
 
   const [loadingSummary,         setLoadingSummary]         = useState(true);
   const [loadingHotspots,        setLoadingHotspots]        = useState(true);
@@ -356,24 +368,25 @@ export const DashboardPage: React.FC = () => {
 
         {/* Command Center (left panel) */}
         <div className="order-2 max-h-[36vh] shrink-0 lg:order-none lg:max-h-none lg:h-full">
-          <CommandCenter
-            hotspots={hotspots}
-            predictions={predictions}
-            recommendations={recommendations}
-            selectedHotspotId={selectedItem?.source === 'hotspot' ? selectedItem.hotspot?.id ?? null : null}
-            selectedDeploymentId={selectedItem?.source === 'deployment' ? selectedItem.prediction?.hotspot_id ?? null : null}
-            onSelectHotspot={handleSelectHotspot}
-            onSelectDeployment={handleSelectDeployment}
-            onFilterChange={handleFilterChange}
-            loadingHotspots={loadingHotspots}
-            loadingOperations={loadingOperations}
-            // lifted state passed down
-            activeTab={activeTab}
-            onTabChange={handleTabChange}
-            search={search}
-            severityFilter={severityFilter}
-            sortBy={sortBy}
-          />
+            <CommandCenter
+              hotspots={hotspots}
+              predictions={predictions}
+              recommendations={recommendations}
+              selectedHotspotId={selectedItem?.source === 'hotspot' ? selectedItem.hotspot?.id ?? null : null}
+              selectedDeploymentId={selectedItem?.source === 'deployment' ? selectedItem.prediction?.hotspot_id ?? null : null}
+              onSelectHotspot={handleSelectHotspot}
+              onSelectDeployment={handleSelectDeployment}
+              onFilterChange={handleFilterChange}
+              loadingHotspots={loadingHotspots}
+              loadingOperations={loadingOperations}
+              // lifted state passed down
+              activeTab={activeTab}
+              onTabChange={handleTabChange}
+              search={search}
+              severityFilter={severityFilter}
+              sortBy={sortBy}
+              piiThresholds={piiThresholds}
+            />
         </div>
 
         {/* Map — always mounted so MapLibre gets a stable container before data arrives */}
@@ -402,6 +415,7 @@ export const DashboardPage: React.FC = () => {
               onDeselect={() => setSelectedItem(null)}
               visibleHotspotIds={visibleHotspotIds}
               colorBy={activeTab === 'deployments' ? 'risk' : 'pii'}
+              piiThresholds={piiThresholds}
             />
           </main>
         </div>

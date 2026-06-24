@@ -236,6 +236,14 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     const polyData = buildPolygonGeoJson(list, selectedId);
     polySrc.setData(polyData);
 
+    // Update layer paint colors when colorBy or thresholds change
+    const colorField = colorByRef.current === 'risk' ? 'risk_level' : 'impact_score';
+    const th = thresholdsRef.current ?? { critical: 56, high: 46, medium: 36 };
+    const colExpr = severityColor(colorField, colorField === 'risk_level' ? undefined : th);
+    if (map.getLayer(POLY_FILL_LAYER)) map.setPaintProperty(POLY_FILL_LAYER, 'fill-color', colExpr);
+    if (map.getLayer(POLY_LINE_LAYER)) map.setPaintProperty(POLY_LINE_LAYER, 'line-color', colExpr);
+    if (map.getLayer(CIRCLES_LAYER)) map.setPaintProperty(CIRCLES_LAYER, 'circle-color', colExpr);
+
     if (!hasFitBoundsRef.current && list.length > 0) {
       const bounds = new maplibregl.LngLatBounds();
       list.forEach((h) => bounds.extend([h.longitude, h.latitude]));
@@ -344,7 +352,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     const onReady = () => pushDataRef.current(map);
     map.once('load', onReady);
     return () => { map.off('load', onReady); };
-  }, [hotspots, visibleHotspotIds, selectedHotspot]);
+  }, [hotspots, visibleHotspotIds, selectedHotspot, colorBy, piiThresholds]);
 
   // Fly to selected hotspot without re-pushing all data
   useEffect(() => {
