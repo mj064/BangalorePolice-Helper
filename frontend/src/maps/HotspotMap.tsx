@@ -25,17 +25,6 @@ const POLY_LINE_LAYER = 'hotspots-poly-line';
 
 const DARK_STYLE = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
 
-function computePiiThresholds(scores: number[]) {
-  if (!scores.length) return { critical: 56, high: 46, medium: 36 } as const;
-  const sorted = [...scores].sort((a, b) => a - b);
-  const q = (p: number) => sorted[Math.min(sorted.length - 1, Math.floor(sorted.length * p))];
-  return {
-    critical: q(0.9),
-    high: q(0.75),
-    medium: q(0.5),
-  } as const;
-}
-
 const COLORS = {
   low: '#10B981',
   medium: '#F59E0B',
@@ -184,9 +173,9 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     map.addSource(POINTS_SOURCE, { type: 'geojson', data: emptyPoints });
     map.addSource(POLYGONS_SOURCE, { type: 'geojson', data: emptyPolygons });
 
-    const scores = hotspotsRef.current.map((h: any) => h.impact_score);
-    const th = computePiiThresholds(scores as number[]);
-    const colExpr = severityColor('impact_score', th);
+    const colorField = colorByRef.current === 'risk' ? 'risk_level' : 'impact_score';
+    const th = { critical: 56, high: 46, medium: 36 };
+    const colExpr = severityColor(colorField, colorField === 'risk_level' ? undefined : th);
 
     map.addLayer({
       id: POLY_FILL_LAYER,
