@@ -48,7 +48,7 @@ PII =
 > Thresholds recalibrated 2026-06-21 to reflect the actual PII distribution
 > (Min=31, Max=75, Mean=48.8) and provide balanced operational prioritisation.
 > Previous thresholds (Low ≤40, Medium 41-60, High 61-80, Critical ≥81)
-> produced 382 Medium / 23 High / 0 Critical across 421 hotspots.
+> produced 382 Medium / 23 High / 0 Critical across 259 hotspots.
 > New thresholds produce 147 Low / 213 Medium / 56 High / 5 Critical.
 
 ---

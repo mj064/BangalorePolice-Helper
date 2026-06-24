@@ -187,7 +187,7 @@ Request path:
 - `GET /api/predictions` -> `PredictionService.get_predictions()` -> return cached list (or compute once on cache miss)
 - `GET /api/recommendations` -> `get_cached_predictions()` -> rule engine (no retrain)
 
-Local benchmark against the workspace SQLite database (421 hotspots):
+Local benchmark against the workspace SQLite database (259 hotspots):
 
 | Path | Latency |
 |------|---------|
@@ -430,7 +430,7 @@ The PII score → classification label mapping was recalibrated to provide balan
 
 ### Before
 
-| Label    | Range   | Count (421 hotspots) |
+| Label    | Range   | Count (259 hotspots) |
 |----------|---------|----------------------|
 | Low      | ≤ 40    | 16                   |
 | Medium   | 41–60   | 382                  |
@@ -439,7 +439,7 @@ The PII score → classification label mapping was recalibrated to provide balan
 
 ### After
 
-| Label    | Range   | Count (421 hotspots) |
+| Label    | Range   | Count (259 hotspots) |
 |----------|---------|----------------------|
 | Low      | ≤ 45    | 147                  |
 | Medium   | 46–55   | 213                  |

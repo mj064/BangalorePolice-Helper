@@ -177,7 +177,7 @@ Recalibrated PII score → classification label mapping to match the actual data
 - Startup cache warming added in [backend/app/main.py](/c:/Users/HP/Coding/Bangalore_illegalTraffic_Help/backend/app/main.py): LightGBM trains once after ingestion/hotspot detection
 - `PredictionService.get_predictions()` serves cached results during demo usage
 - `RecommendationService` reads cached predictions via `get_cached_predictions()` and does not retrain
-- Local latency benchmark (421 hotspots):
+- Local latency benchmark (259 hotspots):
   - before (on-demand train + predict): ~25.6s per request
   - after (cached predictions): <0.001s
   - after (cached recommendations): ~0.02s
