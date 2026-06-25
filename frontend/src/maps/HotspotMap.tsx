@@ -47,7 +47,7 @@ function severityColor(
       COLORS.low,
     ];
   }
-  const t = thresholds ?? { critical: 56, high: 46, medium: 36 };
+  const t = thresholds ?? { critical: 60, high: 55, medium: 49 };
   return ['step', ['get', 'impact_score'], COLORS.low, t.medium, COLORS.medium, t.high, COLORS.high, t.critical, COLORS.critical];
 }
 
@@ -174,7 +174,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
     map.addSource(POLYGONS_SOURCE, { type: 'geojson', data: emptyPolygons });
 
     const colorField = colorByRef.current === 'risk' ? 'risk_level' : 'impact_score';
-    const th = { critical: 56, high: 46, medium: 36 };
+    const th = { critical: 60, high: 55, medium: 49 };
     const colExpr = severityColor(colorField, colorField === 'risk_level' ? undefined : th);
 
     map.addLayer({
@@ -238,7 +238,7 @@ export const HotspotMap: React.FC<HotspotMapProps> = ({
 
     // Update layer paint colors when colorBy or thresholds change
     const colorField = colorByRef.current === 'risk' ? 'risk_level' : 'impact_score';
-    const th = thresholdsRef.current ?? { critical: 56, high: 46, medium: 36 };
+    const th = thresholdsRef.current ?? { critical: 60, high: 55, medium: 49 };
     const colExpr = severityColor(colorField, colorField === 'risk_level' ? undefined : th);
     if (map.getLayer(POLY_FILL_LAYER)) map.setPaintProperty(POLY_FILL_LAYER, 'fill-color', colExpr);
     if (map.getLayer(POLY_LINE_LAYER)) map.setPaintProperty(POLY_LINE_LAYER, 'line-color', colExpr);
