@@ -10,9 +10,9 @@ interface HotspotListProps {
 }
 
 const getSeverityLabel = (score: number): { text: string; bg: string; textCol: string } => {
-  if (score >= 66) return { text: 'Critical', bg: 'bg-severity-critical/15', textCol: 'text-severity-critical' };
-  if (score >= 56) return { text: 'High',     bg: 'bg-severity-high/15',     textCol: 'text-severity-high'     };
-  if (score >= 46) return { text: 'Medium',   bg: 'bg-severity-medium/15',   textCol: 'text-severity-medium'   };
+  if (score >= 60) return { text: 'Critical', bg: 'bg-severity-critical/15', textCol: 'text-severity-critical' };
+  if (score >= 55) return { text: 'High',     bg: 'bg-severity-high/15',     textCol: 'text-severity-high'     };
+  if (score >= 49) return { text: 'Medium',   bg: 'bg-severity-medium/15',   textCol: 'text-severity-medium'   };
   return               { text: 'Low',      bg: 'bg-severity-low/15',      textCol: 'text-severity-low'      };
 };
 

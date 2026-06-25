@@ -23,9 +23,9 @@ const getSeverityCategoryFromRiskLevel = (riskLevel: string): string => {
 
 export const usePiiCategory = (impactScore: number, thresholds: { critical: number; high: number; medium: number } | undefined): string => {
   if (!thresholds) {
-    if (impactScore >= 56) return 'CRITICAL';
-    if (impactScore >= 46) return 'HIGH';
-    if (impactScore >= 36) return 'MEDIUM';
+    if (impactScore >= 60) return 'CRITICAL';
+    if (impactScore >= 55) return 'HIGH';
+    if (impactScore >= 49) return 'MEDIUM';
     return 'LOW';
   }
   if (impactScore >= thresholds.critical) return 'CRITICAL';
