@@ -7,7 +7,7 @@ export interface RiskAppearance {
 }
 
 export const getRiskAppearanceFromScore = (score: number): RiskAppearance => {
-  if (score >= 66) {
+  if (score >= 60) {
     return {
       text: 'Critical',
       bg: 'bg-severity-critical/15',
@@ -17,7 +17,7 @@ export const getRiskAppearanceFromScore = (score: number): RiskAppearance => {
     };
   }
 
-  if (score >= 56) {
+  if (score >= 55) {
     return {
       text: 'High',
       bg: 'bg-severity-high/15',
@@ -27,7 +27,7 @@ export const getRiskAppearanceFromScore = (score: number): RiskAppearance => {
     };
   }
 
-  if (score >= 46) {
+  if (score >= 49) {
     return {
       text: 'Medium',
       bg: 'bg-severity-medium/15',
