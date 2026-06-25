@@ -549,3 +549,8 @@ The most useful immediate contribution is to preserve the verified MVP + predict
 
 - product capability expansion, or
 - infrastructure alignment with the original architecture docs
+
+
+Final thresholds applied:
+- Deployments tab (risk_score): Critical >=80, High >=65, Medium >=50, Low <50
+- All Zones tab (impact_score): Critical >=60, High >=55, Medium >=49, Low <49
