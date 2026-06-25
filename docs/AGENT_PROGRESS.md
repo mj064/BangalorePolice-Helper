@@ -325,3 +325,9 @@ Recalibrated PII score → classification label mapping to match the actual data
   - `python -m pytest backend -v`
   - `cd frontend`
   - `npm run build`
+
+
+## Categorization thresholds
+
+All Zones tab uses impact_score thresholds: Critical >=60, High >=55, Medium >=49, Low <49.
+Deployments tab uses risk_score thresholds: Critical >=80, High >=65, Medium >=50, Low <50.
